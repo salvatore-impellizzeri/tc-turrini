@@ -1,0 +1,293 @@
+body {
+  padding: 0;
+  margin: 0;
+  font: 13px Arial, Helvetica, Garuda, sans-serif;
+  *font-size: small;
+  *font: x-small;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section,
+details,
+summary,
+main {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+em,
+strong,
+pre,
+code,
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+table {
+  font-size: inherit;
+  font: 100%;
+}
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.menu li {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  background: none;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+input,
+select,
+textarea {
+  font: inherit;
+}
+.pathway {
+  margin: 0;
+  padding: 0;
+}
+.pathway li {
+  display: inline-block;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #404040;
+  font-size: 1rem;
+}
+a {
+  color: #404040;
+}
+p {
+  margin-bottom: 1em;
+  line-height: 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1em;
+}
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+.medium {
+  font-weight: '500';
+}
+.bold {
+  font-weight: '600';
+}
+.bolder {
+  font-weight: '600';
+}
+.font-14 {
+  font-size: 0.9rem;
+}
+.font-16 {
+  font-size: 1.06rem;
+}
+.font-18 {
+  font-size: 1.2rem;
+}
+.font-20 {
+  font-size: 1.33rem;
+}
+.font-25 {
+  font-size: 1.6rem;
+}
+ul,
+ol {
+  margin: 0 0 1em 1em;
+  padding: 0;
+  list-style: none;
+}
+ul li,
+ol li {
+  margin: 0 0 1em 0;
+  padding: 0 0 0 0;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+input {
+  border: none;
+  outline: none;
+}
+input[type="text"],
+input[type="password"] {
+  height: 66px;
+  line-height: 66px;
+  background: #fff;
+  color: #404040;
+  font-size: 1.1rem;
+  padding: 0 34px;
+  border-radius: 10px;
+  width: 100%;
+  transition: 300ms;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  box-shadow: 0 0 4px rgba(216,17,89,0.7) inset;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+.input {
+  margin-bottom: 25px;
+}
+.submit {
+  text-align: center;
+  padding-top: 10px;
+}
+.submit input {
+  outline: none;
+  background: #D81159;
+  color: #fff;
+  width: 210px;
+  text-align: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  height: 54px;
+  line-height: 54px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 300ms;
+}
+.submit input:hover {
+  background: #ef2d73;
+}
+body {
+  min-height: 100vh;
+  background: #404040;
+  background-repeat: repeat;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto 1fr;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hideMessage {
+  100% {
+    opacity: 0;
+    transform: scale3d(0,0,0);
+    -webkit-transform: scale3d(0,0,0);
+  }
+}
+@-webkit-keyframes hideMessage {
+  100% {
+    opacity: 0;
+    transform: scale3d(0,0,0);
+    -webkit-transform: scale3d(0,0,0);
+  }
+}
+.login-form {
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.1);
+  width: 540px;
+  margin: 0 auto;
+  background: #4d4d4d;
+  padding: 70px 80px;
+}
+.powered-by {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.powered-by__logo {
+  width: 40px;
+  margin-top: 10px;
+}
+.message-wrapper {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.message {
+  color: #fff;
+  padding: 20px 10px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0;
+  margin-bottom: 30px;
+  animation: fadeIn 1000ms ease-out forwards;
+  -webkit-animation: fadeIn 1000ms ease-out forwards;
+  width: 540px;
+  margin: 0 auto;
+  background: #D14949;
+}
+.message.hidden {
+  opacity: 1;
+  animation: hideMessage 1000ms ease-out forwards;
+  -webkit-animation: hideMessage 1000ms ease-out forwards;
+}

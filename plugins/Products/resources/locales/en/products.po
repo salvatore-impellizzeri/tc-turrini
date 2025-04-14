@@ -1,0 +1,144 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Products"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "qr_code"
+
+msgctxt "admin"
+msgid "manage items"
+msgstr "Manage items"
+
+msgctxt "admin"
+msgid "brands"
+msgstr "Brands"
+
+msgctxt "admin"
+msgid "product_vats"
+msgstr "Vats"
+
+msgctxt "admin"
+msgid "amount"
+msgstr "Amount"
+
+msgctxt "admin"
+msgid "categories"
+msgstr "Categories"
+
+msgctxt "admin"
+msgid "parent"
+msgstr "Parent"
+
+msgctxt "admin"
+msgid "product_category"
+msgstr "Product Category"
+
+msgctxt "admin"
+msgid "homepage"
+msgstr ""
+
+msgctxt "admin"
+msgid "product_category_id"
+msgstr ""
+
+msgctxt "admin"
+msgid "brand_id"
+msgstr ""
+
+msgctxt "admin"
+msgid "product_vat_id"
+msgstr ""
+
+msgctxt "admin"
+msgid "title_intro"
+msgstr ""
+
+msgctxt "admin"
+msgid "intro"
+msgstr ""
+
+msgctxt "admin"
+msgid "text_1"
+msgstr ""
+
+msgctxt "admin"
+msgid "text_2"
+msgstr ""
+
+msgctxt "admin"
+msgid "sku"
+msgstr ""
+
+msgctxt "admin"
+msgid "weight"
+msgstr ""
+
+msgctxt "admin"
+msgid "stock"
+msgstr ""
+
+msgctxt "admin"
+msgid "price"
+msgstr ""
+
+msgctxt "admin"
+msgid "discounted_price"
+msgstr ""
+
+msgctxt "admin"
+msgid "promo_price"
+msgstr ""
+
+msgctxt "admin"
+msgid "promo_from"
+msgstr ""
+
+msgctxt "admin"
+msgid "promo_to"
+msgstr ""
+
+msgctxt "admin"
+msgid "winery_id"
+msgstr ""
+
+msgctxt "admin"
+msgid "post_id"
+msgstr ""
+
+msgctxt "admin"
+msgid "shipped_with_brt"
+msgstr ""
+
+msgctxt "admin"
+msgid "year"
+msgstr ""
+
+msgctxt "admin"
+msgid "label"
+msgstr ""
+
+msgctxt "admin"
+msgid "related_products"
+msgstr ""
+
+msgid "winery"
+msgstr "Winery"
+
+msgid "name"
+msgstr "Name"
+
+msgid "add to cart"
+msgstr "Add to bag"
+
+msgid "reviews.count"
+msgstr "{0,plural,=0{No reviews} =1{1 review} other{{1} reviews}}"
+
+msgid "all products"
+msgstr "All Products"
+
+msgid "other wines from {0}"
+msgstr "Other wines from <strong>{0}</strong>"
+
+msgid "discover"
+msgstr ""

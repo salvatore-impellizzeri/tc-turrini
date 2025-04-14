@@ -1,0 +1,15 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Testi"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "sticky_note_2"
+
+msgctxt "admin"
+msgid "layout_name"
+msgstr "Nome layout"
+
+msgctxt "admin"
+msgid "published"
+msgstr "Pubblicato"

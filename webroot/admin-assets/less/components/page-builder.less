@@ -1,0 +1,131 @@
+.page-builder {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 40px;
+
+  &__blocks,
+  &__page {
+    background: @white;
+    border-radius: 10px;
+    .box-shadow;
+  }
+
+  &__blocks {
+    overflow: hidden;
+    align-self: flex-start;
+
+    &__label {
+      height: 50px;
+      line-height: 50px;
+      .font-16;
+      text-transform: uppercase;
+      font-weight: bold;
+      background: @ratgray;
+      color: @white;
+      padding: 0 25px;
+    }
+    &__collection {
+      padding: 25px;
+      max-height: 60vh;
+      overflow-y: auto;
+    }
+  }
+
+  &__dropzone {
+    min-height: 100px;
+  }
+
+  &__block {
+    padding: 0 10px;
+    background: @lighter;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .font-14;
+    border: 1px solid @light;
+    .box-shadow;
+    font-weight: 500;
+
+    &[draggable="true"] {
+      .page-builder__block__drag {
+        cursor: grabbing;
+      }
+    }
+
+    &__drag {
+      cursor: grab;
+      width: 35px;
+      height: 40px;
+      line-height: 40px;
+      color: @light;
+      padding-left: 10px;
+      * {
+        vertical-align: middle;
+      }
+    }
+    &__icon {
+      width: 60px;
+      img {
+        width: 100%;
+        max-height: 50px;
+      }
+    }
+    &__title {
+      flex-grow: 1;
+    }
+    &__actions {
+      display: flex;
+      gap: 5px;
+      > * {
+        cursor: pointer;
+      }
+    }
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__page {
+    display: flex;
+    position: relative;
+    min-height: 50vh; // sistemare quando finito il layout
+    &__empty {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      pointer-events: none;
+      flex: 0 0 100%;
+      padding: 0 20px;
+      text-align: center;
+      &__icon {
+        .material-symbols-rounded {
+          font-size: 100px;
+          color: fadeout(@black, 50%);
+        }
+      }
+      &__label {
+        .font-20;
+        color: fadeout(@black, 50%);
+        margin-top: 10px;
+      }
+    }
+  }
+
+  &__dropzone {
+    flex: 0 0 100%;
+    padding: 25px;
+  }
+}
+
+.flip-list-move {
+  transition: transform 0.5s;
+}
+.no-move {
+  transition: transform 0s;
+}

@@ -1,0 +1,1 @@
+<?php echo $this->element('cookie', array('forced' => true)); ?>

@@ -1,0 +1,15 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Servizi"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "hotel_class"
+
+msgctxt "admin"
+msgid "sef prefix"
+msgstr "servizi"
+
+msgctxt "admin"
+msgid "preview"
+msgstr "Immagine anteprima"

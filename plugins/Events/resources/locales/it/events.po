@@ -1,0 +1,15 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Eventi"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "event"
+
+msgctxt "admin"
+msgid "sef prefix"
+msgstr "eventi"
+
+msgctxt "admin"
+msgid "preview"
+msgstr "Immagine anteprima"

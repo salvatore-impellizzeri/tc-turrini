@@ -1,0 +1,11 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "News"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "newspaper"
+
+msgctxt "admin"
+msgid "sef prefix"
+msgstr "news"

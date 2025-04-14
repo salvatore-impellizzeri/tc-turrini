@@ -1,0 +1,49 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Prodotti"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "inventory_2"
+
+msgctxt "admin"
+msgid "manage items"
+msgstr "Gestisci prodotti"
+
+msgctxt "admin"
+msgid "brands"
+msgstr "Brand"
+
+msgctxt "admin"
+msgid "product_vats"
+msgstr "Aliquote IVA"
+
+msgctxt "admin"
+msgid "amount"
+msgstr "Percentuale"
+
+msgctxt "admin"
+msgid "categories"
+msgstr "Categorie"
+
+msgctxt "admin"
+msgid "parent"
+msgstr "Categoria superiore"
+
+msgctxt "admin"
+msgid "product_category"
+msgstr "Categoria"
+
+msgctxt "admin"
+msgid "homepage"
+msgstr "Homepage"
+
+msgctxt "admin"
+msgid "product_category_id"
+msgstr "Categoria"
+
+
+/*** Frontend ***/
+
+msgid "all products"
+msgstr "Tutti i prodotti"

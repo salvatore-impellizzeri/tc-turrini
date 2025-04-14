@@ -1,0 +1,74 @@
+msgid "newsletter subscribe"
+msgstr "Sign me up"
+
+msgid "select"
+msgstr "Select"
+
+msgid "go to orders"
+msgstr "Go to your orders"
+
+msgid "search"
+msgstr "Search..."
+
+msgid "no results found"
+msgstr "No results found"
+
+msgid "watch video"
+msgstr "Watch the whole video"
+
+msgid "follow"
+msgstr "Follow us"
+
+msgid "share"
+msgstr "Share it"
+
+msgid "Choose to subscribe"
+msgstr "Choose to subscribe"
+
+msgid "filters"
+msgstr "Filter"
+
+msgid "error-404"
+msgstr "“Oops! Something went wrong.” "
+
+msgid "restart from here"
+msgstr "Restart from here."
+
+msgid "link copied"
+msgstr "Link correctly copied."
+
+msgid "Esplora"
+msgstr "Explore"
+
+msgid "Contatti"
+msgstr "Contacts"
+
+msgid "Abbonati"
+msgstr "Subscribe"
+
+msgid "Shop"
+msgstr "Shop"
+
+msgid "Seguici"
+msgstr "Follow us"
+
+msgid "Metodi di pagamento"
+msgstr "Payment methods"
+
+msgid "Spedizione"
+msgstr "Shipping"
+
+msgid "sorry, this country is not available"
+msgstr "Sorry, this Country is not available for selection"
+
+msgid "switch language"
+msgstr "ITA"
+
+msgid "contattaci"
+msgstr "Contact us"
+
+msgid "read more"
+msgstr "Read all"
+
+msgid "user"
+msgstr "Account"

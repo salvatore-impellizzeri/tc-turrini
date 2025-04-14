@@ -1,0 +1,80 @@
+.page-hero{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+
+    &--light{
+        color: @light-text-color;
+        .page-hero__bg::after{
+            background: rgba(0,0,0,.2);
+        }
+    }
+
+    &__bg, &__fg{
+        grid-area: ~"1 / 2 / 1 / 2";
+        width: 100%;
+    }
+
+    &__bg{
+        overflow: hidden;
+        position: relative;
+        img, video{
+            object-fit: cover;
+            height: ~"calc(100svh - 120px)";
+            width: 100vw;
+            max-width: none;
+
+            @media screen and (max-width: @l) {
+                height: ~"calc(100svh - 100px)";
+            }
+        
+            @media screen and (max-width: @tablet-s) {
+                height: ~"calc(100svh - 80px)";
+            }
+
+            .body--fixed-header &{
+                height: 100svh;
+            }
+        }
+
+        &--overlay{
+            &::after{
+                .overlay;
+                background: rgba(255,255,255,.2);
+            }
+        }
+    }
+
+    &__fg{
+        position: relative;
+        z-index: 10;
+        align-self: center;
+        padding: 40px clamp(20px, 5vw, 100px);
+
+        .body--fixed-header &{
+            padding: 100px clamp(20px, 5vw, 100px);
+        }
+    }
+
+    &__wrapper{
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__smalltitle{
+        margin-bottom: 15px;
+        .title-extrasmall;
+    }
+
+    &__title{
+        font-size: clamp(30px, 50vw * @px2vw, 40px);
+    }
+
+    &__cta{
+        margin-top: clamp(20px, 35vw * @px2vw, 35px);;
+    }
+
+
+}

@@ -1,0 +1,47 @@
+.translation-status{
+    display: flex;
+    gap: 10px;
+    &__language{
+        display: block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 50%;
+        position: relative;
+        &::before{
+            content: '';
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            border-radius: 50%;
+        }
+        &--complete{
+            color: @green;
+
+            &::before{
+            box-shadow: 0 0 0 2px @green;
+        }}
+        &--missing{
+            color: @red;
+            
+            &::before{
+            box-shadow: 0 0 0 2px @red;
+        }}
+
+        &--partial{
+            color: @yellow;
+            
+            &::before{
+            box-shadow: 0 0 0 2px @yellow;
+        }
+        }
+    }
+}

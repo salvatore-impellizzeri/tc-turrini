@@ -1,0 +1,16 @@
+.shop{
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 40px;
+    padding: 0 clamp(10px, 40vw * @px2vw, 40px);
+
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 40px;
+
+        &--loading{
+            opacity: .2;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Menu"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "format_list_bulleted"
+
+msgctxt "admin"
+msgid "manage items"
+msgstr "Manage items"
+
+msgctxt "admin"
+msgid "title"
+msgstr "Title"
+
+msgctxt "admin"
+msgid "nothing"
+msgstr "None"
+
+msgctxt "admin"
+msgid "published"
+msgstr "Published"
+
+msgctxt "admin"
+msgid "custom"
+msgstr "Custom"
+
+msgctxt "admin"
+msgid "url"
+msgstr "Url"
+
+msgctxt "admin"
+msgid "blank"
+msgstr "Blank"
+
+msgctxt "admin"
+msgid "parent"
+msgstr "Parent"

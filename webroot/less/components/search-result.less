@@ -1,0 +1,25 @@
+.search-result{
+    display: grid;
+    padding: 10px 0;
+    border-bottom: 1px solid @border-color;
+    display: grid;
+    color: @text-color;
+    grid-template-columns: 80px 1fr;
+    gap: 15px;
+    font-weight: 500;
+    align-items: center;
+    &:first-child{
+        padding-top: 0;
+    }
+    &:last-child{
+        border: none;
+        padding-bottom: 0;
+    }
+
+    &__image{
+        img{
+            aspect-ratio: 16/9;
+            object-fit: contain;
+        }
+    }
+}

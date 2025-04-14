@@ -1,0 +1,30 @@
+.page-form{
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(30px, 40vw*@px2vw, 40px);
+
+    @media screen and (max-width: @xl) {
+        max-width: 900px;    
+    }
+
+    @media screen and (max-width: @tablet-m) {
+        max-width: none;
+        .mobile-margin;
+    }
+
+    &__intro{
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    &__title {
+        .title-primary;
+    }
+
+    &__content{
+        .font-14;
+    }
+}

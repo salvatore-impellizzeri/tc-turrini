@@ -1,0 +1,93 @@
+.page-fullscreen {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    
+    &--image,
+    &--video {
+        img,
+        video {
+            display: block;
+            width: 100vw;
+            min-height: 100%;
+            object-fit: cover;
+            max-width: none;
+            height: ~"calc(100svh - 100px)";
+
+            @media screen and (max-width: @l) {
+                height: ~"calc(100svh - 80px)";
+            }
+        }
+    }
+
+    &--video{
+        video{
+            
+            @media screen and (max-width: @tablet-m) {
+                height: auto;
+            }
+        }
+    }
+
+    &--gallery {
+        img {
+            height: 100vh;
+            width: 100%;
+            object-fit: contain;
+            margin: 0 auto;
+
+            @media screen and (orientation: portrait) {
+                height: auto;
+                aspect-ratio: 16/9;
+            }
+        }
+    }
+
+    &--light{
+        color: @light-text-color;
+
+        .page-fullscreen__bg::after{
+            background: rgba(0,0,0,.2);
+        }
+    }
+
+    &__bg,
+    &__fg {
+        grid-area: ~"1 / 2 / 1 / 2";
+        width: 100%;
+    }
+
+    &__fg {
+        position: relative;
+        z-index: 10;
+        align-self: center;
+        padding: clamp(20px, 5vw, 100px);
+    }
+
+    &__wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__bg {
+        overflow: hidden;
+        position: relative;
+
+        &--overlay{
+            &::after{
+                .overlay;
+                background: rgba(255,255,255,.2);
+            }
+        }
+    }
+
+    &__title{
+        .font-35;
+    }
+
+    &__actions{
+        margin-top: clamp(20px, 35vw * @px2vw, 35px);
+    }
+}

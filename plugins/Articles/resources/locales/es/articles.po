@@ -1,0 +1,7 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr ""
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr ""

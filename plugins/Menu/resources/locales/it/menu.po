@@ -1,0 +1,39 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Menu"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "format_list_bulleted"
+
+msgctxt "admin"
+msgid "manage items"
+msgstr "Gestisci voci di menu"
+
+msgctxt "admin"
+msgid "title"
+msgstr "Titolo"
+
+msgctxt "admin"
+msgid "nothing"
+msgstr "Nessuno"
+
+msgctxt "admin"
+msgid "published"
+msgstr "Pubblicato"
+
+msgctxt "admin"
+msgid "custom"
+msgstr "URL personalizzata"
+
+msgctxt "admin"
+msgid "url"
+msgstr "Destinazione"
+
+msgctxt "admin"
+msgid "blank"
+msgstr "Aprire in nuova tab"
+
+msgctxt "admin"
+msgid "parent"
+msgstr "Nodo padre"

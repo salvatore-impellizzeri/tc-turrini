@@ -1,0 +1,103 @@
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    min-height: 45px;
+    gap: 25px;
+
+    .input{
+        box-shadow: none;
+    }
+
+    &__back{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-transform: uppercase;
+        .font-14();
+    }
+
+    &__filters{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+
+
+    &__form{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        &__search{
+            max-width: 15vw;
+        }
+        &__separator{
+            display: block;
+            height: 20px;
+            width: 2px;
+            background-color: @light;
+        }
+
+        &__filter, &__rows{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            label{
+                text-transform: uppercase; 
+                .font-12(); 
+                margin-bottom: 0;
+                white-space: nowrap;
+            }
+            
+        }
+
+        &__filter, &__search, &__rows{
+            input, select{
+                border: 1px solid @light;
+                .font-14(); 
+                background-color: @white;
+            }
+        }
+        // Risultati per pagina
+
+        .results {
+            display: flex;
+            align-items: center;
+
+            span {
+                text-transform: uppercase;
+                .font-16();
+                margin: 0 20px;
+            }
+
+            &__select {
+                display: flex;
+
+                span {
+                    display: flex;
+                    width: 35px;
+                    height: 35px;
+                    margin: 0 3px;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: @light;
+                    .font-14();
+                    color: @black;
+                }
+            }
+        }
+    }
+
+    &__actions{
+        margin-left: auto;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+}

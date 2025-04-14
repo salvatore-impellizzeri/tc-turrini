@@ -1,0 +1,23 @@
+.blog{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: clamp(40px, 60vw * @px2vw, 60px) ;
+    @media screen and (max-width: @xl) {
+        max-width: none;
+        .mobile-margin;
+    }
+
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: clamp(50px, 80vw * @px2vw, 80px) clamp(30px, 40vw * @px2vw, 40px);
+
+        @media screen and (max-width: @tablet-m) {
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        @media screen and (max-width: @mobile-l) {
+            grid-template-columns: 1fr;
+        }
+    }
+}

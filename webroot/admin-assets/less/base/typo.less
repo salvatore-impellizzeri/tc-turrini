@@ -1,0 +1,130 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: @black;
+  font-size: 1rem;
+  .medium;
+}
+
+a {
+  color: @black;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.light {
+  font-weight: 300;
+}
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: "GRAD" 100, "wght" 500;
+
+  &--fill {
+    font-variation-settings: "GRAD" 100, "wght" 500, "FILL" 1;
+  }
+}
+
+.font-12 { 
+    font-size: 12px;
+}
+
+.font-14 {
+  font-size: 0.9rem;
+
+  @media screen and(max-width: @xxl) {
+    font-size: 0.85rem;
+  }
+  @media screen and(max-width: @xl) {
+    font-size: 0.8rem;
+  }
+}
+.font-16 {
+  font-size: 1.02rem;
+
+  @media screen and(max-width: @xxl) {
+    font-size: 0.95rem;
+  }
+}
+.font-18 {
+  font-size: 1.2rem;
+}
+.font-20 {
+  font-size: 1.33rem;
+
+  @media screen and(max-width: @l) {
+    font-size: 1.2rem;
+  }
+}
+.font-25 {
+  font-size: 1.6rem;
+
+  @media screen and(max-width: @m ) {
+    font-size: 1.5rem;
+  }
+}
+
+ul,
+ol {
+  margin: 0 0 1em 1em;
+  padding: 0;
+  list-style: none;
+  li {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 0;
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  //
+}

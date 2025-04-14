@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html{
+    font-size: clamp(15px, 22vw * @px2vw, 18px);;
+}
+
+body{
+    color: @text-color;
+    font-family: @main-font;
+    font-size: 1rem;
+}
+
+a{
+    color: @main-color;
+}
+
+
+p{
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    &:last-child{
+        margin: 0;
+    }
+}
+
+em{
+    font-style: italic;
+}
+
+strong{
+    font-weight: bold;
+}
+
+blockquote{
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    *{
+        line-height: 1.1em;
+    }
+
+}
+
+dl{
+    margin: 0 0 1.5em 1em;
+    padding: 0;
+    &:last-child{
+        margin: 0;
+    }
+}
+
+dd, dt{
+    margin: 0;
+    padding: 0;
+}
+
+dt{
+    margin-bottom: .1em;
+}
+
+dd{
+    margin-bottom: 1em;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+ul{
+    margin: 0 0 1.5em 1em;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 1em;
+}
+
+// FONT
+
+.font-60{
+    font-size: clamp(30px, 65vw * @px2vw, 60px);;
+    line-height: normal;
+    * {
+        line-height: inherit;
+    }
+
+    @media screen and (max-width: @mobile-s) {
+        font-size: 25px;
+    }
+}
+
+
+.font-37{
+    font-size: clamp(27px, 40vw * @px2vw, 37px);
+    line-height: normal;
+    * {
+        line-height: inherit;
+    }
+
+    @media screen and (max-width: @mobile-s) {
+        font-size: 22px;
+    }
+}
+
+.font-35{
+    font-size: clamp(24px, 40vw * @px2vw, 35px);
+    line-height: normal;
+    * {
+        line-height: inherit;
+    }
+}
+
+.font-23{
+    font-size: clamp(18px, 30vw * @px2vw, 23px);;
+    line-height: normal;
+    *{
+        line-height: inherit;
+    }
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+// titolo pronti
+.title-primary{
+    .font-37;
+    margin-bottom: .6em;
+}
+
+.title-extrasmall{
+    .font-12;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 1em;
+    @media screen and (max-width: @tablet-m) {
+        margin-bottom: .5em;
+    }
+}
+

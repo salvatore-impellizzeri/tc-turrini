@@ -1,0 +1,36 @@
+<?php
+$baseDir = dirname(dirname(__FILE__));
+
+return [
+    'plugins' => [
+        'Articles' => $baseDir . '/plugins/Articles/',
+        'AssetCompress' => $baseDir . '/vendor/markstory/asset_compress/',
+        'Attachments' => $baseDir . '/plugins/Attachments/',
+        'Authentication' => $baseDir . '/vendor/cakephp/authentication/',
+        'BackendMenu' => $baseDir . '/plugins/BackendMenu/',
+        'Bake' => $baseDir . '/vendor/cakephp/bake/',
+        'Blog' => $baseDir . '/plugins/Blog/',
+        'Cake/TwigView' => $baseDir . '/vendor/cakephp/twig-view/',
+        'Clients' => $baseDir . '/plugins/Clients/',
+        'Contacts' => $baseDir . '/plugins/Contacts/',
+        'ContentBlocks' => $baseDir . '/plugins/ContentBlocks/',
+        'Cookies' => $baseDir . '/plugins/Cookies/',
+        'CsvView' => $baseDir . '/vendor/friendsofcake/cakephp-csvview/',
+        'CustomPages' => $baseDir . '/plugins/CustomPages/',
+        'DebugKit' => $baseDir . '/vendor/cakephp/debug_kit/',
+        'Events' => $baseDir . '/plugins/Events/',
+        'Faqs' => $baseDir . '/plugins/Faqs/',
+        'Images' => $baseDir . '/plugins/Images/',
+        'Menu' => $baseDir . '/plugins/Menu/',
+        'Migrations' => $baseDir . '/vendor/cakephp/migrations/',
+        'News' => $baseDir . '/plugins/News/',
+        'Policies' => $baseDir . '/plugins/Policies/',
+        'Products' => $baseDir . '/plugins/Products/',
+        'Questions' => $baseDir . '/plugins/Questions/',
+        'SefUrls' => $baseDir . '/plugins/SefUrls/',
+        'Services' => $baseDir . '/plugins/Services/',
+        'Shop' => $baseDir . '/plugins/Shop/',
+        'Sliders' => $baseDir . '/plugins/Sliders/',
+        'Snippets' => $baseDir . '/plugins/Snippets/',
+    ],
+];

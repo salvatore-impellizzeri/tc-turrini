@@ -1,0 +1,43 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Menu panello"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "format_list_bulleted"
+
+msgctxt "admin"
+msgid "manage items"
+msgstr "Gestisci voci di menu"
+
+msgctxt "admin"
+msgid "title"
+msgstr "Titolo"
+
+msgctxt "admin"
+msgid "nothing"
+msgstr "Nessuno"
+
+msgctxt "admin"
+msgid "published"
+msgstr "Pubblicato"
+
+msgctxt "admin"
+msgid "url"
+msgstr "URL"
+
+msgctxt "admin"
+msgid "icon"
+msgstr "Nome icona"
+
+msgctxt "admin"
+msgid "superadmin_only"
+msgstr "Solo super admin"
+
+msgctxt "admin"
+msgid "parent"
+msgstr "Nodo padre"
+
+msgctxt "admin"
+msgid "parent menu"
+msgstr "Menu padre"

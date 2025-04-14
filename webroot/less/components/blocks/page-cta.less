@@ -1,0 +1,36 @@
+.page-cta{
+    background: @page-cta-bg;
+    color: @page-cta-color;
+    text-align: center;
+    padding:  clamp(40px, 80vw * @px2vw, 80px) clamp(20px, 40vw * @px2vw, 40px);
+    text-align: center;
+    margin-top: clamp(30px, 80vw * @px2vw, 80px);
+    margin-bottom: clamp(30px, 80vw * @px2vw, 80px);
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+    
+    &__content{
+        width: 100%;
+        max-width: 1000vw * @px2vw;
+        margin: 0 auto;
+        .font-60;
+
+        @media screen and (max-width: @tablet-m) {
+            max-width: none;
+        }
+        a{
+            color: inherit;
+        }
+    
+    }
+
+    &__actions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: clamp(20px, 40vw * @px2vw, 40px);
+    }
+}

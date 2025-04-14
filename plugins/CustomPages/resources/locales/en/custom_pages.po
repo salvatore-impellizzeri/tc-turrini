@@ -1,0 +1,15 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Pages"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "dashboard"
+
+msgctxt "admin"
+msgid "compose page"
+msgstr "Componi la pagina"
+
+msgctxt "admin"
+msgid "layout"
+msgstr "Layout"

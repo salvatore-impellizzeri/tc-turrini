@@ -1,0 +1,166 @@
+msgid "You are not authorized to access that location."
+msgstr ""
+
+msgid "Not Found"
+msgstr ""
+
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+msgid "Missing or incorrect CSRF cookie type."
+msgstr ""
+
+msgid "Missing or invalid CSRF cookie."
+msgstr ""
+
+msgid ""
+"CSRF token from either the request body or request headers did not match or is "
+"missing."
+msgstr ""
+
+msgid "Missing or incorrect CSRF session key"
+msgstr ""
+
+msgid "The requested file contains `..` and will not be read."
+msgstr ""
+
+msgid "The requested file was not found"
+msgstr ""
+
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+msgid "{0,number,integer} Byte"
+msgstr ""
+
+msgid "{0} from now"
+msgstr ""
+
+msgid "{0} ago"
+msgstr ""
+
+msgid "{0} after"
+msgstr ""
+
+msgid "{0} before"
+msgstr ""
+
+msgid "just now"
+msgstr ""
+
+msgid "about a second ago"
+msgstr ""
+
+msgid "about a minute ago"
+msgstr ""
+
+msgid "about an hour ago"
+msgstr ""
+
+msgid "about a day ago"
+msgstr ""
+
+msgid "about a week ago"
+msgstr ""
+
+msgid "about a month ago"
+msgstr ""
+
+msgid "about a year ago"
+msgstr ""
+
+msgid "in about a second"
+msgstr ""
+
+msgid "in about a minute"
+msgstr ""
+
+msgid "in about an hour"
+msgstr ""
+
+msgid "in about a day"
+msgstr ""
+
+msgid "in about a week"
+msgstr ""
+
+msgid "in about a month"
+msgstr ""
+
+msgid "in about a year"
+msgstr ""
+
+msgid "today"
+msgstr ""
+
+msgid "%s ago"
+msgstr ""
+
+msgid "on %s"
+msgstr ""
+
+msgid "{0} year"
+msgstr ""
+
+msgid "{0} month"
+msgstr ""
+
+msgid "{0} week"
+msgstr ""
+
+msgid "{0} day"
+msgstr ""
+
+msgid "{0} hour"
+msgstr ""
+
+msgid "{0} minute"
+msgstr ""
+
+msgid "{0} second"
+msgstr ""
+
+msgid "This value is already in use"
+msgstr ""
+
+msgid "This value does not exist"
+msgstr ""
+
+msgid "Cannot modify row: a constraint for the `{0}` association fails."
+msgstr ""
+
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+msgid "and"
+msgstr ""
+
+msgid "This field is required"
+msgstr ""
+
+msgid "This field cannot be left empty"
+msgstr ""
+
+msgid "The provided value is invalid"
+msgstr ""
+
+msgid "Edit {0}"
+msgstr ""
+
+msgid "New {0}"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Please check the required fields and try again"
+msgstr ""

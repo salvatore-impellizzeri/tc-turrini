@@ -1,0 +1,225 @@
+input,
+button,
+select,
+textarea,
+fieldset,
+legend {
+    outline: none;
+    border: none;
+}
+
+input,
+select,
+textarea{
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid @light;
+    padding: 10px 15px;
+    transition: 300ms;
+    background: @bg-color;
+}
+
+input,select,textarea{
+    &:focus,
+    &:focus-visible,
+    &:focus-within{
+        border-color: @primary;
+        transition: 300ms;
+    }
+}
+
+input[type="color"]{
+    padding: 0;
+    border: 1px solid @light;
+    border-radius: 31px;
+    height: 41px;
+    width: 100px;
+}
+
+.input{
+    position: relative;
+
+    #map-canvas{ 
+        display: block;
+        min-height: 500px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    &--removable{
+        position: relative;
+    }
+
+    &__remove{
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        z-index: 10;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        &:hover{
+            opacity: .7;
+        }
+    }
+}
+
+label{
+    display: block;
+    margin-bottom: 2px;
+    .font-14;
+    font-weight: 600;
+}
+
+.label-heading{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    
+
+    span{
+        font-size: 22px;
+       
+    }
+    .required &::after{
+        content: '*';
+        color: @primary;
+    }
+}
+
+.editor,.inline-editor{
+    .tox-tinymce{
+        border-radius: 5px;
+    }
+}
+
+.checkbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .toggle {
+        width: 50px;
+        .onoff {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    input {
+        opacity: 0;
+        bottom: 0;
+        position: absolute;
+        margin: 0;
+		cursor: pointer;
+        height: 100%;
+
+        &:checked~.toggle {
+            background-color: @green;
+            transition: 0.45s ease-out;
+
+            .onoff {
+                transform: translateX(~"calc(100% + 3px)");
+                pointer-events: none;
+            }
+        }
+    }
+
+
+}
+
+.default-checkbox{
+    label{
+        
+        input{
+            opacity: 0;
+            bottom: 0;
+            position: absolute;
+            margin: 0;
+            cursor: pointer;
+            height: 100%;
+            width: 0;
+            height: 0;
+            white-space: nowrap;
+        }
+        > span{
+            display: flex;
+            gap: 7px;
+            align-items: center;
+            cursor: pointer;
+            &::before{
+                content: '';
+                width: 22px;
+                height: 22px;
+                border-radius: 3px;
+                border: 1px solid @light;
+                display: block;
+            }
+        }
+
+        input:checked ~ span{
+            color: lighten(@black, 10%);
+            &::before{
+                background: @green;
+                box-shadow: 0 0 0 2px #fff inset;
+            } 
+        }
+        
+    }
+}
+
+[data-select-add], [data-vue-select-add]{
+    
+
+    [data-select-add-new], [data-vue-select-add-new]{
+        position: relative
+    }
+
+    [data-select-add-close], [data-vue-select-add-close]{
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+        text-align: center;
+        z-index: 10;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        &:hover{
+            opacity: .7;
+        }
+    }
+
+    [data-select-add-new], [data-select-add-close], [data-vue-select-add-close], [data-vue-select-add-new]{
+        display: none;
+        pointer-events: none;
+    }
+
+    [data-select-add-new] .error-message{
+        display: none;
+    }
+
+    &.new-value{
+        select{
+            display: none;
+            pointer-events: none;
+        }
+
+        [data-select-add-new], [data-select-add-close], [data-vue-select-add-close], [data-vue-select-add-new]{
+            display: block;
+            pointer-events: all;
+        }
+    }
+
+}

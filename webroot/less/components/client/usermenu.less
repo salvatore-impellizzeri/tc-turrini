@@ -1,0 +1,40 @@
+.usermenu{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        margin: 0;
+        padding: 0;
+    }
+    position: relative;
+    &__toggler{
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        background: @text-color;
+        color: @light-text-color;
+        padding: 0 40px;
+    }
+    &__dropdown{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+        border: 1px solid @text-color;
+        background: @bg-color;
+        display: none;
+        a{
+            color: @text-color;
+            display: block;
+        }
+        li{
+            padding: 5px 0;
+        }
+    }
+    &:hover .usermenu__dropdown{
+        display: block;
+    }
+}

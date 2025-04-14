@@ -1,0 +1,19 @@
+parameters:
+    level: 2
+    bootstrapFiles:
+        - tests/bootstrap.php
+    paths:
+        - src/
+    ignoreErrors:
+        -
+            message: "#^Call to method minify\\(\\) on an unknown class.*#"
+            count: 2
+            path: src/Filter/MinifyFilter.php
+        -
+            message: "#Instantiated class .*? not found.#"
+            count: 2
+            path: src/Filter/MinifyFilter.php
+        -
+            message: "#^Unsafe usage of new static#"
+            count: 1
+            path: src/AssetConfig.php

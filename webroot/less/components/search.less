@@ -1,0 +1,204 @@
+.search{
+    width: min(350px, 350vw * @px2vw);
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+    @media screen and (max-width: @tablet-l) {
+        width: 46px;
+        margin-right: 0;
+    }   
+
+    @media screen and (max-width: @mobile-l) {
+        width: 40px;
+    }
+
+    .body--light-header:not(.body--scroll) &{
+        path{
+            fill: @light-text-color;
+        }
+    }
+
+    &__toggler{
+        display: none;
+        @media screen and (max-width: @tablet-l) {
+            display: flex;
+            width: 46px;
+            height: 46px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid @text-color;
+        }
+
+        @media screen and (max-width: @mobile-l) {
+            width: 40px;
+            height: 40px;
+        }
+
+        .body--light-header:not(.body--scroll) &{
+            border-color: @light-text-color;
+        }
+    }
+
+    &__wrapper{
+        @media screen and (max-width: @tablet-l) {
+            position: fixed;
+            z-index: 900;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: @bg-color;
+            padding: 60px clamp(10px, 20vw * @px2vw, 20px) 0;
+            pointer-events: none;
+            transition: 600ms @easeOutQuad;
+            transform: translate3d(0,-100%,0);
+            -webkit-transform: translate3d(0,-100%,0);
+        }
+    }
+
+    &__close{
+        @media screen and (max-width: @tablet-l) {
+            // solo per mobile
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            z-index: 10;
+            &::after, &::before{
+                content: '';
+                height: 1px;
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                right: 10px;
+                background: @text-color;
+            }
+            &::before{
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+            }
+            &::after{
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+            }
+        }
+    }
+
+    &.open{
+        .search__wrapper{
+            @media screen and (max-width: @tablet-l) {
+                pointer-events: all;
+                transform: translate3d(0,0,0);
+                -webkit-transform: translate3d(0,0,0);
+            }
+        }
+    }
+
+    &__form{
+        position: relative;
+        @media screen and (max-width: @tablet-l) {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    }
+
+    &__input[type="text"]{
+        height: 40px;
+        line-height: 40px;
+        background: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid @text-color;
+        font-size: inherit;
+        padding: 0 40px;
+        color: inherit;
+
+        @media screen and (max-width: @tablet-l) {
+            border: 1px solid @text-color;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .body--light-header:not(.body--scroll) &{
+            border-color: @light-text-color;
+        }
+    }
+
+    &__icon, &__spinner{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        margin-top: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg{
+            width: 25px;
+        }
+    }
+
+    &__icon{
+        left: 0;
+    }
+
+    &__spinner{
+        right: 0;
+        animation: spinCW 1000ms linear infinite;
+        -webkit-animation: spinCW 1000ms linear infinite;
+        animation-play-state: paused;
+        -webkit-animation-play-state: paused;
+        visibility: hidden;
+        will-change: transform;
+        &.loading{
+            animation-play-state: running;
+            -webkit-animation-play-state: running;
+            visibility: visible;
+        }
+    }
+
+    &__results{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 350px;
+        max-height: 50vh;
+        overflow-y: auto;
+        padding: 10px;
+        border: 1px solid @text-color;
+        visibility: hidden;
+        pointer-events: none;
+        font-size: 14px;
+        background: @bg-color;
+
+
+        @media screen and (max-width: @tablet-l) {
+            width: 100%;
+            position: static;
+            max-height: ~"calc(100vh - 120px)";
+            padding: 20px 0;
+            border: none;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        &.visible{
+            visibility: visible;
+            pointer-events: all;
+        }
+    }
+
+    &__empty{
+        text-align: center;
+    }
+
+    
+}
+
+
+
+

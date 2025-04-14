@@ -1,0 +1,49 @@
+.preload{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 250px;
+    right: 0;
+    background: rgba(0,0,0,.3);
+    backdrop-filter: blur(3px);
+    z-index: 10000;
+    display: none;
+    pointer-events: none;
+
+    
+
+    &__progress-container{
+        position: absolute;
+        height: 5px;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    &__progress{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(90deg, @primary, @secondary, @primary, @secondary,  @primary);
+        background-size: 300% 100%;
+        animation: preloadGradientShift 3s linear infinite;
+        animation-play-state: paused;
+    }
+
+    .body--loading &{
+        display: block;
+        pointer-events: all;
+        .preload__progress{
+            animation-play-state: running;
+        }
+    }
+
+    
+}
+
+
+@keyframes preloadGradientShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}

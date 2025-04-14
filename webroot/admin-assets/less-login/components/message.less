@@ -1,0 +1,27 @@
+.message-wrapper{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.message{
+    color: @white;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    margin-bottom: 30px;
+    animation: fadeIn 1000ms ease-out forwards;
+    -webkit-animation: fadeIn 1000ms ease-out forwards;
+    width: 540px;
+    margin: 0 auto;
+    background: @red;
+    &.hidden{
+        opacity: 1;
+        animation: hideMessage 1000ms ease-out forwards;
+        -webkit-animation: hideMessage 1000ms ease-out forwards;
+    }
+}

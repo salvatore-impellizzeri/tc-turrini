@@ -1,0 +1,23 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Slider"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "photo_library"
+
+msgctxt "admin"
+msgid "preview"
+msgstr "Immagine"
+
+msgctxt "admin"
+msgid "manage items"
+msgstr "Gestisci slide"
+
+msgctxt "admin"
+msgid "cta"
+msgstr "Testo bottone"
+
+msgctxt "admin"
+msgid "url"
+msgstr "Url bottone"

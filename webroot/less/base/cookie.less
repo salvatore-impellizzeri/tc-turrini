@@ -1,0 +1,240 @@
+@cookie-bg: #fff; //colore sfondo popup
+@cookie-text: #333; //colore testo cookie
+@cookie-button-bg: #333; //colore pulsanti
+@cookie-button-color: #fff; //colore testo pulsanti
+
+
+
+// COOKIE 2022 ---------------------------------------------------
+#article{
+	padding: 150px 5vw;
+	font-size: 1.1rem;
+}
+
+#cookie_reload {
+	cursor: pointer;
+}
+
+#cookiedisclaimer2022{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+	bottom: 0;
+    z-index: 999999;
+    background: rgba(0,0,0,.35);
+	transition: opacity .35s;
+	pointer-events: all;
+	.inner_disclaimer {
+		position: fixed;
+		top: 50%;
+		right: 0;
+		left: 0;
+		padding: 75px 25px;
+		text-align: center;
+		color: @cookie-text;
+		font-size: 15px;
+		background: @cookie-bg;
+		box-shadow: 0 5px 15px rgba(0,0,0,.2);
+		z-index: 9999;
+		line-height: 1.5em;
+		width: 90%;
+		max-width: 600px;
+		margin: 0 auto;
+		transform: translateY(-50%);
+		max-height: 100%;
+		overflow: auto;
+		transition: transform 1000ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+		letter-spacing: 0;
+		font-weight: normal;
+		@media(max-width: 600px) {
+			font-size: 13px;
+		}
+	}
+	&.hidden {
+		pointer-events: none;
+		opacity: 0;
+		.inner_disclaimer {
+			transform: translateY(-75%);
+		}
+	}
+	h3 {
+		font-size: 1.2em;
+		margin-bottom: 2em;
+		font-weight: bold;
+		color: inherit;
+		line-height: 1.2em;
+		letter-spacing: 0;
+	}
+	h5{
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+	h6{
+		font-size: 1em;
+		font-weight: bold;
+	}
+	.cookie_options {
+		margin-bottom: 2em;
+		display: flex;
+		justify-content: center;
+		@media(max-width: 600px) {
+			flex-flow: column;
+			//flex-direction: column-reverse;
+		}
+		span {
+			background: @cookie-button-bg;
+			cursor: pointer;
+			display: inline-block;
+			padding: 1em;
+			margin: 10px;
+			font-weight: 400;
+			color: @cookie-button-color;
+			border: 1px solid @cookie-button-bg;
+			transition: background .35s;
+			@media(max-width: 600px) {
+				margin: 5px 0;
+			}
+			&:hover {
+				background: lighten(@cookie-button-bg,10%);
+			}
+			&#cookieselect {
+				color: @cookie-text;
+				background: @cookie-bg;
+				&:hover {
+					background: darken(@cookie-bg, 10%);
+				}
+			}
+		}
+	}
+	a {
+		text-decoration:underline;
+		color: lighten(@cookie-text,30%);
+		cursor: pointer;
+		display: inline-block;
+		padding: 5px;
+		&:hover{
+			color: @cookie-text;
+		}
+	}
+	#cookie_close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+		background: @cookie-button-bg;
+		color: @cookie-button-color;
+		cursor: pointer;
+		transition: background .35s;
+		&:hover {
+			background: lighten(@cookie-button-bg,10%);
+		}
+	}
+	#cookie_preferences {
+		text-align: left;
+		margin-bottom: 2em;
+		display: none;
+		&.show {
+			display: block;
+		}
+	}
+
+	.cookie_type {
+		margin-bottom: 2em;
+		padding-bottom: 2em;
+		border-bottom: 1px solid lighten(black, 60%);
+		&:last-of-type {
+			border-bottom: none;
+			margin-bottom: 0;
+		}
+	}
+
+	.cookie_flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 10px;
+		h5, h6 {
+			margin: 0;
+		}
+	}
+
+	.cookie_desc{
+		margin-bottom: 1em;
+		&:last-of-type{
+			margin: 0;
+		}
+	}
+
+	.cookie_type_list {
+		padding-left: 20px;
+		margin-top: 20px;
+	}
+
+	.toggle {
+		cursor: pointer;
+		display: inline-block;
+	}
+	.toggle-switch {
+		display: inline-block;
+		background: #ccc;
+		border-radius: 16px;
+		width: 58px;
+		height: 32px;
+		position: relative;
+		vertical-align: middle;
+		transition: background 0.35s;
+		&:before,
+		&:after {
+			content: "";
+		}
+		&:before {
+			display: block;
+			background: linear-gradient(to bottom, #fff 0%,#eee 100%);
+			border-radius: 50%;
+			box-shadow: 0 0 0 1px rgba(0,0,0,0.25);
+			width: 24px;
+			height: 24px;
+			position: absolute;
+			top: 4px;
+			left: 4px;
+			transition: left 0.35s;
+		}
+		.toggle:hover &:before {
+			background: linear-gradient(to bottom, #fff 0%,#fff 100%);
+			box-shadow: 0 0 0 1px rgba(0,0,0,0.5);
+		}
+	}
+	.toggle-checkbox:checked + .toggle-switch {
+		background: #55bb55;
+		&:before {
+			left: 30px;
+		}
+	}
+	.toggle-checkbox {
+		position: absolute;
+		visibility: hidden;
+	}
+	button {
+		display: block;
+		font-size: 18px;
+		margin: 0 auto 2em;
+		display: block;
+		float: none;
+		background: #55bb55;
+		padding: 1em 2em;
+		color: #fff;
+		transition: background 0.35s;
+		font-weight: 400;
+		border: none;
+		cursor: pointer;
+		height: auto;
+		line-height: normal;
+		&:hover {
+			background: #33aa33;
+		}
+	}
+}

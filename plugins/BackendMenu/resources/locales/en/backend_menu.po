@@ -1,0 +1,52 @@
+msgid "_admin plugin name"
+msgstr ""
+
+msgid "_admin plugin icon"
+msgstr ""
+
+msgid "_admin manage items"
+msgstr ""
+
+msgctxt "admin"
+msgid "plugin name"
+msgstr ""
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr ""
+
+msgctxt "admin"
+msgid "manage items"
+msgstr ""
+
+msgctxt "admin"
+msgid "title"
+msgstr ""
+
+msgctxt "admin"
+msgid "nothing"
+msgstr ""
+
+msgctxt "admin"
+msgid "published"
+msgstr ""
+
+msgctxt "admin"
+msgid "url"
+msgstr ""
+
+msgctxt "admin"
+msgid "icon"
+msgstr ""
+
+msgctxt "admin"
+msgid "superadmin_only"
+msgstr ""
+
+msgctxt "admin"
+msgid "parent"
+msgstr ""
+
+msgctxt "admin"
+msgid "parent menu"
+msgstr ""

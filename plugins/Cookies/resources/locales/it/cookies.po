@@ -1,0 +1,46 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Cookie"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "cookie"
+
+msgctxt "admin"
+msgid "title"
+msgstr "Titolo"
+
+msgctxt "admin"
+msgid "alias"
+msgstr "Alias"
+
+msgctxt "admin"
+msgid "manage items"
+msgstr "Gestisci cookie"
+
+msgid "cookie title"
+msgstr "Informazioni sui cookie presenti in questo sito"
+
+msgid "cookie disclaimer"
+msgstr "Questo sito utilizza cookie tecnici e statistici anonimi, necessari al suo funzionamento."
+
+msgid "more cookie {0}"
+msgstr "Utilizza anche {0}, che sono disabilitati di default e vengono attivati solo previo consenso da parte tua."
+
+msgid "manage preferences"
+msgstr "Gestisci preferenze"
+
+msgid "deny"
+msgstr "Nega tutti"
+
+msgid "allow all"
+msgstr "Consenti tutti i cookie"
+
+msgid "saved the {0}"
+msgstr "Preferenze salvate il {0}"
+
+msgid "save preferences"
+msgstr "Salva preferenze"
+
+msgid "read more"
+msgstr "Per saperne di più"

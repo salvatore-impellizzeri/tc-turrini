@@ -1,0 +1,1 @@
+var AnotherClass = Class.extend({});

@@ -1,0 +1,184 @@
+msgid "You are not authorized to access that location."
+msgstr "Non sei autorizzato a visualizzare questa pagina."
+
+msgid "Not Found"
+msgstr "Errore 404 - Contenuto non trovato"
+
+msgid "An Internal Error Has Occurred."
+msgstr "Errore 500 - Errore interno del server"
+
+msgid "Missing or incorrect CSRF cookie type."
+msgstr "Missing or incorrect CSRF cookie type."
+
+msgid "Missing or invalid CSRF cookie."
+msgstr "Missing or invalid CSRF cookie."
+
+msgid "CSRF token from either the request body or request headers did not match or is missing."
+msgstr "CSRF token from either the request body or request headers did not match or is missing."
+
+msgid "Missing or incorrect CSRF session key"
+msgstr "Missing or incorrect CSRF session key"
+
+msgid "The requested file contains `..` and will not be read."
+msgstr "Non è possibile mostrare file con `..` nel nome"
+
+
+msgid "The requested file was not found"
+msgstr "Il file richiesto non è disponibile"
+
+msgid "{0,number,#,###.##} KB"
+msgstr "{0,number,#,###.##} KB"
+
+
+msgid "{0,number,#,###.##} MB"
+msgstr "{0,number,#,###.##} MB"
+
+msgid "{0,number,#,###.##} GB"
+msgstr "{0,number,#,###.##} GB"
+
+msgid "{0,number,#,###.##} TB"
+msgstr "{0,number,#,###.##} TB"
+
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] "{0,number,integer} Byte"
+msgstr[1] "{0,number,integer} Bytes"
+
+msgid "{0} from now"
+msgstr "{0} da adesso"
+
+msgid "{0} ago"
+msgstr "{0} fa"
+
+msgid "{0} after"
+msgstr "{0} dopo"
+
+msgid "{0} before"
+msgstr "{0} prima"
+
+msgid "just now"
+msgstr "in questo momento"
+
+msgid "about a second ago"
+msgstr "un attimo fa"
+
+msgid "about a minute ago"
+msgstr "circa un minuto fa"
+
+msgid "about an hour ago"
+msgstr "circa un'ora fa"
+
+msgid "about a day ago"
+msgstr "circa un giorno fa"
+
+
+msgid "about a week ago"
+msgstr "circa una settimana fa"
+
+msgid "about a month ago"
+msgstr "circa un secondo fa"
+
+msgid "about a year ago"
+msgstr "circa un anno fa"
+
+msgid "in about a second"
+msgstr "in un secondo circa"
+
+msgid "in about a minute"
+msgstr "in un minuto circa"
+
+msgid "in about an hour"
+msgstr "in un'ora circa"
+
+msgid "in about a day"
+msgstr "in un giorno circa"
+
+msgid "in about a week"
+msgstr "in una settimana circa"
+
+msgid "in about a month"
+msgstr "in un mese circa"
+
+msgid "in about a year"
+msgstr "in un anno circa"
+
+msgid "today"
+msgstr "oggi"
+
+msgid "%s ago"
+msgstr "%s fa"
+
+msgid "on %s"
+msgstr "di %s"
+
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} anno"
+msgstr[1] "{0} anni"
+
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} mese"
+msgstr[1] "{0} mesi"
+
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} settimana"
+msgstr[1] "{0} settimane"
+
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} giorno"
+msgstr[1] "{0} giorni"
+
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} ora"
+msgstr[1] "{0} ore"
+
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} minuto"
+msgstr[1] "{0} minuti"
+
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} secondo"
+msgstr[1] "{0} secondi"
+
+
+msgid "This value is already in use"
+msgstr "Questo valore è già stato inserito"
+
+msgid "This value does not exist"
+msgstr "Questo valore non esiste"
+
+msgid "Cannot modify row: a constraint for the `{0}` association fails."
+msgstr "Impossibile modificare: c'è un problema con un vincolo sull'associazione `{0}`"
+
+msgid "The count does not match {0}{1}"
+msgstr "Il conteggio non corrisponde {0}{1}"
+
+msgid "and"
+msgstr "e"
+
+msgid "This field is required"
+msgstr "Campo obbligatorio"
+
+msgid "This field cannot be left empty"
+msgstr "Campo obbligatorio"
+
+msgid "The provided value is invalid"
+msgstr "Inserisci un valore valido per questo campo"
+
+msgid "Edit {0}"
+msgstr "Modifica {0}"
+
+msgid "New {0}"
+msgstr "Nuovi {0}"
+
+msgid "Submit"
+msgstr "Invia"
+
+msgid "Please check the required fields and try again"
+msgstr "Per favore, controlla tutti i campi obbligatori"

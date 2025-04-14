@@ -1,0 +1,495 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Clients"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "group"
+
+
+msgctxt "admin"
+msgid "enabled"
+msgstr ""
+
+msgctxt "admin"
+msgid "fullname"
+msgstr ""
+
+msgctxt "admin"
+msgid "email"
+msgstr ""
+
+msgctxt "admin"
+msgid "client infos"
+msgstr ""
+
+msgctxt "admin"
+msgid "login type"
+msgstr ""
+
+msgctxt "admin"
+msgid "guest"
+msgstr ""
+
+msgctxt "admin"
+msgid "reward"
+msgstr ""
+
+msgctxt "admin"
+msgid "invitations"
+msgstr ""
+
+msgctxt "admin"
+msgid "is company"
+msgstr ""
+
+msgctxt "admin"
+msgid "newsletter"
+msgstr ""
+
+msgctxt "admin"
+msgid "locale"
+msgstr ""
+
+msgctxt "admin"
+msgid "birth date"
+msgstr ""
+
+msgctxt "admin"
+msgid "affiliation code"
+msgstr ""
+
+msgctxt "admin"
+msgid "profiling questionnaire sent"
+msgstr ""
+
+msgctxt "admin"
+msgid "profiling questionnaire answered"
+msgstr ""
+
+msgctxt "admin"
+msgid "shipping addresses"
+msgstr ""
+
+msgctxt "admin"
+msgid "full address"
+msgstr ""
+
+msgctxt "admin"
+msgid "is default"
+msgstr ""
+
+msgctxt "admin"
+msgid "billing addresses"
+msgstr ""
+
+msgid "login title"
+msgstr "Log in to your account"
+
+msgid "login"
+msgstr "Log in"
+
+msgid "signup title"
+msgstr "Are you a new customer?"
+
+msgid "signup"
+msgstr "Sign up"
+
+msgid "proceed"
+msgstr "Proceed"
+
+msgid "private"
+msgstr "Private"
+
+msgid "company"
+msgstr "Company"
+
+msgid "fullname"
+msgstr "Full name"
+
+msgid "email"
+msgstr "Email"
+
+msgid "password"
+msgstr "Password"
+
+msgid "repeat password"
+msgstr "Repeat password"
+
+msgid "password does not match"
+msgstr "The two passwords do not match"
+
+msgid "current password"
+msgstr "Current password"
+
+msgid "new password"
+msgstr "New password"
+
+msgid "password hint"
+msgstr "Your password must contain at least 8 characters and at least one number"
+
+msgid "privacy policy"
+msgstr "Processing of personal data"
+
+msgid "privacy disclaimer {0}"
+msgstr "I confirm I have read and accepted the terms and conditions about {0}"
+
+msgid "subscribe newsletter"
+msgstr "I want to receive the newsletter"
+
+msgid "sign up with"
+msgstr "Sign up with"
+
+msgid "login with"
+msgstr "Log in with"
+
+msgid "signup error"
+msgstr "We have been unable to complete your registration. Please check to have correctly completed all the required fields"
+
+msgid "signup success"
+msgstr "WELCOME, EXPLORER!"
+
+msgid "or sign up with email"
+msgstr "Or sign up with your email"
+
+msgid "lost password"
+msgstr "Have you forgotten your password?"
+
+msgid "lost password message before"
+msgstr "Enter your login email address."
+
+msgid "lost password message after"
+msgstr "Thank you: if we find a user associated to this email address, we will immediately send you a temporary access link. Remember to create a new password."
+
+msgid "account"
+msgstr "My account"
+
+msgid "orders"
+msgstr "My orders"
+
+msgid "addresses"
+msgstr "My addresses"
+
+msgid "subscriptions"
+msgstr "My subscriptions"
+
+msgid "wines"
+msgstr "My wines"
+
+msgid "personal data"
+msgstr "Personal data"
+
+msgid "help"
+msgstr "Help"
+
+msgid "logout"
+msgstr "Log out"
+
+msgid "created"
+msgstr "Registration date"
+
+msgid "edit data"
+msgstr "Edit data"
+
+msgid "edit email"
+msgstr "Edit email"
+
+msgid "edit password"
+msgstr "Edit password"
+
+msgid "registered with"
+msgstr "You have registered with"
+
+msgid "delete account"
+msgstr "Delete account"
+
+msgid "email already taken"
+msgstr "This email has already been used"
+
+msgid "update success"
+msgstr "Your data has been successfully updated"
+
+msgid "update error"
+msgstr "An error occurred while your data was being saved"
+
+msgid "save"
+msgstr "Save"
+
+msgid "firstname"
+msgstr "First name"
+
+msgid "lastname"
+msgstr "Last name"
+
+msgid "country"
+msgstr "Country"
+
+msgid "district_id"
+msgstr "Province"
+
+msgid "district"
+msgstr "District"
+
+msgid "city"
+msgstr "City"
+
+msgid "cap"
+msgstr "Post Code"
+
+msgid "street"
+msgstr "Street"
+
+msgid "house_number"
+msgstr "Number"
+
+msgid "address"
+msgstr "Address"
+
+msgid "co"
+msgstr "C/o"
+
+msgid "birth_date"
+msgstr "Date of birth"
+
+msgid "phone"
+msgstr "Phone number"
+
+msgid "notes"
+msgstr "Note for the courier"
+
+msgid "ssn"
+msgstr "Tax Payer’s Code"
+
+msgid "vat_code"
+msgstr "VAT number"
+
+msgid "pec"
+msgstr "Certified email"
+
+msgid "sdi"
+msgstr "SDI code"
+
+msgid "you are not of legal age for drinking"
+msgstr "You have to be over 18 to purchase on this website"
+
+msgid "this email is already in use"
+msgstr "There is already an account associated to this email"
+
+msgid "same as shipping"
+msgstr "The same as shipping address"
+
+msgid "social login error"
+msgstr "We have been unable to access your account. Please re-try using a different method"
+
+msgid "shipping addresses"
+msgstr "Shipping addresses"
+
+msgid "billing addresses"
+msgstr "Billing addresses"
+
+msgid "default address"
+msgstr "Default address"
+
+msgid "set default address"
+msgstr "Set as default address"
+
+msgid "edit address"
+msgstr "Edit"
+
+msgid "delete address"
+msgstr "Delete"
+
+msgid "address save success"
+msgstr "Addresses updated"
+
+msgid "address save error"
+msgstr "An error has occurred. We have been unable to complete the operation."
+
+msgid "empty addresses"
+msgstr "No addresses saved"
+
+msgid "empty wines"
+msgstr "You have not yet ordered any wine"
+
+msgid "activate subscription"
+msgstr "Activate your subscription"
+
+msgid "activation code"
+msgstr "Activation code"
+
+msgid "insert your activation code"
+msgstr "Enter the code sent to you via email to activate your subscription"
+
+msgid "this code is not valid"
+msgstr "This code is not valid"
+
+msgid "this code has already been used"
+msgstr "This code has already been used"
+
+msgid "this code is expired"
+msgstr "This code has expired"
+
+msgid "your subscription is now active"
+msgstr "SEE YOU SOON EXPLORER!"
+
+msgid "code error"
+msgstr "There has been a problem during the activation of this code "
+
+msgid "too many attempts. you can try again at {0}"
+msgstr "You have entered incorrect details on too many occasions. You can try again in {0} minutes"
+
+msgid "Invalid username or password"
+msgstr "Invalid username or password"
+
+msgid "your current payment method"
+msgstr "Your payment method"
+
+msgid "your current payment method is"
+msgstr "Current payment details:"
+
+msgid "payment failure alert"
+msgstr "Alert: Your payment has not been completed successfully. <br>Please re-enter your card details or use a different method of payment to continue to receive your monthly surprise bottle!"
+
+msgid "insert a new card"
+msgstr "Please enter a different method of payment to replace the current details "
+
+msgid "update payment method"
+msgstr "Update payment method"
+
+msgid "want to sign up or login"
+msgstr "Do you have an account or do you wish to sign up?"
+
+msgid "have you received a gift subscription"
+msgstr "Have you received a subscription as a gift?"
+
+msgid "activate now"
+msgstr "Activate it now"
+
+msgid "confirm delete"
+msgstr "Are you sure that you want to delete your account? If you confirm, all of your active subscriptions will be cancelled."
+
+msgid "or"
+msgstr "or"
+
+msgid "confirm unsubscription"
+msgstr "Are you sure that you want to cancel this subscription?"
+
+msgid "recurrent subscription succesfully cancelled"
+msgstr "Subscription correctly cancelled."
+
+msgid "unsubscription error"
+msgstr "An error occurred during the cancellation of this subscription or this subscription has already been cancelled."
+
+msgid "manage payment method"
+msgstr "Payment details"
+
+msgid "subscription #{0} - payment details"
+msgstr "Subscription #{0} – Payment details"
+
+msgid "no payment method"
+msgstr "Your method of payment has yet to be configured."
+
+msgid "expiration date"
+msgstr "Expiry date"
+
+msgid "payment problem"
+msgstr "An error has occurred during payment!"
+
+msgid "verify card details"
+msgstr "Verify card details"
+
+msgid "invite a friend"
+msgstr "Bring an Explorer"
+
+msgid "copy link"
+msgstr "Copy link"
+
+msgid "link copied"
+msgstr "Link correctly copied"
+
+msgid "delete success"
+msgstr "Your account has been deleted."
+
+msgid "you are not authorized to access this page"
+msgstr "Sorry, this content is reserved for registered users only."
+
+msgid "profiling questionnaire title"
+msgstr "Profiling questionnaire"
+
+msgid "profiling_answer_1"
+msgstr "Which gender do you identify with?"
+
+msgid "profiling_answer_2"
+msgstr "How old are you?"
+
+msgid "profiling_answer_3"
+msgstr "What’s your favourite type of wine?"
+
+msgid "profiling_answer_4"
+msgstr "How did you hear about us?"
+
+msgid "question_1_option_1"
+msgstr "Male"
+
+msgid "question_1_option_2"
+msgstr "Female"
+
+msgid "question_1_option_3"
+msgstr "Other"
+
+msgid "question_2_option_1"
+msgstr "18-24"
+
+msgid "question_2_option_2"
+msgstr "25-34"
+
+msgid "question_2_option_3"
+msgstr "35-44"
+
+msgid "question_2_option_4"
+msgstr "44-54"
+
+msgid "question_2_option_5"
+msgstr "55-64"
+
+msgid "question_2_option_6"
+msgstr "65+"
+
+msgid "question_3_option_1"
+msgstr "Red"
+
+msgid "question_3_option_2"
+msgstr "White"
+
+msgid "question_3_option_3"
+msgstr "Sparkling"
+
+msgid "question_3_option_4"
+msgstr "Rosé"
+
+msgid "question_3_option_5"
+msgstr "Passito"
+
+msgid "question_4_option_1"
+msgstr "Social media"
+
+msgid "question_4_option_2"
+msgstr "Video channels"
+
+msgid "question_4_option_4"
+msgstr "word of mouth"
+
+msgid "question_4_option_5"
+msgstr "Google or other search engine"
+
+msgid "question_4_option_6"
+msgstr "Other"
+
+msgid "questionnaire save error"
+msgstr "Please answer all questions."
+
+msgid "thank you"
+msgstr "Thank you!"
+
+msgid "prepaid subscription succesfully cancelled"
+msgstr "Your subscription has been successfully cancelled. We will contact you to handle any reimbursements."

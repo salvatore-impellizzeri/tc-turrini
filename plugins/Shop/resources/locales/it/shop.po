@@ -1,0 +1,325 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Shop"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "shopping_cart"
+
+msgctxt "admin"
+msgid "manage items"
+msgstr "Gestisci prodotti"
+
+msgctxt "admin"
+msgid "brands"
+msgstr "Brand"
+
+msgctxt "admin"
+msgid "vat rates"
+msgstr "Aliquote IVA"
+
+msgctxt "admin"
+msgid "colors"
+msgstr "Colori"
+
+msgctxt "admin"
+msgid "color groups"
+msgstr "Gruppi colore"
+
+msgctxt "admin"
+msgid "attribute groups"
+msgstr "Gruppi di attributi"
+
+msgctxt "admin"
+msgid "attributes"
+msgstr "Attributi"
+
+msgctxt "admin"
+msgid "attribute types"
+msgstr "Tipologie attributi"
+
+msgctxt "admin"
+msgid "amount"
+msgstr "Percentuale"
+
+msgctxt "admin"
+msgid "is_default"
+msgstr "Predefinito"
+
+msgctxt "admin"
+msgid "vat rate value"
+msgstr "Valore (%)"
+
+msgctxt "admin"
+msgid "categories"
+msgstr "Categorie"
+
+msgctxt "admin"
+msgid "products"
+msgstr "Prodotti"
+
+msgctxt "admin"
+msgid "parent"
+msgstr "Categoria superiore"
+
+msgctxt "admin"
+msgid "shop_category"
+msgstr "Categoria"
+
+msgctxt "admin"
+msgid "gallery"
+msgstr "Galleria immagini"
+
+msgctxt "admin"
+msgid "homepage"
+msgstr "Homepage"
+
+msgctxt "admin"
+msgid "shop_category_id"
+msgstr "Categoria"
+
+msgctxt "admin"
+msgid "draft"
+msgstr "Bozza"
+
+msgctxt "admin"
+msgid "description"
+msgstr "Descrizione"
+
+msgctxt "admin"
+msgid "value"
+msgstr "Valore"
+
+msgctxt "admin"
+msgid "brand_id"
+msgstr "Brand"
+
+msgctxt "admin"
+msgid "vat_rate_id"
+msgstr "Aliquota IVA"
+
+msgctxt "admin"
+msgid "has_variants"
+msgstr "Questo prodotto ha delle varianti (taglia, colore, formato...)"
+
+msgctxt "admin"
+msgid "brand_id"
+msgstr "Brand"
+
+msgctxt "admin"
+msgid "sku"
+msgstr "Codice prodotto"
+
+msgctxt "admin"
+msgid "price"
+msgstr "Prezzo (IVA inclusa)"
+
+msgctxt "admin"
+msgid "discounted_price"
+msgstr "Prezzo scontato (IVA inclusa)"
+
+msgctxt "admin"
+msgid "price_net"
+msgstr "Prezzo netto (no IVA)"
+
+msgctxt "admin"
+msgid "discounted_price"
+msgstr "Prezzo scontato netto (no IVA)"
+
+msgctxt "admin"
+msgid "stock"
+msgstr "Quantità disponibile"
+
+msgctxt "admin"
+msgid "weight"
+msgstr "Peso (kg)"
+
+msgctxt "admin"
+msgid "variants"
+msgstr "Varianti"
+
+msgctxt "admin"
+msgid "new brand title"
+msgstr "Nome del brand"
+
+msgctxt "admin"
+msgid "products count"
+msgstr "Nr. prodotti"
+
+msgctxt "admin"
+msgid "variants count"
+msgstr "Nr. varianti prodotto"
+
+msgctxt "admin"
+msgid "brand delete error"
+msgstr "Non puoi eliminare questo brand. Ci sono dei prodotti collegati"
+
+msgctxt "admin"
+msgid "connected products delete error"
+msgstr "Non puoi eliminare questo elemento. Ci sono dei prodotti collegati"
+
+msgctxt "admin"
+msgid "connected attributes delete error"
+msgstr "Non puoi eliminare questo elemento. Ci sono degli attributi collegati"
+
+msgctxt "admin"
+msgid "no vat rates error"
+msgstr "Per poter creare un nuovo prodotto è necessario prima creare un'aliquota IVA di default"
+
+msgctxt "admin"
+msgid "at least one vat rate should be default"
+msgstr "Almeno un'aliquota IVA deve essere impostata come predefinita."
+
+msgctxt "admin"
+msgid "color code"
+msgstr "Colore"
+
+msgctxt "admin"
+msgid "attribute group count"
+msgstr "Nr. gruppi attributi"
+
+msgctxt "admin"
+msgid "attribute_type_id"
+msgstr "Tipologia di attributo"
+
+msgctxt "admin"
+msgid "attribute_group_id"
+msgstr "Gruppo"
+
+msgctxt "admin"
+msgid "choose attribute group"
+msgstr "Seleziona/aggiungi"
+
+msgctxt "admin"
+msgid "choose attribute"
+msgstr "Seleziona/aggiungi"
+
+msgctxt "admin"
+msgid "choose attribute type"
+msgstr "Tipologia"
+
+msgctxt "admin"
+msgid "add new attribute group option"
+msgstr "+ Nuovo"
+
+msgctxt "admin"
+msgid "add new attribute"
+msgstr "+ Nuovo valore"
+
+msgctxt "admin"
+msgid "add new attribute group"
+msgstr "Aggiungi un attributo"
+
+msgctxt "admin"
+msgid "manage attributes"
+msgstr "Gestisci attributi prodotto"
+
+msgctxt "admin"
+msgid "manage variant attributes"
+msgstr "Gestisci opzioni varianti"
+
+msgctxt "admin"
+msgid "new attribute title"
+msgstr "Nome (es: Formato, Materiale...)"
+
+msgctxt "admin"
+msgid "add attribute value"
+msgstr "Aggiungi un valore"
+
+msgctxt "admin"
+msgid "new attribute value title"
+msgstr "Nuova opzione"
+
+msgctxt "admin"
+msgid "delete attribute group confirm"
+msgstr "Sei sicuro di voler eliminare questa opzione?"
+
+msgctxt "admin"
+msgid "delete attribute group confirm with variant update"
+msgstr "Tutte le varianti collegate a questo prodotto verranno modificate"
+
+msgctxt "admin"
+msgid "new value title"
+msgstr "Valore"
+
+msgctxt "admin"
+msgid "choose/add variant options"
+msgstr "Seleziona/aggiungi le opzioni disponibili per questo prodotto"
+
+msgctxt "admin"
+msgid "add new variant"
+msgstr "Aggiungi una variante"
+
+msgctxt "admin"
+msgid "duplicated attribute title"
+msgstr "Questo valore è già presente"
+
+msgctxt "admin"
+msgid "duplicated variant"
+msgstr "Esiste già una variante con questa combinazione di valori"
+
+msgctxt "admin"
+msgid "edit variant"
+msgstr "Modifica variante"
+
+msgctxt "admin"
+msgid "default variant"
+msgstr "Predefinita"
+
+msgctxt "admin"
+msgid "at least one variant should be default"
+msgstr "Almeno una variante deve essere impostata come predefinita"
+
+msgctxt "admin"
+msgid "default variant should be published"
+msgstr "La variante predefinita deve essere pubblicata"
+
+msgctxt "admin"
+msgid "variant preview"
+msgstr "Anteprima"
+
+msgctxt "admin"
+msgid "manage attribute values"
+msgstr "Gestisci opzioni"
+
+msgctxt "admin"
+msgid "connected colors"
+msgstr "Colori collegati"
+
+msgctxt "admin"
+msgid "not connected attributes"
+msgstr "I seguenti colori non sono ancora associati ad un gruppo:"
+
+msgctxt "admin"
+msgid "warning"
+msgstr "Attenzione!"
+
+
+msgctxt "admin"
+msgid "warning variants switch"
+msgstr "Modificando questa impostazione le informazioni relative al prezzo, peso e disponibiltà del prodotto già inserite verranno cancellate. Vuoi procedere?"
+
+msgctxt "admin"
+msgid "warning no variants switch"
+msgstr "Modificando questa impostazione le varianti che hai già creato verranno eliminate definitivamente. Vuoi procedere?"
+
+msgctxt "admin"
+msgid "warning variant attributes add"
+msgstr "Se aggiungi un opzione per questo prodotto dovrai poi modificare le varianti. Vuoi procedere?"
+
+msgctxt "admin"
+msgid "warning variants will be deleted"
+msgstr "Tutte le varianti che hai già creato verranno eliminate definitivamente. Vuoi procedere?"
+
+msgctxt "admin"
+msgid "have you saved"
+msgstr "Se esci da questa pagina senza aver salvato le modifiche perderai i dati salvati. Vuoi procedere?"
+
+msgctxt "admin"
+msgid "sef prefix"
+msgstr "shop"
+
+/*** Frontend ***/
+
+msgid "all products"
+msgstr "Tutti i prodotti"

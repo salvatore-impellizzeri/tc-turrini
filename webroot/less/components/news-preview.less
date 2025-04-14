@@ -1,0 +1,20 @@
+.news-preview{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    gap: 2.5vw;
+    align-items: center;
+    margin-bottom: 80px;
+    &:last-child{
+        margin: 0;
+    }
+    &__content{
+        &__date{
+            margin-bottom: 10px;
+            display: block;
+        }
+        &__cta{
+            margin-top: 40px;
+            display: inline-block;
+        }
+    }
+}

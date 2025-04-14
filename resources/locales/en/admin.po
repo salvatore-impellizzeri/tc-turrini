@@ -1,0 +1,146 @@
+msgid "add action"
+msgstr "Add"
+
+msgid "search"
+msgstr "Search"
+
+msgid "rows per page"
+msgstr "Row per page"
+
+msgid "title"
+msgstr "Title"
+
+msgid "created"
+msgstr "Created"
+
+msgid "published"
+msgstr "Published"
+
+msgid "edit"
+msgstr "Edit"
+
+msgid "delete"
+msgstr "Delete"
+
+msgid "previous"
+msgstr "Previous"
+
+msgid "next"
+msgstr "Next"
+
+msgid "settings"
+msgstr "Settings"
+
+msgid "logout"
+msgstr "Exit"
+
+msgid "username"
+msgstr "Username"
+
+msgid "password"
+msgstr "Password"
+
+msgid "login"
+msgstr "Enter"
+
+msgid "Invalid username or password"
+msgstr "Wrong username or password"
+
+msgid "add tag"
+msgstr "Add tag"
+
+msgid "done"
+msgstr "Done"
+
+msgid "save form"
+msgstr "Save"
+
+msgid "save exit"
+msgstr "Save and exit"
+
+msgid "block empty quote"
+msgstr ""
+
+msgid "choose one"
+msgstr "Choose one"
+
+msgid "users"
+msgstr "Users"
+
+msgid "change password"
+msgstr "Change password"
+
+msgid "users group"
+msgstr ""
+
+msgid "user groups"
+msgstr ""
+
+msgid "to website"
+msgstr "Go to website"
+
+msgid "settings translations"
+msgstr "Translations"
+
+msgid "settings menu"
+msgstr "Menu"
+
+msgid "settings content blocks"
+msgstr "Layout blocks"
+
+msgid "settings users"
+msgstr "Users"
+
+msgid "settings groups"
+msgstr "Groups"
+
+msgid "settings backend menu"
+msgstr "Manage plugins"
+
+msgid "manage translations"
+msgstr "Manage translations"
+
+msgid "manage items"
+msgstr "Manage plugins"
+
+msgid "tabs general"
+msgstr "General"
+
+msgid "tabs seo"
+msgstr "SEO"
+
+msgid "tabs social"
+msgstr "Social"
+
+msgid "tabs preview"
+msgstr "Preview"
+
+msgid "uploader upload"
+msgstr "Upload an image"
+
+msgid "uploader upload drag"
+msgstr "Click or drag and drop here your image"
+
+msgid "uploader upload icon"
+msgstr "Upload your icon"
+
+msgid "uploader upload icons"
+msgstr "Upload your icons"
+
+msgid "uploader upload image"
+msgstr "Upload images"
+
+msgid "uploader upload drag images"
+msgstr "Click or drag and drop here your images"
+
+msgid "uploader upload file"
+msgstr "Upload your file"
+
+msgid "uploader upload drag file"
+msgstr "Click or drag and drop here your file"
+
+msgid "uploader upload files"
+msgstr "Upload your files"
+
+msgid "uploader upload drag files"
+msgstr "Click or drag and drop here your files"

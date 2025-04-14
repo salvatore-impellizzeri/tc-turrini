@@ -1,0 +1,29 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Blog"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "sticky_note_2"
+
+msgctxt "admin"
+msgid "location"
+msgstr "Regione"
+
+msgctxt "admin"
+msgid "date"
+msgstr "Data di pubblicazione"
+
+msgctxt "admin"
+msgid "tags"
+msgstr "Tag"
+
+msgctxt "admin"
+msgid "sef prefix"
+msgstr "blog"
+
+msgid "read more"
+msgstr "Leggi l'articolo"
+
+msgid "seo title"
+msgstr "Blog"

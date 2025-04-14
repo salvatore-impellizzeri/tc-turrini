@@ -1,0 +1,13 @@
+.post-gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: clamp(10px, 30vw * @px2vw, 30px);
+
+    @media screen and (max-width: @tablet-s) {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    @media screen and (max-width: @mobile-s) {
+        grid-template-columns: repeat(2,1fr);
+    }
+}

@@ -1,0 +1,29 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Layout blocks"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "dashboard"
+
+msgctxt "admin"
+msgid "title"
+msgstr ""
+
+msgctxt "admin"
+msgid "layout"
+msgstr ""
+
+msgctxt "admin"
+msgid "published"
+msgstr ""
+
+msgctxt "admin"
+msgid "plugin"
+msgstr ""
+
+msgid "buy now"
+msgstr "Buy"
+
+msgid "already available for you"
+msgstr "Already available for you in our archive."

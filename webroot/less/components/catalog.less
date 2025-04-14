@@ -1,0 +1,14 @@
+.catalog{
+    display: flex;
+    &__sidebar{
+        flex: 0 0 300px;
+        padding: 0 2.5vw;
+    }
+    &__main{
+        flex-grow: 1;
+        padding: 0 2.5vw;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2.5vw;
+    }
+}

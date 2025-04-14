@@ -1,0 +1,47 @@
+.attribute{
+    border: 1px solid @light-border;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    &__header{
+        padding: 8px 15px;
+        display: grid;
+        grid-template-columns: 30px 1fr auto;
+
+        gap: 10px;
+        align-items: center;
+        border-bottom: 1px solid @light-border;
+        background: @bg-color;
+    }
+
+    &__handle{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title{
+        font-weight: 500;
+        .font-16;
+    }
+
+    &__values{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px 15px;
+        padding: 10px 15px;
+        align-items: center;
+    }
+
+    &__add{
+        background: @black;
+        color: @white;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+}

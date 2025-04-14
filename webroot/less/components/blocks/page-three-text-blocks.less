@@ -1,0 +1,55 @@
+.page-three-text-blocks{
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px clamp(20px, 130vw * @px2vw, 130px);
+
+        margin-left: clamp(10px, 130vw * @px2vw, 130px);
+        margin-right: clamp(10px, 130vw * @px2vw, 130px);
+
+        @media screen and (min-width: @fullhd){
+            width: 1550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: @tablet-l){
+            .mobile-margin;
+            gap: 40px clamp(20px, 80vw * @px2vw, 80px);
+        }
+
+        @media screen and (max-width: @tablet-m){
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__icon{
+        svg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 100%;
+            width: auto;
+        }
+        margin-bottom: clamp(5px, 20vw * @px2vw, 20px);
+        height: clamp(40px, 85vw * @px2vw, 85px);
+    }
+
+    &__section{
+        text-align: center;
+
+        @media screen and (max-width: @tablet-m){
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    }
+
+    &__title{
+        .font-35;
+        margin-bottom: .6em;
+    }
+
+    &__cta{
+        margin-top: clamp(20px, 30vw * @px2vw, 30px);
+    }
+}

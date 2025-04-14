@@ -1,0 +1,23 @@
+.shop-pagination{
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid @border-color;
+    gap: 5px;
+
+    &__page{
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: @light-text-color;
+        background: @text-color;
+        cursor: pointer;
+        &[data-current]{
+            background: @main-color;
+        }
+    }
+}

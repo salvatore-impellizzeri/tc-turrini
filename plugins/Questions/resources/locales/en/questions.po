@@ -1,0 +1,16 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "FAQ"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "help_outline"
+
+
+msgctxt "admin"
+msgid "question"
+msgstr "Question"
+
+msgctxt "admin"
+msgid "answer"
+msgstr "Answer"

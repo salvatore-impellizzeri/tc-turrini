@@ -1,0 +1,80 @@
+.page-hero-split{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .9fr 1.1fr;
+    width: 100%;
+    height: ~"calc(100svh - 120px)";
+    padding: 0 clamp(10px, 40vw * @px2vw, 40px);
+
+    @media (orientation: portrait) {
+        grid-template-rows: .7fr 1.3fr;
+    }
+
+    @media screen and (max-width: @l) {
+        height: ~"calc(100svh - 100px)";
+    }
+
+    @media screen and (max-width: @tablet-s) {
+        height: ~"calc(100svh - 80px)";
+    }
+
+
+
+    .body--fixed-header &{
+        height: 100svh;
+    }
+
+    // &__bg{
+    //     overflow: hidden;
+    //     position: relative;
+    //     img, video{
+    //         object-fit: cover;
+    //         height: ~"calc(100svh - 120px)";
+    //         width: 100vw;
+    //         max-width: none; 
+    //     }
+    // }
+
+    &__top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 0;
+    }
+    
+    &__bottom{
+        position: relative;
+        img{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+
+
+    &__wrapper{
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        text-align: center;
+    }
+
+    &__smalltitle{
+        margin-bottom: 15px;
+        .title-extrasmall;
+    }
+
+    &__title{
+        font-size: clamp(30px, 50vw * @px2vw, 40px);
+    }
+
+    &__cta{
+        margin-top: 35px;
+    }
+
+
+}

@@ -1,0 +1,91 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Contatti"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "email"
+
+msgctxt "admin"
+msgid "admin subject"
+msgstr "Oggetto email amministratore"
+
+msgctxt "admin"
+msgid "mailto"
+msgstr "Indirizzo email destinatario"
+
+msgctxt "admin"
+msgid "manage inputs"
+msgstr "Gestisci campi"
+
+msgctxt "admin"
+msgid "required"
+msgstr "Obbligatorio"
+
+msgctxt "admin"
+msgid "show_in_mail"
+msgstr "Visualizza nella mail"
+
+msgctxt "admin"
+msgid "type"
+msgstr "Tipo"
+
+msgctxt "admin"
+msgid "label"
+msgstr "Label"
+
+msgctxt "admin"
+msgid "field"
+msgstr "Nome input"
+
+msgctxt "admin"
+msgid "send_reply"
+msgstr "Invia risposta automatica"
+
+msgctxt "admin"
+msgid "reply_subject"
+msgstr "Oggetto"
+
+msgctxt "admin"
+msgid "reply_text"
+msgstr "Testo"
+
+msgctxt "admin"
+msgid "multiple_values"
+msgstr "Valori scelta multipla (separali con un INVIO)"
+
+msgid "fullname"
+msgstr "Nome e cognome"
+
+msgid "company"
+msgstr "Azienda"
+
+msgid "email"
+msgstr "Mail"
+
+msgid "phone"
+msgstr "Telefono"
+
+msgid "message"
+msgstr "Messaggio"
+
+msgid "subject"
+msgstr "Oggetto"
+
+msgid "privacy policy"
+msgstr "trattamento dei miei dati personali"
+
+msgid "privacy disclaimer {0}"
+msgstr "Dichiaro di aver letto e di accettare il {0}"
+
+msgid "send"
+msgstr "Invia messaggio"
+
+msgid "message not sent error"
+msgstr "Verifica di aver compilato tutti i campi obbligatori"
+
+msgid "message sent"
+msgstr "Messaggio inviato con successo"
+
+msgid "privacy disclaimer error"
+msgstr "Accetta il trattamento dei dati"

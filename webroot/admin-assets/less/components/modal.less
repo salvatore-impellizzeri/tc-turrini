@@ -1,0 +1,98 @@
+.modal{
+    width: 500px;
+    min-height: 420px;
+    height: auto;
+    background-color: @white;
+    border-radius: 10px;
+    .box-shadow();
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -20%, 0);
+    z-index: 102;
+    display: flex;
+    flex-direction: column;
+    
+    &.closed {
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.2s ease-out;
+    }
+
+    &__header{
+        .font-16();
+        .bold();
+        color: @black;
+        padding: 10px;
+        border-bottom: 1px solid @light-border;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    &__close{
+        cursor: pointer;
+        display: flex;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    &__main {
+        height: 100%;
+        overflow-y: auto;
+        padding: 15px 20px;
+        flex-grow: 1;
+        position: relative;
+        &::after {
+            content: "sync";
+            font-family: "Material Symbols Rounded";
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            -webkit-transform: translate(-50%);
+            animation: spinner 0.8s linear infinite;
+            -webkit-animation: spinner 0.8s linear infinite;
+            visibility: hidden;
+            animation-play-state: paused;
+            -webkit-animation-play-state: paused;
+        }
+        &.loading::after {
+            visibility: visible;
+            animation-play-state: running;
+            -webkit-animation-play-state: running;
+        }
+    }
+
+    &__footer{
+        padding: 10px;
+        &--grid2{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .input{
+        margin-bottom: 17px;
+    }
+    
+    
+    &.open {
+        visibility: visible;
+        pointer-events: auto;
+        opacity: 1;
+        transform: translate3d(-50%, -50%, 0);
+        transition: transform 0.4s ease-out;
+    }
+}

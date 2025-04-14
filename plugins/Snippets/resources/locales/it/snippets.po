@@ -1,0 +1,15 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Snippet"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "edit_note"
+
+msgctxt "admin"
+msgid "layout"
+msgstr "View backend custom"
+
+msgctxt "admin"
+msgid "backend_description"
+msgstr "Descrizione"

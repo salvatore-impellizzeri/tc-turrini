@@ -1,0 +1,93 @@
+.tree-list{
+    list-style-type: none;
+    margin: 0;
+    background-color: @white;
+    border: 1px solid @light-border;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px;
+    .box-shadow;
+    .font-14();
+    li{
+        margin: 0;
+        cursor: grab;
+    }
+    li[draggable="true"]{
+        opacity: 1;
+        cursor: grabbing;
+    }
+
+    &__drag{
+        opacity: .5;
+    }
+    &__submenu{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        margin-left: 40px;
+        position: relative;
+        li:first-child{
+            &::before{
+                content: '';
+                position: absolute;
+                left: -20px;
+                top: -7px;
+                bottom: 30px;
+                background: @light;
+                width: 1px;
+            }
+            &::after{
+                content: '';
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: @light;
+                position: absolute;
+                left: -20px;
+                bottom: 30px;
+                transform: translate(-50%, 50%);
+            }
+        }
+
+    }
+    &__row{
+        padding: 0 20px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: @lighter;
+        border: 1px solid @light-border;
+        margin-bottom: 7px;
+        border-radius: 5px;
+        &--moved{
+            animation: positionChanged .6s linear 1;
+        }
+        &__title{
+            flex-grow: 1;
+            .semibold;
+        }
+    }
+
+    &__toggler{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        font-weight: bold;
+        &::after{
+            content: '+';
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            display: block;
+        }
+    }
+    &__ghost{
+        opacity: 0;
+    }
+}

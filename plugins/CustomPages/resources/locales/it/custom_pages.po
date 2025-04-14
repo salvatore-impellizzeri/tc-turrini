@@ -1,0 +1,31 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Pagine"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "dashboard"
+
+msgctxt "admin"
+msgid "compose page"
+msgstr "Componi la pagina"
+
+msgctxt "admin"
+msgid "layout"
+msgstr "Layout"
+
+msgctxt "admin"
+msgid "fixed_header"
+msgstr "Header fixed"
+
+msgctxt "admin"
+msgid "light_header"
+msgstr "Header chiaro"
+
+msgctxt "admin"
+msgid "light text"
+msgstr "Testo chiaro"
+
+msgctxt "admin"
+msgid "add overlay"
+msgstr "Aggiungi overlay"

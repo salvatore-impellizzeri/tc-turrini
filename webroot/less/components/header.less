@@ -1,0 +1,168 @@
+.header{
+    height: 120px; //se si modifica l'altezza dell'header controlla anche le altezze delle hero
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: @header-bg-color;
+    padding: 0 clamp(10px, 40vw * @px2vw, 40px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 14px;
+    z-index: 500;
+    transition: 300ms @easeOutQuad;
+
+    .body--fixed-header &{
+        position: fixed;
+        background: none;
+    }
+
+    .body--light-header:not(.body--scroll) &{
+        color: @light-text-color;
+    }
+
+    .body--scroll &{
+        background: @header-bg-color;
+        height: 100px;
+    }
+
+    @media screen and (max-width: @l) {
+        height: 100px;
+        .body--scroll &{
+            height: 80px;
+        }
+    }
+
+    @media screen and (max-width: @tablet-s) {
+        height: 80px;
+    }
+
+    @media screen and (max-width: @mobile-l) {
+        gap: 8px;
+    }
+
+
+    &__logo{
+        flex: 0 0 220px;
+        margin-right: auto;
+
+        @media screen and (max-width: @l) {
+            flex: 0 0 180px;
+        }
+
+        @media screen and (max-width: @tablet-s) {
+            flex: 0 1 160px;
+        }
+    }
+
+    &__search{
+        flex-grow: 1;
+    }
+
+    &__menu{
+        padding-right: clamp(10px, 35vw * @px2vw, 35px);
+
+        @media screen and (max-width: @tablet-l) {
+            display: none;            
+        }
+    }
+
+    &__hamburger{
+        margin-right: 20px;
+    }
+
+    &__hamburger-mobile{
+        display: none;
+        @media screen and (max-width: @tablet-l) {
+            display: block;
+        }
+    }
+
+    &__cta{
+        @media screen and (max-width: @tablet-s) {
+            display: none;
+        }
+    }
+
+    &__languages{
+        flex-shrink: 0;
+    }
+
+
+
+
+    .menu{
+        display: flex;
+        align-items: center;
+        gap: clamp(15px, 30vw * @px2vw, 30px);
+        
+        &__item{
+            position: relative;
+            &:hover{
+                .menu__submenu{
+                    visibility: visible;
+                    pointer-events: all;
+                    transform: scale3d(1,1,1) translateX(-50%);
+                    -webkit-transform: scale3d(1,1,1) translateX(-50%);
+                    opacity: 1;
+                }
+                > .menu__link--parent::after{
+                    transform: rotate3d(0,0,1,180deg);
+                    -webkit-transform: rotate3d(0,0,1,180deg);
+                }
+            }
+        }
+
+        &__link{
+            color: inherit;
+            height: 46px;
+            line-height: 46px;
+            white-space: nowrap;
+            display: block;
+
+            &--parent{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                &::after{
+                    content: '';
+                    width: 10px;
+                    height: 6px;
+                    background: url(../img/icons/dropdown.svg) no-repeat center;
+                    transition: 300ms @easeOutQuad;
+
+                    .body--light-header:not(.body--scroll) &{
+                        filter: invert(100%);
+                    }
+                }
+            }
+        }
+        &__submenu{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            padding: 10px 30px;
+            border: 1px solid @text-color;
+            background: @header-bg-color;
+            visibility: hidden;
+            pointer-events: none;
+            transform: scale3d(1,0,1) translateX(-50%);
+            -webkit-transform: scale3d(1,0,1) translateX(-50%);
+            transform-origin: 0 0;
+            -webkit-transform-origin: 0 0;
+            transition: 300ms @easeOutQuad;
+            opacity: 0;
+            will-change: transform, opacity;
+            .menu__link{
+                height: 40px;
+                line-height: 40px;
+                color: @text-color;
+            }
+        }
+    }
+}

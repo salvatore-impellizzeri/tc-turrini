@@ -1,0 +1,354 @@
+msgid "username"
+msgstr "Nome Utente"
+
+msgid "password"
+msgstr "Password"
+
+msgid "your password"
+msgstr "La tua password di accesso"
+
+msgid "new password"
+msgstr "Nuova password dell'utente"
+
+msgid "new personal password"
+msgstr "Nuova password"
+
+msgid "wrong user password"
+msgstr "La password inserita non è corretta"
+
+msgid "strong password"
+msgstr "La password deve essere lunga almeno 8 caratteri e contenere un numero"
+
+msgid "set new password"
+msgstr "Modifica password"
+
+msgid "email"
+msgstr "Email"
+
+msgid "active"
+msgstr "Attivo"
+
+msgid "login"
+msgstr "Entra"
+
+msgid "Invalid username or password"
+msgstr "Nome utente o password non validi"
+
+msgid "add action"
+msgstr "Aggiungi"
+
+msgid "add tag"
+msgstr "Gestisci tag"
+
+msgid "search"
+msgstr "Cerca"
+
+msgid "done"
+msgstr "Fine"
+
+msgid "save form"
+msgstr "Salva"
+
+msgid "Save success"
+msgstr "Salvato correttamente"
+
+msgid "Save error"
+msgstr "Errore nel salvataggio. Verifica i dati inseriti e riprova."
+
+msgid "Delete success"
+msgstr "Elemento eliminato!"
+
+msgid "Delete error"
+msgstr "Non è possibile eliminare questo elemento"
+
+msgid "block empty quote"
+msgstr "Seleziona un modello di pagina e crea qualcosa di fantastico!"
+
+msgid "choose one"
+msgstr "Scegli un'opzione"
+
+msgid "rows per page"
+msgstr "Nr. righe"
+
+msgid "title"
+msgstr "Titolo"
+
+msgid "preview"
+msgstr "Immagine di Anteprima"
+
+msgid "date"
+msgstr "Data"
+
+msgid "datetime"
+msgstr "Data e ora"
+
+msgid "time"
+msgstr "Ora"
+
+msgid "excerpt"
+msgstr "Riassunto"
+
+msgid "text"
+msgstr "Testo"
+
+msgid "created"
+msgstr "Creato"
+
+msgid "published"
+msgstr "Pubblicato"
+
+msgid "color"
+msgstr "Colore"
+
+msgid "color bg"
+msgstr "Sfondo articolo"
+
+msgid "color winery"
+msgstr "Colore Cantina"
+
+msgid "seotitle"
+msgstr "Titolo SEO"
+
+msgid "seodescription"
+msgstr "Descrizione SEO"
+
+msgid "seokeywords"
+msgstr "Keywords"
+
+msgid "edit"
+msgstr "Modifica"
+
+msgid "compose"
+msgstr "Componi pagina"
+
+msgid "editing in"
+msgstr "Stai modificando in"
+
+msgid "editing seo"
+msgstr "Modifiche SEO"
+
+msgid "editing social"
+msgstr "Modifiche per social"
+
+msgid "undo"
+msgstr "Annulla"
+
+msgid "delete"
+msgstr "Elimina"
+
+msgid "previous"
+msgstr "Precedenti"
+
+msgid "next"
+msgstr "Successivi"
+
+msgid "settings"
+msgstr "Impostazioni"
+
+msgid "website settings"
+msgstr "Impostazioni del sito"
+
+msgid "logout"
+msgstr "Esci"
+
+msgid "users"
+msgstr "Utenti"
+
+msgid "change password"
+msgstr "Cambia password"
+
+msgid "users group"
+msgstr "Gruppo utenti"
+
+msgid "user groups"
+msgstr "Gruppi utente"
+
+msgid "to website"
+msgstr "Vai al sito"
+
+msgid "available blocks"
+msgstr "Strumenti layout"
+
+msgid "drag blocks here"
+msgstr "Trascina i blocchi per iniziare a comporre la pagina"
+
+msgid "delete confirm"
+msgstr "Sei sicuro di voler eliminare questo elemento?"
+
+msgid "Delete success"
+msgstr "Eliminato!"
+
+msgid "Delete error"
+msgstr "Errore nell'eliminazione dell'elemento"
+
+msgid "go back"
+msgstr "Indietro"
+
+msgid "preview action"
+msgstr "Anteprima"
+
+msgid "empty table"
+msgstr "Nessun risultato trovato"
+
+msgid "settings menu"
+msgstr "Menu"
+
+msgid "settings backend menu"
+msgstr "Menu pannello"
+
+msgid "settings translations"
+msgstr "Traduzioni"
+
+msgid "settings content blocks"
+msgstr "Blocchi layout"
+
+msgid "settings users"
+msgstr "Utenti"
+
+msgid "settings groups"
+msgstr "Gruppi"
+
+msgid "_po global"
+msgstr "Globali"
+
+msgid "_po cookies"
+msgstr "Cookie"
+
+msgid "_po cake"
+msgstr "Core e validazione"
+
+msgid "manage translations"
+msgstr "Gestisci traduzioni"
+
+msgid "add"
+msgstr "Aggiungi"
+
+msgid "compose"
+msgstr "Componi la pagina"
+
+msgid "changePassword"
+msgstr "Modifica la password"
+
+msgid "multicheckbox no results found"
+msgstr "Nessun elemento trovato"
+
+msgid "invalid device"
+msgstr "Ti preghiamo di utilizzare un altro dispositivo."
+
+msgid "invalid device message"
+msgstr "Il nostro pannello di amministrazione utilizza tecnologie avanzate non supportate a questa risoluzione"
+
+msgid "invalid device hint"
+msgstr "Accedi da computer o da tablet orientato in orizzontale"
+
+msgid "quick edit"
+msgstr "Modifica rapida"
+
+msgid "menu functions"
+msgstr "Funzionalità"
+
+msgid "menu custom pages"
+msgstr "Pagine"
+
+msgid "menu block pages"
+msgstr "Pagine componibili"
+
+msgid "menu product categories"
+msgstr "Categorie prodotto"
+
+msgid "tabs general"
+msgstr "Modifica"
+
+msgid "tabs seo"
+msgstr "Seo"
+
+msgid "tabs social"
+msgstr "Social"
+
+msgid "tabs details"
+msgstr "Dettagli"
+
+msgid "tabs preview"
+msgstr "Anteprima"
+
+msgid "tabs orders"
+msgstr "Ordini"
+
+msgid "tabs subscriptions"
+msgstr "Abbonamenti"
+
+msgid "stay"
+msgstr "Rimani in pagina"
+
+msgid "save exit"
+msgstr "Salva ed esci"
+
+msgid "social preview"
+msgstr "Immagine di condivisione per social"
+
+msgid "This field cannot be left blank"
+msgstr "Questo è un campo obbligatorio"
+
+msgid "yes"
+msgstr "Sì"
+
+msgid "no"
+msgstr "No"
+
+msgid "Select"
+msgstr "Seleziona"
+
+msgid "view"
+msgstr "Visualizza dettagli"
+
+msgid "Not found"
+msgstr "Elemento non trovato"
+
+msgid "export action"
+msgstr "Esporta"
+
+msgid "export products action"
+msgstr "Esporta prodotti"
+
+msgid "all"
+msgstr "Tutti"
+
+msgid "all f"
+msgstr "Tutte"
+
+
+msgid "uploader upload"
+msgstr "Carica un'immagine"
+
+msgid "uploader upload drag"
+msgstr "Clicca per caricare l’immagine o trascinala nel box"
+
+msgid "uploader upload icon"
+msgstr "Carica un'icona"
+
+msgid "uploader upload icons"
+msgstr "Carica delle icone"
+
+msgid "uploader upload image"
+msgstr "Carica le immagini"
+
+msgid "uploader upload drag images"
+msgstr "Clicca per caricare le immagini o trascinale nel box"
+
+msgid "uploader upload file"
+msgstr "Carica un file"
+
+msgid "uploader upload drag file"
+msgstr "Clicca per caricare il file o trascinalo nel box"
+
+msgid "uploader upload files"
+msgstr "Carica dei file"
+
+msgid "uploader upload drag files"
+msgstr "Clicca per caricare i file o trascinali nel box"
+
+msgid "uploader upload error"
+msgstr "Si è verificato un errore durante il caricamento del file"
+
+msgid "uploader restriction error"
+msgstr "Non è possibile caricare il file"

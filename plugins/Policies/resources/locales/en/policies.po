@@ -1,0 +1,17 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Informative"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "policy"
+
+
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+msgid "manage cookies"
+msgstr "Manage Cookies"

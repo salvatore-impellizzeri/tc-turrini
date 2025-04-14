@@ -1,0 +1,217 @@
+// Stile generale di tutte le tipologie di upload file.
+// Uploader immagini, file, icone , galleria, set di file e set d'icone
+
+
+.uploader{
+    user-select: none;
+
+    img{
+        object-fit: cover;
+    }
+
+    label,
+    .uploader__dimensioni{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+    }
+
+    // Dimensioni consigliate per upload immagini. Dimensioni effettive di resizing al caricamento
+    &__dimensioni{
+        background: @black;
+        color: @lighter;
+        border-radius: 3px;
+        padding: 5px 10px;
+
+        span{
+            font-size: 15px;
+            margin-right: 5px;
+
+            &:nth-child(2):before{
+                content: '';
+                margin: 0 10px;
+
+            }
+        }
+    }
+
+    .upload{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border: 1px dashed @light;
+        border-radius: 5px;
+        padding: 10px;
+
+        &__area{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0; top: 0;
+
+            button{
+                opacity: 0;
+            }
+
+            &__desktop-preview,
+            &__mobile-preview,
+            &__file-preview{
+                display: none;
+            }
+
+            .uppy-DragDrop-container{
+                position: absolute;
+                z-index: 1;
+            }
+        }
+
+        &__icon-preview,
+        &__file-preview{
+            display: none;
+        }
+        &__text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: @gray;
+            text-align: center;
+            font-size: 12px;
+
+            span{
+                margin: 5px 0 10px;
+                font-size: 5vw;
+            }
+
+            @media screen and(max-width: @l){
+                padding: 50px 10px;
+            }
+        }
+
+        &__controls{
+            text-align: right;
+            display: none;
+            &__actions {
+                padding-top: 5px;
+                display: flex;
+                gap: 5px;
+                justify-content: center;
+                align-items: center;
+                span{
+                    margin-top: 0;
+                    font-size: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    background: @middle;
+                }
+            }
+        }
+
+    // Stili specifici per file upload
+
+        &__file-preview{
+            display: none;
+            text-align: center;
+            position: relative;
+
+            .file-placeholder{
+                font-size: 3vw;
+            }
+
+            .upload__controls{
+                text-align: center;
+            }
+
+            .upload__ext{
+                background: @primary;
+                width: max-content;
+                border-radius: 5px;
+                padding: 2px 5px;
+                color: white;
+                text-transform: uppercase;
+                font-size: 10px;
+                position: absolute;
+                right: -10px;
+            }
+        }
+
+
+    // Fine stili file upload
+
+    // When loaded
+        &.loaded{
+            border-style: solid;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: @lighter;
+
+            .upload__file-preview{
+                display: block;
+            }
+
+            .upload__icon-preview{
+                display: block;
+                width: 80px;
+
+                img{
+                    display: block;
+                    margin: 0 auto 20px;
+                }
+            }
+
+            .upload__area{
+                display: flex;
+                gap: 0 5px;
+                align-items: center;
+                width: max-content;
+                position: relative;
+
+                .uppy-DragDrop-container{
+                    pointer-events: none;
+                }
+            }
+
+            .upload__area__desktop-preview,
+            .upload__area__mobile-preview,
+            .upload__image-preview{
+                display: block;
+                position: relative;
+                overflow: hidden;
+                padding: 0;
+                border-radius: 5px;
+                img{
+                    width: 200px;
+                    height: 150px;
+                    border-radius: 5px;
+                }
+            }
+
+            .upload__area__mobile-preview img{ width: 100px; }
+
+            .upload__text{
+                display: none;
+
+                @media screen and(max-width: @l){
+                    padding: 30px 10px;
+                }
+            }
+
+            .upload__controls{
+                display: block;
+                &__filename{
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

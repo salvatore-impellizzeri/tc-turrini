@@ -1,0 +1,71 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Contatti"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "email"
+
+msgctxt "admin"
+msgid "fullname"
+msgstr "Fullname"
+
+msgctxt "admin"
+msgid "company"
+msgstr "Company"
+
+msgctxt "admin"
+msgid "phone"
+msgstr "Phone"
+
+msgctxt "admin"
+msgid "subject"
+msgstr "Subject"
+
+msgctxt "admin"
+msgid "message"
+msgstr "Message"
+
+msgctxt "admin"
+msgid "email"
+msgstr "Email"
+
+msgctxt "admin"
+msgid "privacy"
+msgstr "Privacy"
+
+msgid "fullname"
+msgstr "Full name"
+
+msgid "company"
+msgstr "Company"
+
+msgid "email"
+msgstr "Email"
+
+msgid "phone"
+msgstr "Phone"
+
+msgid "message"
+msgstr "Message"
+
+msgid "subject"
+msgstr "Subject"
+
+msgid "privacy policy"
+msgstr "privacy policy"
+
+msgid "privacy disclaimer {0}"
+msgstr "I confirm I have read and accepted the stated purposes and methods of {0}."
+
+msgid "send"
+msgstr "Send"
+
+msgid "message not sent error"
+msgstr "Verify you have completed all the required fields"
+
+msgid "message sent"
+msgstr "Your message has been successfully sent"
+
+msgid "privacy disclaimer error"
+msgstr "You must accept the privacy policy"

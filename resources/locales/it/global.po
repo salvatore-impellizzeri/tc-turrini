@@ -1,0 +1,46 @@
+msgid "newsletter email"
+msgstr "Indirizzo email"
+
+msgid "select"
+msgstr "Seleziona"
+
+msgid "search"
+msgstr "Cerca..."
+
+msgid "no results found"
+msgstr "Nessun risultato trovato"
+
+msgid "watch video"
+msgstr "Guarda tutto il video"
+
+msgid "follow"
+msgstr "Seguici"
+
+msgid "share"
+msgstr "Condividilo"
+
+msgid "filters"
+msgstr "Filtra"
+
+msgid "error-404"
+msgstr "“ Ops! Qualcosa è andato storto! ”"
+
+msgid "restart from here"
+msgstr "Torna alla homepage"
+
+msgid "read more"
+msgstr "Leggi tutto"
+
+msgid "user"
+msgstr "Utente"
+
+msgid "get in touch"
+msgstr "Contattaci"
+
+msgid "menu back"
+msgstr "Indietro"
+
+msgid "new select option"
+msgstr "+ Aggiungi un'opzione"
+
+

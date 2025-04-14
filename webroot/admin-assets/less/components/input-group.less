@@ -1,0 +1,99 @@
+.input-group{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12,1fr);
+    gap: 17px 20px;
+    margin-bottom: 25px;
+    padding: 25px;
+    padding-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    .box-shadow;
+
+
+    .input-group__info{
+        grid-column: auto;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 5px 10px;
+        background-color: @secondary;
+        color: @lighter;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+     // Utilities 
+    
+     // Descrivi il comportamento di un'area e comunica altre informazioni utili
+     .input-group__alert{
+        border-top: 1px solid @light;
+        padding: 20px 1vw;
+        margin: 20px 3vw;
+        text-align: center;
+        color: @ratgray;
+
+        a{
+            text-decoration: underline;
+            .medium;
+        }
+    }
+
+    // "Sottogruppo" in cui si possono incolonnare più input per rappresentare in facilità un layout da Frontend
+
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__actions{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &__subsection{
+        &--overflow{
+            overflow: auto;
+        }
+    }
+
+
+    &:last-of-type:not(.input-group--forcemargin){
+        margin-bottom: 0;
+    }
+
+    &>*{
+        grid-column: span 12;
+    }
+}
+
+// Spanning colonne
+
+.spanning (@index) when (@index > 0) {
+    .span-@{index} {
+        grid-column: span @index !important;
+    }
+    .spanning(@index - 1);
+}
+
+.spanning(0) {};
+    .spanning(12);
+
+    // Utility :: Posizione colonne
+
+    .colX(@index) when (@index > 0) {
+        .col-@{index} {
+            grid-column: @index !important;
+        }
+        .colX(@index - 1);
+    }
+
+    .colX(0) {};
+        .colX(6);

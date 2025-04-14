@@ -1,0 +1,12 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Faqs"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "quiz"
+
+
+msgctxt "admin"
+msgid "sef prefix"
+msgstr "faqs"

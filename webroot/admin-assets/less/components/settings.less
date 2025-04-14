@@ -1,0 +1,28 @@
+.settings{
+    &__menu{
+      display: flex;
+      align-items: flex-end;
+      gap: 0 4px;
+
+      &__link{
+          height: 40px;
+          line-height: 40px;
+          padding: 0 20px;
+          .font-14;
+          position: relative;
+          transition: 300ms;
+          box-shadow: none;
+          &:hover{
+              background: lighten(@gray, 10%);
+          }
+      }
+
+    }
+
+    &__wrapper{
+        padding: 20px 0px 20px;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+    }
+
+}

@@ -1,0 +1,274 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "Clienti"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "group"
+
+msgctxt "admin"
+msgid "enabled"
+msgstr "Attivo"
+
+msgctxt "admin"
+msgid "fullname"
+msgstr "Nome e cognome"
+
+msgctxt "admin"
+msgid "email"
+msgstr "Mail"
+
+msgctxt "admin"
+msgid "client infos"
+msgstr "Informazioni cliente"
+
+msgctxt "admin"
+msgid "login type"
+msgstr "Metodo login"
+
+msgctxt "admin"
+msgid "guest"
+msgstr "Ospite"
+
+msgctxt "admin"
+msgid "is company"
+msgstr "Azienda"
+
+msgctxt "admin"
+msgid "newsletter"
+msgstr "Newsletter"
+
+msgctxt "admin"
+msgid "locale"
+msgstr "Lingua"
+
+/*** Frontend ***/
+
+msgid "login title"
+msgstr "Accedi al tuo account"
+
+msgid "login"
+msgstr "Accedi"
+
+msgid "signup title"
+msgstr "Sei un nuovo cliente?"
+
+msgid "signup"
+msgstr "Registrati"
+
+msgid "proceed"
+msgstr "Procedi"
+
+msgid "private"
+msgstr "Privato"
+
+msgid "company"
+msgstr "Azienda"
+
+msgid "fullname"
+msgstr "Nome e cognome"
+
+msgid "email"
+msgstr "Mail"
+
+msgid "password"
+msgstr "Password"
+
+msgid "password"
+msgstr "Password"
+
+msgid "repeat password"
+msgstr "Ripeti la password"
+
+msgid "password does not match"
+msgstr "Le due password non coincidono"
+
+msgid "current password"
+msgstr "Password attuale"
+
+msgid "new password"
+msgstr "Nuova password"
+
+msgid "password hint"
+msgstr "La password deve essere lunga almeno 8 caratteri e contenere almeno un numero"
+
+msgid "privacy policy"
+msgstr "trattamento dei dati personali"
+
+msgid "privacy disclaimer {0}"
+msgstr "Dichiaro di aver letto e di accettare le condizioni sul {0}"
+
+
+msgid "subscribe newsletter"
+msgstr "Desidero ricevere la newsletter"
+
+msgid "sign up with"
+msgstr "Registrati con"
+
+msgid "login with"
+msgstr "Accedi con"
+
+msgid "signup error"
+msgstr "Impossibile completare la registrazione. Verifica di aver compilato correttamente tutti i campi obbligatori"
+
+msgid "signup success"
+msgstr "Benvenuto!"
+
+msgid "or sign up with email"
+msgstr "Oppure registrati con la tua mail"
+
+msgid "lost password"
+msgstr "Hai dimenticato la password?"
+
+msgid "lost password message before"
+msgstr "Inserisci la tua mail di login."
+
+msgid "lost password message after"
+msgstr "Grazie: se troveremo un utente associato a questa mail, ti invieremo immediatamente un link di accesso temporaneo. Ricordati di impostare successivamente una nuova password."
+
+msgid "account"
+msgstr "Il mio account"
+
+msgid "orders"
+msgstr "I miei ordini"
+
+msgid "addresses"
+msgstr "I miei indirizzi"
+
+msgid "subscriptions"
+msgstr "I miei abbonamenti"
+
+msgid "wines"
+msgstr "I miei vini"
+
+msgid "personal data"
+msgstr "I miei dati"
+
+msgid "help"
+msgstr "Assistenza"
+
+msgid "logout"
+msgstr "Disconnetti"
+
+msgid "created"
+msgstr "Data di registrazione"
+
+msgid "edit data"
+msgstr "Modifica dati"
+
+msgid "edit email"
+msgstr "Modifica mail"
+
+msgid "edit password"
+msgstr "Modifica password"
+
+msgid "registered with"
+msgstr "Ti sei registrato con"
+
+msgid "delete account"
+msgstr "Elimina account"
+
+msgid "email already taken"
+msgstr "Questa mail è già stata usata"
+
+msgid "update success"
+msgstr "I dati sono stati aggiornati"
+
+msgid "update error"
+msgstr "Si è verificato un errore durante il salvataggio"
+
+msgid "save"
+msgstr "Salva"
+
+msgid "firstname"
+msgstr "Nome"
+
+msgid "lastname"
+msgstr "Cognome"
+
+msgid "country"
+msgstr "Stato"
+
+msgid "district_id"
+msgstr "Provincia"
+
+msgid "district"
+msgstr "Provincia"
+
+msgid "city"
+msgstr "Località"
+
+msgid "cap"
+msgstr "CAP"
+
+msgid "street"
+msgstr "Via"
+
+msgid "house_number"
+msgstr "N. Civico"
+
+msgid "address"
+msgstr "Indirizzo"
+
+msgid "co"
+msgstr "Presso"
+
+msgid "birth_date"
+msgstr "Data di nascita"
+
+msgid "phone"
+msgstr "Cellulare"
+
+msgid "notes"
+msgstr "Note per il corriere"
+
+msgid "ssn"
+msgstr "Codice fiscale"
+
+msgid "vat_code"
+msgstr "Partita IVA"
+
+msgid "pec"
+msgstr "PEC"
+
+msgid "sdi"
+msgstr "Codice SDI"
+
+msgid "you are not of legal age for drinking"
+msgstr "Devi essere maggiorenne per ordinare su questo sito"
+
+msgid "this email is already in use"
+msgstr "Esiste già un account associato a questa mail"
+
+msgid "code error"
+msgstr "C'è stato un problema nell'attivazione di questo codice"
+
+msgid "too many attempts. you can try again at {0}"
+msgstr "Hai effettuato troppi tentativi errati. Puoi ritentare tra {0} minuti"
+
+msgid "Invalid username or password"
+msgstr "Username o password errati"
+
+msgid "insert a new card"
+msgstr "Inserisci un nuovo metodo di pagamento in sostituzione dell'attuale"
+
+msgid "update payment method"
+msgstr "Aggiorna metodo di pagamento"
+
+msgid "want to sign up or login"
+msgstr "Hai un account o vuoi crearne uno?"
+
+msgid "confirm delete"
+msgstr "Sei sicuro di voler cancellare il tuo account?"
+
+msgid "or"
+msgstr "o"
+
+msgid "delete success"
+msgstr "Il tuo account è stato eliminato."
+
+msgid "you are not authorized to access this page"
+msgstr "Ci dispiace, solo gli utenti registrati possono accedere a questo contenuto."
+
+msgid "thank you"
+msgstr "Grazie!"

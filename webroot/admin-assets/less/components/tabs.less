@@ -1,0 +1,88 @@
+.tabs {
+    display: grid;
+    grid-template-columns: 12vw 1fr;
+    gap: 1vw;
+    
+    &__header {
+        padding-right: 1vw;
+        border-right: 1px solid @light;
+    }
+    &__toggler {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        height: 50px;
+        border-bottom: 1px solid @light;
+        text-transform: uppercase;
+        .font-14();
+        padding-right: 25px;
+        position: relative;
+        &:last-of-type {
+            border: none;
+        }
+        &::after {
+            content: "chevron_right";
+            font-weight: normal;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            font-family: "Material Symbols Rounded";
+            font-weight: normal;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            text-transform: none;
+            font-size: 24px;
+            width: 25px;
+            text-align: center;
+            opacity: 0;
+            transition: 300ms;
+        }
+        &.active {
+            font-weight: 600;
+            &::after {
+                opacity: 1;
+            }
+        }
+    }
+    &__tab {
+        display: none;
+        &.active {
+            display: block;
+        }
+    }
+    
+    @media screen and(max-width: @tablet-xxl) {
+        grid-template-columns: 1fr;
+        
+        &__header {
+            display: flex;
+            border-bottom: 1px solid @light;
+            border-right: none;
+            margin-top: 20px;
+        }
+        
+        &__toggler {
+            border-bottom: none;
+            border-radius: 5px 5px 0 0;
+            padding: 0 25px;
+            height: 30px;
+            gap: 5px;
+
+            &__icon .material-symbols-rounded{
+                font-size: 18px;
+            }
+            
+            &:last-child {
+                border-right: none;
+            }
+            
+            &.active {
+                background-color: @light;
+                
+                &::after {
+                    content: none;
+                }
+            }
+        }
+    }
+}

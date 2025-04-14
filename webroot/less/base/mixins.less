@@ -1,0 +1,9 @@
+.em(@sizeValue, @lineHeight) {
+  @value: round(@lineHeight / @sizeValue, 2);
+  line-height: ~"@{value}em";
+}
+
+.letterSpacing(@spacing) {
+  @value: round(@spacing / 1000, 2);
+  letter-spacing: ~"@{value}em";
+}

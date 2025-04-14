@@ -1,0 +1,66 @@
+.account{
+    display: flex;
+
+    &__sidebar{
+        flex: 0 0 20%;
+
+    }
+
+    &__menu{
+        li{
+            margin-bottom: 10px ;
+        }
+        &__link{
+            color: @text-color;
+            &--active{
+                color: @main-color;
+            }
+
+        }
+
+    }
+
+    &__main{
+        flex-grow: 1;
+
+    }
+
+    &__section{
+        margin-bottom: 40px;
+        &:last-of-type{
+            margin: 0;
+        }
+    }
+
+
+    &__container, &__form{
+        padding: 25px;
+        border: 1px solid @text-color;
+
+        &:first-of-type{
+            margin-top: 0;
+        }
+    }
+
+    &__header{
+        margin-bottom: 40px;
+
+    }
+
+    &__actions{
+        padding: 15px 25px 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2.5vw;
+
+        &__infos{
+            flex-grow: 1;
+            font-size: 12px;
+
+        }
+    }
+
+
+
+}

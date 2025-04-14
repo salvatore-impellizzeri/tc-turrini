@@ -1,0 +1,7 @@
+msgctxt "admin"
+msgid "plugin name"
+msgstr "SEF"
+
+msgctxt "admin"
+msgid "plugin icon"
+msgstr "gpp_good"
