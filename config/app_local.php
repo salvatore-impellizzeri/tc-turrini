@@ -28,9 +28,9 @@ return [
     'Datasources' => [
         'default' => [
             'host' => 'dev.webmotion.it',
-            'username' => '',
-            'password' => '',
-            'database' => '',
+            'username' => 'tcturrini_wm',
+            'password' => '5v7w1Fu&26lpP0!l50',
+            'database' => 'tcturrini_wm',
             'url' => env('DATABASE_URL', null),
             'log' => false, // da abilitare per loggare le query nel queriesLog
             'quoteIdentifiers' => false, // serve a quotare parole riservate di mySQL usate come campi del database. Evitare di usarle e non attivarlo se possibile perché riduce performance

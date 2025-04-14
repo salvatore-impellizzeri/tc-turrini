@@ -18370,3 +18370,151 @@ Client IP: 127.0.0.1
 2025-03-05 11:50:21 warning: DebugKit is disabling itself as your host `dev.crispy.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2025-03-05 11:50:21 warning: DebugKit is disabling itself as your host `dev.crispy.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2025-03-05 11:50:21 warning: DebugKit is disabling itself as your host `dev.crispy.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-14 17:39:00 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-14 17:39:00 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user ''@'185.194.6.144' (using password: NO) in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'\'@\'185.194.6.144\' (using password: NO)',
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:151
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:179
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:543
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/CommonQueryTrait.php:48
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php:202
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/QueryFactory.php:34
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:1755
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:1294
+- /Applications/MAMP/htdocs/tc-turrini/config/routes.php:62
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:216
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:71
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:89
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'185.194.6.144' (using password: NO) in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:151
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:179
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:543
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/CommonQueryTrait.php:48
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php:202
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/QueryFactory.php:34
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:1755
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:1294
+- /Applications/MAMP/htdocs/tc-turrini/config/routes.php:62
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:216
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:71
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:89
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /
+Referer URL: http://dev.tcturrini.it/
+Client IP: 127.0.0.1
+2025-04-14 17:47:22 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-14 17:47:22 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user ''@'185.194.6.144' (using password: NO) in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'\'@\'185.194.6.144\' (using password: NO)',
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:151
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:179
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:543
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/CommonQueryTrait.php:48
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php:202
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/QueryFactory.php:34
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:1755
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:1294
+- /Applications/MAMP/htdocs/tc-turrini/config/routes.php:62
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:216
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:71
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:89
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'185.194.6.144' (using password: NO) in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:151
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:179
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:543
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/CommonQueryTrait.php:48
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php:202
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Query/QueryFactory.php:34
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:1755
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/ORM/Table.php:1294
+- /Applications/MAMP/htdocs/tc-turrini/config/routes.php:62
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:216
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:71
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:89
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2025-04-14 17:53:05 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-14 17:53:06 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-14 17:53:06 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
