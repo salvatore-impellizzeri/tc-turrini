@@ -99,6 +99,8 @@
     // AZIENDA
 
     .azienda{
+        padding-bottom: clamp(50px, 140vw * @px2vw, 140px);
+
         &__content{
             position: relative;
             display: flex;
@@ -134,5 +136,35 @@
                 height: 100%;
             }
         }
+    }
+
+    // FILOSOFIA
+
+    &__filosofia{
+        background-image: url('../../img/img3.jpg');
+        background-size: cover;
+        padding-top: clamp(60px, 192vw * @px2vw, 192px);
+        padding-left: clamp(30px, 120vw * @px2vw, 120px);
+        height: clamp(400px, 800vw * @px2vw, 800px);
+
+        &__content{
+            .font-32;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3em;
+            justify-items: start;
+        }
+
+        &__text{
+            padding-left: clamp(10px, 24vw * @px2vw, 24px);
+            border-left: 1px solid @border-color-light;
+            .font-32;
+            padding: 0.2em 0.8em;
+
+            p{
+                width: clamp(150px, 686vw * @px2vw, 686px);
+            }
+        }
+
     }
 }

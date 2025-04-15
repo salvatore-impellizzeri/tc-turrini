@@ -69,7 +69,7 @@
                 <div class="font-14">
                     La nostra azienda
                 </div>
-                <hr>
+                <hr class="hr hr--blue">
                 <p class="font-28">
                     La T.C. Turrini Claudio eccelle per la qualità dei materiali, la cura nella progettazione e la produzione interna completa, diventando un punto di riferimento con standard ineguagliati nel mercato italiano e internazionale.
                 </p>
@@ -84,6 +84,24 @@
             <div class="azienda__img">
                 <img src="img/img2.jpg" alt="Immagine Azienda">
             </div>
+        </div>
+    </div>
+
+    <!-- FILOSOFIA AZIENDALE -->
+    <div class="container-fluid home__filosofia">
+        <div class="home__filosofia__content">
+            <div class="home__filosofia__text">
+                <p class="font-32 fw-medium">
+                Un’impegno per l’ambiente: l’azienda si impegna nella progettazione di soluzioni sostenibili, riducendo l’impatto ambientale 
+                e promuovendo l’efficienza energetica.
+                </p>
+            </div>
+            <?= $this->element('cta', [
+                'label' => "La nostra filosofia aziendale",
+                'extraClass' => 'button--secondary',
+                'icon' => 'icons/button.svg',
+                'url' => '#'
+            ]); ?>
         </div>
     </div>
 </div>

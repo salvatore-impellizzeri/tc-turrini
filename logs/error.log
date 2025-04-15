@@ -19538,3 +19538,200 @@ Client IP: 127.0.0.1
 2025-04-15 16:26:08 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2025-04-15 16:26:09 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2025-04-15 16:26:09 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:27:20 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:27:21 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:27:21 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:31:52 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:31:53 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:31:53 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:32:59 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:33:00 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:33:00 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:33:01 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:33:01 error: [Cake\Http\Exception\MissingControllerException] Controller class `Cache_assets` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Cache_assets',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /cache_assets/img/img3.jpg
+Referer URL: http://dev.tcturrini.it/cache_assets/main.css
+Client IP: 127.0.0.1
+2025-04-15 16:33:31 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:33:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:33:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:33:33 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:33:33 error: [Cake\Http\Exception\MissingControllerException] Controller class `Cache_assets` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Cache_assets',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /cache_assets/img/img3.jpg
+Referer URL: http://dev.tcturrini.it/cache_assets/main.css
+Client IP: 127.0.0.1
+2025-04-15 16:34:28 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:34:30 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:34:30 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:34:31 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:34:31 error: [Cake\Http\Exception\MissingControllerException] Controller class `Cache_assets` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Cache_assets',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /cache_assets/img/img3.jpg
+Referer URL: http://dev.tcturrini.it/cache_assets/main.css
+Client IP: 127.0.0.1
+2025-04-15 16:35:23 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:35:24 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:35:24 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:47:29 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:55:55 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:55:56 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:55:56 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:57:04 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:57:05 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:57:05 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:59:06 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:59:08 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 16:59:08 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:00:33 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:00:34 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:00:34 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:01:09 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:01:11 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:01:11 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:01:44 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:01:45 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:01:45 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:02:23 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:02:24 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:02:24 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:00 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:01 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:01 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:38 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:39 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:39 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:52 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:53 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:04:53 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:04 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:05 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:05 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:20 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:21 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:21 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:25 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:26 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:26 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:41 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:42 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:05:42 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:07:54 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:07:57 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:07:57 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:12 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:13 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:13 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:40 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:41 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:41 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:54 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:55 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:09:55 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:10:57 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:10:58 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:10:58 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:12:03 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:12:04 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:12:04 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:12:42 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:12:43 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:12:44 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:12:44 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:13:09 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:13:11 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:13:11 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:13:17 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:13:18 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-15 17:13:18 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.

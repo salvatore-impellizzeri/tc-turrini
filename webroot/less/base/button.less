@@ -10,12 +10,16 @@
 
     &--primary{
         background-color: @cta-bg;
-        color: @cta-color;  
     }
 
     &--secondary{
         background-color: @cta-bg-secondary;
-        color: @cta-color-secondary;
+
+        svg{
+            path{
+                stroke: @cta-color-secondary;
+            }
+        }
     }
 }
 
