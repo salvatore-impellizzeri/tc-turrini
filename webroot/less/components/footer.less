@@ -2,10 +2,9 @@
     display: flex;
     height: 80px;
     align-items: center;
-    padding: 0 clamp(10px, 75vw * @px2vw, 75px);
+    padding: clamp(40px, 120vw * @px2vw, 120px) 0 clamp(10px, 33vw * @px2vw, 33px);
     font-size: 12px;
-    background: @footer-bg;
-    color: @footer-color;
+    color: @text-color;
     gap: clamp(10px, 90vw * @px2vw, 90px);
     margin-top: 80px;
 
@@ -20,6 +19,16 @@
 
     a{
         color: inherit;
+    }
+
+    &__more-info{
+        margin-bottom: 0.8em;
+    }
+
+    &__contact{
+        display: flex;
+        gap: clamp(9px, 22vw * @px2vw, 22px);
+        align-items: center;
     }
 
     &__social{

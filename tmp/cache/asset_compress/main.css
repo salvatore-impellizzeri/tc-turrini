@@ -2775,10 +2775,9 @@ button.swiper-pagination-bullet {
   display: flex;
   height: 80px;
   align-items: center;
-  padding: 0 clamp(10px,3.906vw,75px);
+  padding: clamp(40px,6.2496vw,120px) 0 clamp(10px,1.71864vw,33px);
   font-size: 12px;
-  background: #ebebeb;
-  color: #000;
+  color: #ffffff;
   gap: clamp(10px,4.6872vw,90px);
   margin-top: 80px;
 }
@@ -2793,6 +2792,14 @@ button.swiper-pagination-bullet {
 }
 .footer a {
   color: inherit;
+}
+.footer__more-info {
+  margin-bottom: 0.8em;
+}
+.footer__contact {
+  display: flex;
+  gap: clamp(9px,1.14576vw,22px);
+  align-items: center;
 }
 .footer__social {
   margin-left: auto;
@@ -4729,7 +4736,6 @@ button.swiper-pagination-bullet {
 .container-fluid {
   width: 100%;
   margin: auto;
-  max-width: 1920px;
 }
 .container-l {
   width: clamp(300px,87.4944vw,1680px);
