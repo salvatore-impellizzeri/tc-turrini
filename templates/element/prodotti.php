@@ -6,8 +6,8 @@
         ]); ?>
         <hr class="hr hr--blue">
         <?= $this->element('prodotto', [
-            'title' => 'Aspirazione polveri',
-            'text' => 'Sistemi per industrie e ambienti produttivi',
+            'title' => 'Impianti depurazione acque',
+            'text' => 'Soluzioni innovative per il trattamento delle acque reflue',
         ]); ?>
     </div>
 </div>
