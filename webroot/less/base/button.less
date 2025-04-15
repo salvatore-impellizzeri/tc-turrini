@@ -1,9 +1,21 @@
 .button{
     display: inline-block;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 3em;
-    background: @main-color;
-    color: @light-text-color;
-    font-size: 1rem;
+    height: clamp(32px, 32vw * @px2vw, 32px);
+    width: clamp(32px, 32vw * @px2vw, 32px);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    &--primary{
+        background-color: @cta-bg;
+        color: @cta-color;  
+    }
+
+    &--secondary{
+        background-color: @cta-bg-secondary;
+        color: @cta-color-secondary;
+    }
 }
+

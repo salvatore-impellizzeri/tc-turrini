@@ -2,35 +2,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 46px;
-    padding: 0 20px;
-    border: 1px solid @cta-border;
-    text-transform: uppercase;
-    color: @cta-color;
-    background: @cta-bg;
-    gap: 10px;
+    gap: 1em;
     .font-14;
+    color: @text-color;
     cursor: pointer;
-
-    @media screen and (max-width: @mobile-l) {
-        height: 40px;
-    }
-
-
-    svg{
-        path{
-            fill: @cta-color;
-        }
-    }
-
-    &__icon{
-        transition: 300ms @easeOutQuad;
-        flex-shrink: 0;
-    }
-    &:hover{
-        .cta__icon{
-            transform: translate3d(5px,0,0);
-            -webkit-transform: translate3d(5px,0,0);
-        }
-    }
 }

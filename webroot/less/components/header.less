@@ -1,10 +1,9 @@
 .header{
-    height: 120px; //se si modifica l'altezza dell'header controlla anche le altezze delle hero
-    position: sticky;
+    height: 120px;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background: @header-bg-color;
     padding: 0 clamp(10px, 40vw * @px2vw, 40px);
     display: flex;
     align-items: center;
@@ -23,10 +22,10 @@
         color: @light-text-color;
     }
 
-    .body--scroll &{
-        background: @header-bg-color;
-        height: 100px;
-    }
+    // .body--scroll &{
+    //     background: @header-bg-color;
+    //     height: 100px;
+    // }
 
     @media screen and (max-width: @l) {
         height: 100px;

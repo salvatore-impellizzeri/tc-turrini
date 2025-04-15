@@ -1,0 +1,77 @@
+.home{
+
+    //VIDEO
+
+    &__video{
+        overflow: hidden;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: clamp(50px, 136vw * @px2vw, 136px);
+
+        video{
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(40%) grayscale(100%);
+        }
+
+        &__content{
+            z-index: 1;
+            position: relative;           
+        }
+
+        &__title{
+            padding-bottom: clamp(12px, 32vw * @px2vw, 32px);
+            border-bottom: 1px solid @border-color-light;
+            .font-107;
+            margin-bottom: 0.5em;
+        }
+        
+        &__text{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.2em;
+            justify-self: flex-end;
+            margin-right: clamp(50px, 142vw * @px2vw, 142px);
+            width: clamp(100px, 544vw * @px2vw, 544px);
+        }
+
+        &__buttons{
+            display: flex;
+            gap: 2em;
+        }
+    }
+
+    //SETTORI DI IMPIEGO
+
+    &__settori{
+        padding-top: 1.3rem;
+
+        &__title{
+            margin-bottom: 2.7em;
+        }
+
+        &__content{
+            display: flex;
+            justify-content: space-between;
+
+            ul{
+                list-style: none;
+                border-left: 1px solid @border-color;
+                margin-left: 0;
+                padding-left: clamp(15px, 52vw * @px2vw, 52px);
+    
+                li{
+                    margin-bottom: 0.1em;
+                }
+            }
+        }
+
+    }
+}
