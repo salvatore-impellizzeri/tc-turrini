@@ -72,7 +72,36 @@ li{
     margin-bottom: 1em;
 }
 
+// WEIGHT
+
+.fw-medium{
+    font-weight: 500;
+}
+
+// COLOR
+
+.blue{
+    color: @text-color-secondary;
+}
+
 // FONT
+
+.font-168{
+    font-size: clamp(60px, 168vw * @px2vw, 168px);
+    line-height: 120%;
+}
+
+.font-107{
+    font-size: clamp(40px, 107vw * @px2vw, 107px);
+    letter-spacing: -2%;
+    line-height: 100%;
+}
+
+.font-86{
+    font-size: clamp(40px, 86vw * @px2vw, 86px);
+    letter-spacing: -2%;
+    line-height: 120%;
+}
 
 .font-60{
     font-size: clamp(30px, 65vw * @px2vw, 60px);;
@@ -86,6 +115,11 @@ li{
     }
 }
 
+.font-44{
+    font-size: clamp(28px, 44vw * @px2vw, 44px);
+    line-height: 120%;
+    letter-spacing: -2%;
+}
 
 .font-37{
     font-size: clamp(27px, 40vw * @px2vw, 37px);
@@ -100,23 +134,30 @@ li{
 }
 
 .font-35{
-    font-size: clamp(24px, 40vw * @px2vw, 35px);
-    line-height: normal;
-    * {
-        line-height: inherit;
-    }
+    font-size: clamp(24px, 35vw * @px2vw, 35px);
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+
+.font-28{
+    font-size: clamp(20px, 28vw * @px2vw, 28px);;
+    line-height: 120%;
 }
 
 .font-23{
-    font-size: clamp(18px, 30vw * @px2vw, 23px);;
-    line-height: normal;
-    *{
-        line-height: inherit;
-    }
+    font-size: clamp(18px, 23vw * @px2vw, 23px);;
+    line-height: 120%;
+}
+
+.font-18{
+    font-size: clamp(14px, 18vw * @px2vw, 18px);;
+    line-height: 120%;
+    letter-spacing: -2%;
 }
 
 .font-14{
-    font-size: 14px;
+    font-size: clamp(12px, 14vw * @px2vw, 14px);;
+    line-height: 120%;
 }
 
 .font-12{
@@ -125,8 +166,11 @@ li{
 
 // titolo pronti
 .title-primary{
-    .font-37;
-    margin-bottom: .6em;
+    .font-107;
+}
+
+.title-secondary{
+    .font-86;
 }
 
 .title-extrasmall{

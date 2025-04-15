@@ -1,0 +1,16 @@
+.container-l{
+    width: clamp(300px, 1680vw * @px2vw, 1680px);
+}
+
+.container-m{
+    width: clamp(300px, 1396vw * @px2vw, 1396px);
+}
+
+.container-l-pr{
+    width: clamp(300px, 1680vw * @px2vw, 1680px);
+    padding-right: clamp(0px, 284vw * @px2vw, 284px);
+
+    @media screen and (max-width: @tablet-s) {
+        padding-right: 0;
+    }
+}
