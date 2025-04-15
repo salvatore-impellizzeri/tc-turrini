@@ -36,19 +36,29 @@
     </div>
 
     <!-- SETTORI DI IMPIEGO -->
-    <div class="home__settori bg-light">
-        <div class="container-l m-auto">
-            <div class="home__settori__title font-23 blue">
-                Settori d'impiego
-            </div>
+    <div class="bg-light home__settori">
+        <div class="container-l m-auto home__settori__container">
             <div class="home__settori__content">
-                <ul class="font-86 blue">
-                    <li>Cemento</li>
-                    <li>Marmi, graniti e pietre</li>
-                    <li>Vetro e derivati</li>
-                    <li>Ceramica</li>
-                </ul>
+                <div class="home__settori__title font-23 blue">
+                    Settori d'impiego
+                </div>
+                <div>
+                    <ul class="font-86 blue">
+                        <li>Cemento</li>
+                        <li>Marmi, graniti e pietre</li>
+                        <li>Vetro e derivati</li>
+                        <li>Ceramica</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="home__settori__img">
+                <img src="img/img1.jpg" alt="Immagine">
             </div>
         </div>
+    </div>
+
+    <!-- PRODOTTI -->
+    <div class="bg-light home__prodotti">
+        <?= $this->element('prodotti'); ?>
     </div>
 </div>

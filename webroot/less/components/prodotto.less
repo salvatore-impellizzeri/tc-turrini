@@ -1,0 +1,41 @@
+.prodotto{
+    display: flex;
+    align-items: center;
+
+    &__img{
+        width: clamp(90px, 238vw * @px2vw, 238px);
+        height: clamp(80px, 204vw * @px2vw, 204px);
+        position: relative;
+
+        &::after{
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: @bg-color;
+            mix-blend-mode: screen;
+        }
+
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    hr{
+        margin: clamp(20px, 76vw * @px2vw, 76px) 0;
+    }
+
+    &__text{
+        h2{
+            margin-bottom: 0.1em;
+        }
+
+        p{
+            margin-bottom: 1.4em;
+        }
+    }
+}

@@ -51,25 +51,47 @@
     //SETTORI DI IMPIEGO
 
     &__settori{
-        padding-top: 1.3rem;
+        padding: 1.4em 0;
+        .font-86;
+        border-bottom: 1px solid @border-color;
+
+        &__container{
+            display: flex;
+            justify-content: space-between;
+        }
 
         &__title{
             margin-bottom: 2.7em;
         }
 
         &__content{
-            display: flex;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
 
             ul{
                 list-style: none;
                 border-left: 1px solid @border-color;
-                margin-left: 0;
+                margin: 0;
                 padding-left: clamp(15px, 52vw * @px2vw, 52px);
     
                 li{
                     margin-bottom: 0.1em;
                 }
+            }
+        }
+
+        &__img{
+            width: clamp(100px, 402vw * @px2vw, 402px);
+            height: clamp(90px, 352vw * @px2vw, 352px);
+            display: flex;
+            align-self: end;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
             }
         }
 

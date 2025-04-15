@@ -316,6 +316,16 @@ video {
   width: 100%;
   display: block;
 }
+.hr {
+  width: 100%;
+  height: 1px;
+}
+.hr--white {
+  border: 1px solid #FFF;
+}
+.hr--blue {
+  border: 1px solid #B2CFE9;
+}
 .success-color {
   color: #52AF8D !important;
 }
@@ -4725,6 +4735,42 @@ button.swiper-pagination-bullet {
 .m-auto {
   margin: 0 auto;
 }
+.p-prodotti {
+  padding: clamp(40px,8.3328vw,160px) 0 clamp(50px,9.3744vw,180px);
+}
+.prodotto {
+  display: flex;
+  align-items: center;
+}
+.prodotto__img {
+  width: clamp(90px,12.39504vw,238px);
+  height: clamp(80px,10.62432vw,204px);
+  position: relative;
+}
+.prodotto__img::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #0060B4;
+  mix-blend-mode: screen;
+}
+.prodotto__img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.prodotto hr {
+  margin-top: clamp(20px,3.95808vw,76px);
+}
+.prodotto__text h2 {
+  margin-bottom: 0.1em;
+}
+.prodotto__text p {
+  margin-bottom: 1.4em;
+}
 .home__video {
   overflow: hidden;
   height: 100vh;
@@ -4768,24 +4814,42 @@ button.swiper-pagination-bullet {
   gap: 2em;
 }
 .home__settori {
+  padding: 1.4em 0;
   font-size: clamp(40px,4.47888vw,86px);
   letter-spacing: -2%;
   line-height: 120%;
-  padding-top: 1.3rem;
+  border-bottom: 1px solid #4D90CB66;
+}
+.home__settori__container {
+  display: flex;
+  justify-content: space-between;
 }
 .home__settori__title {
   margin-bottom: 2.7em;
 }
 .home__settori__content {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 .home__settori__content ul {
   list-style: none;
   border-left: 1px solid #4D90CB66;
-  margin-left: 0;
+  margin: 0;
   padding-left: clamp(15px,2.70816vw,52px);
 }
 .home__settori__content ul li {
   margin-bottom: 0.1em;
+}
+.home__settori__img {
+  width: clamp(100px,20.93616vw,402px);
+  height: clamp(90px,18.33216vw,352px);
+  display: flex;
+  align-self: end;
+  overflow: hidden;
+}
+.home__settori__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
