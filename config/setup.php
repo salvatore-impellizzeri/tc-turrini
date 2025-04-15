@@ -16,8 +16,8 @@
 				'ar' => 'ar_AR.UTF-8',
 				'zh' => 'zh_CN.UTF-8'
 			],
-            'home' => ['plugin' => 'CustomPages', 'controller' => 'BlockPages', 'action' => 'view', 2], //url della pagina home -> cambiare se si usano le CustomPages
-            'adminHomeController' => 'BlockPages', //controller di default admin -> cambiare se si usano le CustomPages
+            'home' => ['plugin' => 'CustomPages', 'controller' => 'CustomPages', 'action' => 'view', 1], //url della pagina home -> cambiare se si usano le CustomPages
+            'adminHomeController' => 'CustomPages', //controller di default admin -> cambiare se si usano le CustomPages
 			'allowedImages' => ['jpeg','jpg','png','gif','bmp','svg'],
 			'maxImageSize' => 4, // in MB
 			'allowedFiles' =>  ['jpeg','jpg','png','gif','bmp','svg','pdf','docx','doc','txt','csv','rtf','zip','rar','mp3','ppt','xls','pptx','xlsx'],
