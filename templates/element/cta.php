@@ -19,7 +19,7 @@
             </span>
         <?php endif; ?>
         <?php if (!empty($label)) : ?>
-            <span class="cta__label">
+            <span class="cta__label <?= $labelClass ?? '' ?>">
                 <?= $label ?>
             </span>
         <?php endif; ?>

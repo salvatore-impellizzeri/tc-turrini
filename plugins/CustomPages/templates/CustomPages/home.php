@@ -36,14 +36,14 @@
     </div>
 
     <!-- SETTORI DI IMPIEGO -->
-    <div class="bg-light home__settori">
+    <div class="bg-light home__settori blue">
         <div class="container-l m-auto home__settori__container">
             <div class="home__settori__content">
-                <div class="home__settori__title font-23 blue">
+                <div class="home__settori__title font-23">
                     Settori d'impiego
                 </div>
                 <div>
-                    <ul class="font-86 blue">
+                    <ul class="font-86">
                         <li>Cemento</li>
                         <li>Marmi, graniti e pietre</li>
                         <li>Vetro e derivati</li>
@@ -60,5 +60,30 @@
     <!-- PRODOTTI -->
     <div class="bg-light home__prodotti">
         <?= $this->element('prodotti'); ?>
+    </div>
+
+    <!-- AZIENDA -->
+    <div class="bg-light azienda">
+        <div class="container-l bg-box blue m-auto azienda__content">
+            <div class="azienda__text">
+                <div class="font-14">
+                    La nostra azienda
+                </div>
+                <hr>
+                <p class="font-28">
+                    La T.C. Turrini Claudio eccelle per la qualità dei materiali, la cura nella progettazione e la produzione interna completa, diventando un punto di riferimento con standard ineguagliati nel mercato italiano e internazionale.
+                </p>
+                <?= $this->element('cta', [
+                    'label' => "Scopri l'azienda",
+                    'extraClass' => 'button--primary',
+                    'icon' => 'icons/button.svg',
+                    'url' => '#',
+                    'labelClass' => 'blue'
+                ]); ?>
+            </div>
+            <div class="azienda__img">
+                <img src="img/img2.jpg" alt="Immagine Azienda">
+            </div>
+        </div>
     </div>
 </div>
