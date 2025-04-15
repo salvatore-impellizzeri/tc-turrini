@@ -2874,19 +2874,19 @@ button.swiper-pagination-bullet {
 }
 .languages {
   position: relative;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .body--light-header:not(.body--scroll) .languages path {
   fill: #FFF;
 }
 .languages__toggler {
-  padding: 0 20px;
+  font-weight: 500;
+  width: clamp(20px,3.1248vw,60px);
   height: 46px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  border: 1px solid #ffffff;
+  justify-content: space-between;
+  border-top: 1px solid #ffffff66;
   cursor: pointer;
 }
 .body--light-header:not(.body--scroll) .languages__toggler {
@@ -2901,6 +2901,9 @@ button.swiper-pagination-bullet {
 .languages__icon {
   transition: 300ms cubic-bezier(0.250,0.460,0.450,0.940);
   will-change: transform;
+}
+.languages__icon svg path {
+  stroke: #ffffff;
 }
 .languages__dropdown {
   background: #0060B4;

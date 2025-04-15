@@ -1,7 +1,7 @@
 .languages{
-
     position: relative;
-    text-transform: uppercase;
+    text-transform: capitalize;
+      
 
     .body--light-header:not(.body--scroll) &{
         path{
@@ -10,13 +10,13 @@
     }
     
     &__toggler{
-        padding: 0 20px;
+        .fw-medium;
+        width: clamp(20px, 60vw * @px2vw, 60px);
         height: 46px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 10px;
-        border: 1px solid @text-color;
+        justify-content: space-between;
+        border-top: 1px solid @border-color-light;
         cursor: pointer;
 
         .body--light-header:not(.body--scroll) &{
@@ -32,6 +32,12 @@
     &__icon{
         transition: 300ms @easeOutQuad;
         will-change: transform;
+
+        svg{
+            path{
+                stroke: @text-color;
+            }
+        }
     }
     &__dropdown{
         background: @bg-color;
