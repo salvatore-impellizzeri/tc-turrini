@@ -1,15 +1,13 @@
 .header{
-    height: 120px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    padding: 0 clamp(10px, 40vw * @px2vw, 40px);
+    padding: 0 clamp(20px, 120vw * @px2vw, 120px);
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
-    font-size: 14px;
     z-index: 500;
     transition: 300ms @easeOutQuad;
 
@@ -45,6 +43,7 @@
 
     &__logo{
         flex: 0 0 220px;
+        height: clamp(50px, 119vw * @px2vw, 119px);
         margin-right: auto;
 
         @media screen and (max-width: @l) {
@@ -91,14 +90,17 @@
 
 
 
-
     .menu{
         display: flex;
         align-items: center;
-        gap: clamp(15px, 30vw * @px2vw, 30px);
+        gap: clamp(12px, 24vw * @px2vw, 24px);
+        .font-18;
         
         &__item{
             position: relative;
+            width: clamp(60px, 200vw * @px2vw, 200px);
+            border-top: 1px solid @border-color-light;
+
             &:hover{
                 .menu__submenu{
                     visibility: visible;
