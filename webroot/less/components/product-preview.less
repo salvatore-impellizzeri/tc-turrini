@@ -1,7 +1,29 @@
 .product-preview{
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
     color: @text-color;
-    &__content{
-        margin-top: 20px;
+    padding: 0 clamp(10px, 40vw * @px2vw, 40px);
+
+    &__img{
+        width: clamp(200px, 384vw * @px2vw, 384px);
+        height: clamp(160px, 345vw * @px2vw, 345px);
+
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__label{
+        margin-top: 1.8em;
+        width: 100%;
+        border-top: 1px solid @border-color;
+        padding-top: 1em;
+        display: flex;
+        gap: 0.7em;
+        align-items: center;
     }
 }

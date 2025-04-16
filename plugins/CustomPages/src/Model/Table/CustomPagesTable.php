@@ -18,7 +18,10 @@ class CustomPagesTable extends AppTable
         'prodotti',
         'azienda',
         'sostenibilità',
-        'view-prodotto'
+        'aspirazione',
+        'acque',
+        'view-aspirazione',
+        'view-acque'
     ];
 
     /**

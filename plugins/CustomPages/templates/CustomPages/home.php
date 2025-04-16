@@ -90,6 +90,7 @@
     <!-- FILOSOFIA AZIENDALE -->
     <div class="container-fluid home__filosofia">
         <div class="home__filosofia__content">
+            <img src="img/img3.jpg" alt="Background">
             <div class="home__filosofia__text">
                 <p class="font-32 fw-medium">
                 Un’impegno per l’ambiente: l’azienda si impegna nella progettazione di soluzioni sostenibili, riducendo l’impatto ambientale 

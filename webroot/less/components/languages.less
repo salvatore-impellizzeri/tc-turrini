@@ -2,7 +2,6 @@
     position: relative;
     text-transform: capitalize;
       
-
     .body--light-header:not(.body--scroll) &{
         path{
             fill: @light-text-color;
@@ -40,13 +39,11 @@
         }
     }
     &__dropdown{
-        background: @bg-color;
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
-        border: 1px solid @text-color;
-        border-top: none;
+        border-top: 1px solid @border-color-light;
         visibility: hidden;
         pointer-events: none;
         transform: scale3d(1,0,1);
@@ -62,7 +59,14 @@
         line-height: 35px;
         text-align: center;
         display: block;
+        border-bottom: 1px solid @border-color-light;
         color: @text-color;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.104);
+        }
+
         &--active{
             color: lighten(@text-color, 50%);
         }

@@ -1,0 +1,43 @@
+.list-products{
+
+    &__background{
+        height: clamp(200px, 720vw * @px2vw, 720px);
+        position: relative;
+        padding-bottom: 1.8em;
+        padding-left: 1.1em;
+        .font-107;
+        display: flex;
+        align-items: flex-end;
+        
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, @bg-color, transparent);
+        }
+
+        h1{
+            z-index: 1;
+            position: relative;
+            width: clamp(200px, 1213vw * @px2vw, 1213px);
+        }
+
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+

@@ -122,6 +122,27 @@
             line-height: 46px;
             white-space: nowrap;
             display: block;
+            transition: 0.3s @easeOutQuad;
+
+            &:hover{
+                padding-left: 10px;
+            }
+
+            &:hover::before{
+                opacity: 1;
+            }
+
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0.104) 15%, transparent 85%);
+                opacity: 0;
+                transition: 0.3s ease-in-out;
+            }
 
             &--parent{
                 display: flex;
