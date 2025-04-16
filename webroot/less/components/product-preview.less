@@ -4,7 +4,9 @@
     justify-items: center;
     align-items: center;
     color: @text-color;
-    padding: 0 clamp(10px, 40vw * @px2vw, 40px);
+    padding: 3em clamp(10px, 40vw * @px2vw, 40px) 1em;
+    .font-28;
+    border-left: 1px solid @border-color;
 
     &__img{
         width: clamp(200px, 384vw * @px2vw, 384px);
@@ -26,4 +28,8 @@
         gap: 0.7em;
         align-items: center;
     }
+}
+
+.last-in-row{
+    border-right: 1px solid @border-color;
 }

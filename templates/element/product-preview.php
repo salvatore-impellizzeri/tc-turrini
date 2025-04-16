@@ -1,4 +1,4 @@
-<a href="<?= $url ?>" class="product-preview">
+<a href="<?= $url ?>" class="product-preview <?= $extraClass ?? '' ?>">
     <div class="product-preview__img">
         <img src="<?= $img ?>" alt="Prodotto">
     </div>
