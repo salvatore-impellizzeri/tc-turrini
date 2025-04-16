@@ -1,4 +1,4 @@
-<div class="view-product">
+<div class="view-product pt-h">
     <div class="container-l m-auto">
         <div class="font-14">
             Prodotti > <?= $section ?>
