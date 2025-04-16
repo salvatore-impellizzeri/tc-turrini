@@ -196,6 +196,11 @@ li {
   letter-spacing: -2%;
   line-height: 120%;
 }
+.font-69 {
+  font-size: clamp(32px,3.59352vw,69px);
+  letter-spacing: -2%;
+  line-height: 120%;
+}
 .font-60 {
   font-size: clamp(30px,3.3852vw,60px);
   line-height: normal;
@@ -2626,6 +2631,12 @@ button.swiper-pagination-bullet {
   line-height: 40px;
   color: #ffffff;
 }
+.sostenibilità__header {
+  color: #0060B4;
+}
+.sostenibilità .menu__item {
+  border-top: 1px solid #4D90CB66 !important;
+}
 .hamburger {
   display: block;
   width: 40px;
@@ -5009,6 +5020,12 @@ button.swiper-pagination-bullet {
   width: clamp(300px,36.9768vw,710px);
   display: flex;
   justify-content: flex-end;
+}
+.box-swiper {
+  padding: 1.7em 1.8em 1.2em;
+}
+.box-swiper h2 {
+  width: clamp(140px,34.47696vw,662px);
 }
 .home__video {
   overflow: hidden;

@@ -1,4 +1,8 @@
-<div class="bg-light pt-h blue">
+<?php 
+    $this->assign('headerClass', 'sostenibilità__header');
+?>
+
+<div class="bg-light pt-h blue sostenibilità">
     <div class="container-l m-auto">
         <h1 class="title-primary mb-title">
             Cos'è la sostenibilità?
