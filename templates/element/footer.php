@@ -13,24 +13,44 @@
                 'icon' => 'icons/button.svg'
             ]); ?>
         </div>
-        <div class="footer__info">
-            <?= $this->element('snippet', ['id' => 1])?>
+        <div class="footer__cols">
+            <div class="footer__info">
+                <div class="footer__info__item font-23">
+                    <label class="font-14">Indirizzo</label>
+                    <?= $this->element('snippet', ['id' => 1])?>
+                </div>
+                <div class="footer__info__item font-23">
+                    <label class="font-14">Telefono</label>
+                    <?= $this->element('snippet', ['id' => 15])?>
+                </div>
+                <div class="footer__info__item font-23">
+                    <label class="font-14">Mail</label>
+                    <?= $this->element('snippet', ['id' => 16])?>
+                </div>
+            </div>
+            <div class="footer__logos">
+                <img src="img/certificate1.png" alt="UKAS">
+                <img src="img/certificate2.png" alt="SINCERT">
+            </div>
         </div>
-        
-        <div class="footer__menu">
-            <?= $this->cell('Menu.Menu', [8]) ?>
-        </div>
-    
         <div class="footer__legal">
+            <div>
+                <?= $this->element('snippet', ['id' => 18])?>
+            </div>
+            <div class="text-center">
+                <?= $this->element('snippet', ['id' => 17])?>
+            </div>
             <ul class="menu">
                 <li><?= $this->Frontend->seolink(__d('policies', 'Privacy policy'), '/policies/view/1'); ?></li>
+                <li>-</li>
                 <li><?= $this->Frontend->seolink(__d('policies', 'Cookie policy'), '/policies/view/2'); ?></li>
+                <li>-</li>
                 <li><span id="cookie_reload"><?php echo __d('policies', 'manage cookies'); ?></span></li>
             </ul>
         </div>
-    
+<!--     
         <div class="footer__credits">
             <a href="https://www.webmotion.it" title="Web Agency Verona">Credits</a>
-        </div>
+        </div> -->
     </div>
 </footer>
