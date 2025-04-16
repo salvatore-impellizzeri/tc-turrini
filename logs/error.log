@@ -28892,3 +28892,575 @@ Stack Trace:
 Request URL: /img/certificate1.png
 Referer URL: http://dev.tcturrini.it/acque
 Client IP: 127.0.0.1
+2025-04-16 12:52:08 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:09 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:19 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:21 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:21 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:22 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:22 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:24 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:25 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:31 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:33 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:52:34 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:53:07 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:53:08 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:53:08 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:53:08 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:53:08 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:53:08 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate2.png
+Referer URL: http://dev.tcturrini.it/acque
+Client IP: 127.0.0.1
+2025-04-16 12:53:09 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate1.png
+Referer URL: http://dev.tcturrini.it/acque
+Client IP: 127.0.0.1
+2025-04-16 12:53:10 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:54:48 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:54:49 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:54:49 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:54:49 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:54:49 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:54:49 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate1.png
+Referer URL: http://dev.tcturrini.it/acque
+Client IP: 127.0.0.1
+2025-04-16 12:54:50 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate2.png
+Referer URL: http://dev.tcturrini.it/acque
+Client IP: 127.0.0.1
+2025-04-16 12:54:51 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:26 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:28 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:31 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:39 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:40 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:40 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:41 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:43 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:45 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:49 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:50 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:50 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:55:51 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:13 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:14 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:14 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:14 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:14 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:14 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate2.png
+Referer URL: http://dev.tcturrini.it/acque
+Client IP: 127.0.0.1
+2025-04-16 12:56:14 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate1.png
+Referer URL: http://dev.tcturrini.it/acque
+Client IP: 127.0.0.1
+2025-04-16 12:56:22 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:23 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:23 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:23 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:23 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:23 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate2.png
+Referer URL: http://dev.tcturrini.it/prodotti
+Client IP: 127.0.0.1
+2025-04-16 12:56:24 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate1.png
+Referer URL: http://dev.tcturrini.it/prodotti
+Client IP: 127.0.0.1
+2025-04-16 12:56:27 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:28 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:29 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:29 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:29 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:29 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:30 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate2.png
+Referer URL: http://dev.tcturrini.it/acque
+Client IP: 127.0.0.1
+2025-04-16 12:56:30 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate1.png
+Referer URL: http://dev.tcturrini.it/acque
+Client IP: 127.0.0.1
+2025-04-16 12:56:31 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:31 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:56:33 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate1.png
+Referer URL: http://dev.tcturrini.it/aspirazione
+Client IP: 127.0.0.1
+2025-04-16 12:56:33 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:330
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:78
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /img/certificate2.png
+Referer URL: http://dev.tcturrini.it/aspirazione
+Client IP: 127.0.0.1
+2025-04-16 12:57:34 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:57:36 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:57:36 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:57:56 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:58:37 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:58:38 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:58:38 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:58:45 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:58:46 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:58:46 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:59:23 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:59:24 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:59:25 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:59:25 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 12:59:27 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:04:11 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:04:12 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:04:12 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:05:42 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:05:44 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:05:44 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:05:48 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:05:53 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:05:54 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:05:54 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:06:44 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:06:46 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:06:46 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:07:34 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:07:35 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:07:35 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:07:36 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:07:37 error: [Cake\View\Exception\MissingTemplateException] Template file `CustomPages/view_aspirazione.php` could not be found.
+
+The following paths were searched:
+
+- `/Applications/MAMP/htdocs/tc-turrini/templates/plugin/CustomPages/CustomPages/view_aspirazione.php`
+- `/Applications/MAMP/htdocs/tc-turrini/plugins/CustomPages/templates/CustomPages/view_aspirazione.php`
+- `/Applications/MAMP/htdocs/tc-turrini/templates/CustomPages/view_aspirazione.php`
+- `/Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/templates/CustomPages/view_aspirazione.php`
+ in /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/View/View.php on line 1377
+Exception Attributes: array (
+  'file' => 'CustomPages/view_aspirazione.php',
+  'paths' => 
+  array (
+    0 => '/Applications/MAMP/htdocs/tc-turrini/templates/plugin/CustomPages/',
+    1 => '/Applications/MAMP/htdocs/tc-turrini/plugins/CustomPages/templates/',
+    2 => '/Applications/MAMP/htdocs/tc-turrini/templates/',
+    3 => '/Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/View/View.php:782
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/Controller.php:705
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/Controller.php:509
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/BaseApplication.php:332
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:87
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:118
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:69
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/src/Middleware/CachedAssetMiddleware.php:50
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/markstory/asset_compress/src/Middleware/AssetCompressMiddleware.php:64
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Applications/MAMP/htdocs/tc-turrini/vendor/cakephp/cakephp/src/Http/Server.php:105
+- /Applications/MAMP/htdocs/tc-turrini/webroot/index.php:44
+- [main]:
+
+Request URL: /view-aspirazione
+Referer URL: http://dev.tcturrini.it/aspirazione
+Client IP: 127.0.0.1
+2025-04-16 13:10:32 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:10:33 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:10:35 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:10:35 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:10:36 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:10:37 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2025-04-16 13:10:37 warning: DebugKit is disabling itself as your host `dev.tcturrini.it` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.

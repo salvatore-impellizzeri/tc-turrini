@@ -5,17 +5,17 @@
         [
             'label' => 'Pareti asprianti',
             'img' => 'img/item1.png',
-            'url' => '#',
+            'url' => '/custom-pages/view/9',
         ],
         [
             'label' => 'Bachi aspiranti',
             'img' => 'img/item2.png',
-            'url' => '#',
+            'url' => '/custom-pages/view/9',
         ],
         [
             'label' => 'Accessori',
             'img' => 'img/item3.png',
-            'url' => '#',
+            'url' => '/custom-pages/view/9',
         ],
     ],
 ]); ?>

@@ -20,8 +20,8 @@ class CustomPagesTable extends AppTable
         'sostenibilità',
         'aspirazione',
         'acque',
-        'view-aspirazione',
-        'view-acque'
+        'view_aspirazione',
+        'view_acque'
     ];
 
     /**
