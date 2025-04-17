@@ -9985,7 +9985,7 @@ requestAnimationFrame(raf);
 
 //Swiper
 
-const swiper = new Swiper('.swiper', {
+const swiperText = new Swiper('.swiper-text', {
     // Opzioni base
     spaceBetween: 30,
     slidesPerView: 1,

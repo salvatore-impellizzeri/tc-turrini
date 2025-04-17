@@ -1,6 +1,3 @@
-<?php 
-    $this->assign('headerClass', 'home__header');
-?>
 <div class="home">
     
     <!-- VIDEO -->

@@ -23,3 +23,21 @@
 .container-title{
     width: clamp(200px, 1440vw * @px2vw, 1440px);
 }
+
+.container-video{
+    z-index: -1;
+    height: clamp(500px, 910vw * @px2vw, 910px);
+
+    video{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        filter: brightness(40%) grayscale(100%);
+    }
+}
+
+.container-on-video{
+    transform: translateY(-3.7em);
+    .font-55;
+    padding: 3em 0 2.1em;
+}

@@ -1,5 +1,5 @@
 <?php 
-    $this->assign('headerClass', 'sostenibilità__header');
+    $this->assign('headerClass', 'header--invert');
 ?>
 
 <div class="bg-light pt-h blue sostenibilità pb-f">
@@ -14,7 +14,7 @@
                 'extraClass' => '',
             ]); ?>
             <?= $this->element('img-text', [
-                'video' => 'img/video/video1.mp4',
+                'video' => 'img/video/video2.mp4',
                 'text' => "La TC Turrini Claudio con orgoglio fondare le proprie radici aziendali nel settore della carpenteria e della lavorazione dei metalli, perché nessuno meglio di chi ha lavorato direttamente la materia prima da oltre trent’anni ne conosce proprietà e qualità.",
                 'extraClass' => 'invert',
             ]); ?>

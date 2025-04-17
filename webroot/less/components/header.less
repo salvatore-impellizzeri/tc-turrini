@@ -20,10 +20,9 @@
         color: @light-text-color;
     }
 
-    // .body--scroll &{
-    //     background: @header-bg-color;
-    //     height: 100px;
-    // }
+    .body--scroll &{
+        background: @bg-color;
+    }
 
     @media screen and (max-width: @l) {
         height: 100px;
@@ -189,14 +188,14 @@
     }
 }
 
-
-.sostenibilità{
+.header--invert {
+    color: @text-color-secondary;
     
-    &__header{
-        color: @text-color-secondary;
+    .menu__item {
+        border-top: 1px solid @border-color;
     }
 
-    .menu__item{
-        border-top: 1px solid @border-color !important;
+    .body--scroll &{
+        background: @bg-color-secondary;
     }
 }

@@ -1,3 +1,7 @@
+<?php 
+    $this->assign('headerClass', 'home__header');
+?>
+
 <?= $this->element('list-products', [
     'background' => 'img/img4.jpg',
     'title' => 'Sistema di aspriazione e abbattimento di polveri',

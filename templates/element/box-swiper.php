@@ -8,7 +8,7 @@
     <hr class="hr hr--blue">
 
     <!-- Swiper -->
-    <div class="swiper">
+    <div class="swiper swiper-text">
         
         <div class="swiper-wrapper fw-light font-18">
             <?php foreach ($texts as $text): ?>
