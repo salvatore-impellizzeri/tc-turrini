@@ -11,10 +11,9 @@
     <div class="swiper">
         
         <div class="swiper-wrapper fw-light font-18">
-            <div class="swiper-slide">L'acciaio inox è un materiale riciclabile al 100%, resistente alla corrosione, durevole e igienico, e gli impatti ambientali derivanti dal suo utilizzo sono quasi inesistenti. L’acciaio inossidabile inoltre ha un primato ambientale invidiabile: economizza l’utilizzo dell’energia primaria; risparmia le risorse ambientali non rinnovabili; riduce gli scarti.</div>
-            <div class="swiper-slide">L'acciaio inox è un materiale riciclabile al 100%, resistente alla corrosione, durevole e igienico, e gli impatti ambientali derivanti dal suo utilizzo sono quasi inesistenti. L’acciaio inossidabile inoltre ha un primato ambientale invidiabile: economizza l’utilizzo dell’energia primaria; risparmia le risorse ambientali non rinnovabili; riduce gli scarti.</div>
-            <div class="swiper-slide">L'acciaio inox è un materiale riciclabile al 100%, resistente alla corrosione, durevole e igienico, e gli impatti ambientali derivanti dal suo utilizzo sono quasi inesistenti. L’acciaio inossidabile inoltre ha un primato ambientale invidiabile: economizza l’utilizzo dell’energia primaria; risparmia le risorse ambientali non rinnovabili; riduce gli scarti.</div>
-            <div class="swiper-slide">L'acciaio inox è un materiale riciclabile al 100%, resistente alla corrosione, durevole e igienico, e gli impatti ambientali derivanti dal suo utilizzo sono quasi inesistenti. L’acciaio inossidabile inoltre ha un primato ambientale invidiabile: economizza l’utilizzo dell’energia primaria; risparmia le risorse ambientali non rinnovabili; riduce gli scarti.</div>
+            <?php foreach ($texts as $text): ?>
+                <div class="swiper-slide"><?= $text ?></div>
+            <?php endforeach; ?>
         </div>
 
         <!-- Bottoni -->

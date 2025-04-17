@@ -5012,12 +5012,14 @@ button.swiper-pagination-bullet {
   width: clamp(300px,36.9768vw,710px);
   height: clamp(200px,31.248vw,600px);
 }
-.img-text__img img {
+.img-text__img img,
+.img-text__img video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
-.img-text p {
+.img-text__text p {
   width: clamp(120px,28.33152vw,544px);
 }
 .invert .img-text__img {
@@ -5025,16 +5027,26 @@ button.swiper-pagination-bullet {
   width: clamp(400px,43.12224vw,828px);
   height: clamp(180px,29.63352vw,569px);
 }
+.invert .img-text__img img,
+.invert .img-text__img video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .invert .img-text__text {
   width: clamp(300px,36.9768vw,710px);
   display: flex;
   justify-content: flex-end;
 }
+.invert .img-text__text p {
+  width: 100%;
+}
 .box-swiper {
   padding: 1.7em 1.8em 1.2em;
 }
 .box-swiper h2 {
-  width: clamp(140px,34.47696vw,662px);
+  width: clamp(140px,34.8936vw,670px);
   margin-bottom: 1.2em;
 }
 .box-swiper .swiper {
