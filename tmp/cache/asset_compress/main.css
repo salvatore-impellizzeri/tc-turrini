@@ -173,6 +173,9 @@ li {
 .fw-medium {
   font-weight: 500;
 }
+.fw-light {
+  font-weight: 300;
+}
 .text-center {
   text-align: center;
 }
@@ -4857,6 +4860,12 @@ button.swiper-pagination-bullet {
 .mb-title {
   margin-bottom: 1.3em;
 }
+.pb-f {
+  padding-bottom: 1.8em;
+  font-size: clamp(32px,3.59352vw,69px);
+  letter-spacing: -2%;
+  line-height: 120%;
+}
 .prodotto {
   display: flex;
   align-items: center;
@@ -5026,6 +5035,43 @@ button.swiper-pagination-bullet {
 }
 .box-swiper h2 {
   width: clamp(140px,34.47696vw,662px);
+  margin-bottom: 1.2em;
+}
+.box-swiper .swiper {
+  padding-top: 0.2em;
+  width: clamp(200px,28.33152vw,544px);
+}
+.box-swiper .swiper-slide {
+  margin-bottom: 2em;
+}
+.box-swiper .hr {
+  margin-top: 0.1em;
+}
+.box-swiper .swiper-wrapper {
+  width: clamp(200px,28.33152vw,544px);
+}
+.box-swiper .swiper-pagination {
+  text-align: left;
+  position: relative;
+}
+.box-swiper__buttons {
+  display: flex;
+  gap: 8px;
+}
+.box-swiper__buttons .swiper-button-next,
+.box-swiper__buttons .swiper-button-prev {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  top: auto;
+  color: #ffffff;
+  width: clamp(15px,1.66656vw,32px);
+  height: clamp(15px,1.66656vw,32px);
+  margin-top: 0;
+}
+.box-swiper__buttons .swiper-button-next::after,
+.box-swiper__buttons .swiper-button-prev::after {
+  font-size: 12px;
 }
 .home__video {
   overflow: hidden;

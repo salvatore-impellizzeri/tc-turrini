@@ -287,3 +287,23 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+//Swiper
+
+const swiper = new Swiper('.swiper', {
+    // Opzioni base
+    spaceBetween: 30,
+    slidesPerView: 1,
+
+    // Paginazione
+    pagination: {
+      el: '.swiper-pagination',
+	  type: 'fraction',
+    },
+
+    // Navigazione
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+});
