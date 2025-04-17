@@ -17,7 +17,7 @@
         </div>
 
         <!-- Bottoni -->
-        <div class="box-swiper__buttons">
+        <div class="buttons-swiper">
             <div class="swiper-button-prev button button--primary"></div>
             <div class="swiper-button-next button button--primary"></div>
         </div>

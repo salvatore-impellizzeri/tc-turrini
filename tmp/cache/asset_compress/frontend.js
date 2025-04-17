@@ -9983,7 +9983,7 @@ function raf(time) {
 
 requestAnimationFrame(raf);
 
-//Swiper
+//Swiper text
 
 const swiperText = new Swiper('.swiper-text', {
     // Opzioni base
@@ -9995,6 +9995,20 @@ const swiperText = new Swiper('.swiper-text', {
       el: '.swiper-pagination',
 	  type: 'fraction',
     },
+
+    // Navigazione
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+});
+
+//Swiper Azienda
+
+const swiperAzienda = new Swiper('.swiper-azienda', {
+    spaceBetween: 30,
+    slidesPerView: 1,
+	loop: true,
 
     // Navigazione
     navigation: {

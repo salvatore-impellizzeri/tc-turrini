@@ -89,3 +89,21 @@
         }
     }
 }
+
+.buttons-swiper{
+    display: flex;
+    gap: 8px;
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        color: @text-color;
+        width: clamp(15px, 32vw * @px2vw, 32px);
+        height: clamp(15px, 32vw * @px2vw, 32px);
+        margin-top: 0;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after{
+        .font-12;
+    }
+}

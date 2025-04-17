@@ -29,26 +29,15 @@
         position: relative;
     }
 
-    &__buttons{
-        display: flex;
-        gap: 8px;
-
-        .swiper-button-next,
-        .swiper-button-prev{
-            position: relative;
-            bottom: 0;
-            left: 0;
-            top: auto;
-            color: @text-color;
-            width: clamp(15px, 32vw * @px2vw, 32px);
-            height: clamp(15px, 32vw * @px2vw, 32px);
-            margin-top: 0;
-        }
-    
-        .swiper-button-next::after,
-        .swiper-button-prev::after{
-            .font-12;
-        }
+    .swiper-buttton-next,
+    .swiper-button-prev{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        top: auto;
     }
+}
 
+.swiper-azienda{
+    width: clamp(300px, 1112vw * @px2vw, 1112px);
 }

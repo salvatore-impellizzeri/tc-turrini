@@ -191,17 +191,17 @@ li {
 }
 .font-107 {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .font-86 {
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 120%;
 }
 .font-69 {
   font-size: clamp(32px,3.59352vw,69px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 120%;
 }
 .font-60 {
@@ -219,12 +219,12 @@ li {
 .font-55 {
   font-size: clamp(28px,2.29152vw,44px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
 }
 .font-44 {
   font-size: clamp(28px,2.29152vw,44px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
 }
 .font-37 {
   font-size: clamp(27px,2.0832vw,37px);
@@ -241,12 +241,12 @@ li {
 .font-35 {
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
 }
 .font-32 {
   font-size: clamp(22px,1.66656vw,32px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
 }
 .font-28 {
   font-size: clamp(20px,1.45824vw,28px);
@@ -259,7 +259,7 @@ li {
 .font-18 {
   font-size: clamp(14px,0.93744vw,18px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
 }
 .font-14 {
   font-size: clamp(12px,0.72912vw,14px);
@@ -270,12 +270,12 @@ li {
 }
 .title-primary {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .title-secondary {
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 120%;
 }
 .title-extrasmall {
@@ -2559,7 +2559,7 @@ button.swiper-pagination-bullet {
   gap: clamp(12px,1.24992vw,24px);
   font-size: clamp(14px,0.93744vw,18px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
 }
 .header .menu__item {
   position: relative;
@@ -2849,7 +2849,7 @@ button.swiper-pagination-bullet {
   gap: clamp(9px,1.14576vw,22px);
   align-items: center;
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 120%;
   margin-bottom: 1em;
 }
@@ -3122,6 +3122,21 @@ button.swiper-pagination-bullet {
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
 }
+.buttons-swiper {
+  display: flex;
+  gap: 8px;
+}
+.buttons-swiper .swiper-button-next,
+.buttons-swiper .swiper-button-prev {
+  color: #ffffff;
+  width: clamp(15px,1.66656vw,32px);
+  height: clamp(15px,1.66656vw,32px);
+  margin-top: 0;
+}
+.buttons-swiper .swiper-button-next::after,
+.buttons-swiper .swiper-button-prev::after {
+  font-size: 12px;
+}
 .contact-form--1 .contact-form__inputs {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -3282,7 +3297,7 @@ button.swiper-pagination-bullet {
 }
 .popup__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .popup__cta,
@@ -3834,7 +3849,7 @@ button.swiper-pagination-bullet {
 }
 .page-text-media__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .page-text-media__cta {
@@ -3894,7 +3909,7 @@ button.swiper-pagination-bullet {
 }
 .page-text-fancyimages__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .page-text-fancyimages__cta {
@@ -4004,7 +4019,7 @@ button.swiper-pagination-bullet {
 .page-fullscreen__title {
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
 }
 .page-fullscreen__actions {
   margin-top: clamp(20px,1.8228vw,35px);
@@ -4023,7 +4038,7 @@ button.swiper-pagination-bullet {
 }
 .page-text__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .page-text__cta {
@@ -4239,7 +4254,7 @@ button.swiper-pagination-bullet {
 }
 .page-faqs__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .page-faqs__list {
@@ -4276,7 +4291,7 @@ button.swiper-pagination-bullet {
 }
 .page-form__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .page-form__content {
@@ -4314,7 +4329,7 @@ button.swiper-pagination-bullet {
 }
 .page-form-info__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
 }
 .page-form-info__text {
@@ -4382,7 +4397,7 @@ button.swiper-pagination-bullet {
 .page-three-text-blocks__title {
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   margin-bottom: .6em;
 }
 .page-three-text-blocks__cta {
@@ -4614,7 +4629,7 @@ button.swiper-pagination-bullet {
 .post__title {
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
 }
 .post__tags {
   display: flex;
@@ -4871,7 +4886,7 @@ button.swiper-pagination-bullet {
   transform: translateY(-3.7em);
   font-size: clamp(28px,2.29152vw,44px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   padding: 3em 0 2.1em;
 }
 .container-text {
@@ -4885,7 +4900,7 @@ button.swiper-pagination-bullet {
 }
 .pt-h {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
   padding-top: 2.9em;
 }
@@ -4895,7 +4910,7 @@ button.swiper-pagination-bullet {
 .pb-f {
   padding-bottom: 1.8em;
   font-size: clamp(32px,3.59352vw,69px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 120%;
 }
 .pt-video {
@@ -4936,7 +4951,7 @@ button.swiper-pagination-bullet {
 }
 .prodotti hr {
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 120%;
   margin: 0.8em 0;
 }
@@ -4946,7 +4961,7 @@ button.swiper-pagination-bullet {
   padding-bottom: 1.8em;
   padding-left: 1.1em;
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
   display: flex;
   align-items: flex-end;
@@ -4983,7 +4998,7 @@ button.swiper-pagination-bullet {
 }
 .view-product {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
   padding-bottom: 2.5em;
 }
@@ -5003,7 +5018,7 @@ button.swiper-pagination-bullet {
   gap: clamp(40px,7.812vw,150px);
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   padding-bottom: 2em;
   border-bottom: 1px solid #4D90CB66;
   padding-top: 4em;
@@ -5021,7 +5036,7 @@ button.swiper-pagination-bullet {
   grid-template-columns: 1fr;
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   gap: 0.7em;
 }
 .view-product__text p {
@@ -5041,7 +5056,7 @@ button.swiper-pagination-bullet {
   display: flex;
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   gap: 4em;
   align-items: center;
   margin-bottom: 4em;
@@ -5056,7 +5071,7 @@ button.swiper-pagination-bullet {
 .img-text--smaller p {
   font-size: clamp(14px,0.93744vw,18px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   font-weight: 300;
 }
 .img-text__img {
@@ -5109,24 +5124,15 @@ button.swiper-pagination-bullet {
   text-align: left;
   position: relative;
 }
-.box-swiper__buttons {
-  display: flex;
-  gap: 8px;
-}
-.box-swiper__buttons .swiper-button-next,
-.box-swiper__buttons .swiper-button-prev {
+.box-swiper .swiper-buttton-next,
+.box-swiper .swiper-button-prev {
   position: relative;
   bottom: 0;
   left: 0;
   top: auto;
-  color: #ffffff;
-  width: clamp(15px,1.66656vw,32px);
-  height: clamp(15px,1.66656vw,32px);
-  margin-top: 0;
 }
-.box-swiper__buttons .swiper-button-next::after,
-.box-swiper__buttons .swiper-button-prev::after {
-  font-size: 12px;
+.swiper-azienda {
+  width: clamp(300px,57.91296vw,1112px);
 }
 .list ul li {
   display: grid;
@@ -5167,7 +5173,7 @@ button.swiper-pagination-bullet {
   padding-bottom: clamp(12px,1.66656vw,32px);
   border-bottom: 1px solid #ffffff66;
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 100%;
   margin-bottom: 0.5em;
 }
@@ -5186,7 +5192,7 @@ button.swiper-pagination-bullet {
 .home__settori {
   padding: 1.4em 0;
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   line-height: 120%;
   border-bottom: 1px solid #4D90CB66;
 }
@@ -5274,7 +5280,7 @@ button.swiper-pagination-bullet {
 .home__filosofia__content {
   font-size: clamp(22px,1.66656vw,32px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   display: grid;
   grid-template-columns: 1fr;
   gap: 3em;
@@ -5285,7 +5291,7 @@ button.swiper-pagination-bullet {
   border-left: 1px solid #ffffff66;
   font-size: clamp(22px,1.66656vw,32px);
   line-height: 120%;
-  letter-spacing: -0em;
+  letter-spacing: -2%;
   padding: 0.2em 0.8em;
 }
 .home__filosofia__text p {

@@ -32,6 +32,25 @@
                     ],
                 ],
             ]); ?>
+            <div class="swiper swiper-azienda">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/img7.jpg" alt="Immagine Slider Azienda">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img7.jpg" alt="Immagine Slider Azienda"> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img7.jpg" alt="Immagine Slider Azienda">
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="buttons-swiper">
+                    <div class="swiper-button-prev button button--primary"></div>
+                    <div class="swiper-button-next button button--primary"></div>   
+                </div>
+            </div>
         </div>
     </div>
 </div>
