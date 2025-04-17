@@ -1,5 +1,5 @@
 <div class="img-text <?= $extraClass ?? '' ?>">
-    <div class="img-text__img">
+    <div class="img-text__img <?= $imgClass ?? '' ?>">
         <?php if (!empty($img)): ?>
             <img src="<?= $img ?>" alt="Immagine">
         <?php elseif (!empty($video)): ?>
@@ -7,7 +7,7 @@
         <?php endif; ?>
     </div>
     <div class="img-text__text">
-        <p class="font-35">
+        <p class="<?= $textClass ?? 'font-23' ?>">
             <?= $text ?>
         </p>
     </div>

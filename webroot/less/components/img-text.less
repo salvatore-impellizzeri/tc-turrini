@@ -5,6 +5,20 @@
     align-items: center;
     margin-bottom: 4em;
 
+    &--smaller{
+        margin-bottom: 5em;
+
+        .img-text__img{
+            width: clamp(150px, 543vw * @px2vw, 543px);
+            height: clamp(120px, 451vw * @px2vw, 451px);
+        }
+
+        p{
+            .font-18;
+            .fw-light;
+        }
+    }
+
     &__img{
         width: clamp(300px, 710vw * @px2vw, 710px);
         height: clamp(200px, 600vw * @px2vw, 600px);
@@ -38,10 +52,7 @@
         width: clamp(300px, 710vw * @px2vw, 710px);
         display: flex;
         justify-content: flex-end;
-
-        p{
-
-        }
     }
 
 }
+

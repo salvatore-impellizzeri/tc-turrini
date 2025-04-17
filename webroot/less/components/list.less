@@ -1,0 +1,19 @@
+.list{
+
+    ul{
+        li{
+            display: grid;
+            grid-template-columns: auto 1fr;
+            height: fit-content;
+            align-items: center;
+            gap: clamp(12px, 52vw * @px2vw, 52px);
+        }
+    }
+
+    &__big{
+        display: flex;
+        align-items: center;
+        gap: clamp(10px, 42vw * @px2vw, 42px);
+        width: clamp(200px, 450vw * @px2vw, 450px);
+    }
+}

@@ -191,17 +191,17 @@ li {
 }
 .font-107 {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .font-86 {
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 120%;
 }
 .font-69 {
   font-size: clamp(32px,3.59352vw,69px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 120%;
 }
 .font-60 {
@@ -219,12 +219,12 @@ li {
 .font-55 {
   font-size: clamp(28px,2.29152vw,44px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
 }
 .font-44 {
   font-size: clamp(28px,2.29152vw,44px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
 }
 .font-37 {
   font-size: clamp(27px,2.0832vw,37px);
@@ -241,12 +241,12 @@ li {
 .font-35 {
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
 }
 .font-32 {
   font-size: clamp(22px,1.66656vw,32px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
 }
 .font-28 {
   font-size: clamp(20px,1.45824vw,28px);
@@ -259,7 +259,7 @@ li {
 .font-18 {
   font-size: clamp(14px,0.93744vw,18px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
 }
 .font-14 {
   font-size: clamp(12px,0.72912vw,14px);
@@ -270,12 +270,12 @@ li {
 }
 .title-primary {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .title-secondary {
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 120%;
 }
 .title-extrasmall {
@@ -2559,7 +2559,7 @@ button.swiper-pagination-bullet {
   gap: clamp(12px,1.24992vw,24px);
   font-size: clamp(14px,0.93744vw,18px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
 }
 .header .menu__item {
   position: relative;
@@ -2849,7 +2849,7 @@ button.swiper-pagination-bullet {
   gap: clamp(9px,1.14576vw,22px);
   align-items: center;
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 120%;
   margin-bottom: 1em;
 }
@@ -3282,7 +3282,7 @@ button.swiper-pagination-bullet {
 }
 .popup__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .popup__cta,
@@ -3834,7 +3834,7 @@ button.swiper-pagination-bullet {
 }
 .page-text-media__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .page-text-media__cta {
@@ -3894,7 +3894,7 @@ button.swiper-pagination-bullet {
 }
 .page-text-fancyimages__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .page-text-fancyimages__cta {
@@ -4004,7 +4004,7 @@ button.swiper-pagination-bullet {
 .page-fullscreen__title {
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
 }
 .page-fullscreen__actions {
   margin-top: clamp(20px,1.8228vw,35px);
@@ -4023,7 +4023,7 @@ button.swiper-pagination-bullet {
 }
 .page-text__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .page-text__cta {
@@ -4239,7 +4239,7 @@ button.swiper-pagination-bullet {
 }
 .page-faqs__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .page-faqs__list {
@@ -4276,7 +4276,7 @@ button.swiper-pagination-bullet {
 }
 .page-form__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .page-form__content {
@@ -4314,7 +4314,7 @@ button.swiper-pagination-bullet {
 }
 .page-form-info__title {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
 }
 .page-form-info__text {
@@ -4382,7 +4382,7 @@ button.swiper-pagination-bullet {
 .page-three-text-blocks__title {
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   margin-bottom: .6em;
 }
 .page-three-text-blocks__cta {
@@ -4614,7 +4614,7 @@ button.swiper-pagination-bullet {
 .post__title {
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
 }
 .post__tags {
   display: flex;
@@ -4871,8 +4871,11 @@ button.swiper-pagination-bullet {
   transform: translateY(-3.7em);
   font-size: clamp(28px,2.29152vw,44px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   padding: 3em 0 2.1em;
+}
+.container-text {
+  width: clamp(150px,28.33152vw,544px);
 }
 .m-auto {
   margin: 0 auto;
@@ -4882,7 +4885,7 @@ button.swiper-pagination-bullet {
 }
 .pt-h {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
   padding-top: 2.9em;
 }
@@ -4892,11 +4895,14 @@ button.swiper-pagination-bullet {
 .pb-f {
   padding-bottom: 1.8em;
   font-size: clamp(32px,3.59352vw,69px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 120%;
 }
 .pt-video {
   padding-top: clamp(200px,36.29976vw,697px);
+}
+.mb-2em {
+  margin-bottom: 2em;
 }
 .prodotto {
   display: flex;
@@ -4930,7 +4936,7 @@ button.swiper-pagination-bullet {
 }
 .prodotti hr {
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 120%;
   margin: 0.8em 0;
 }
@@ -4940,7 +4946,7 @@ button.swiper-pagination-bullet {
   padding-bottom: 1.8em;
   padding-left: 1.1em;
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
   display: flex;
   align-items: flex-end;
@@ -4977,7 +4983,7 @@ button.swiper-pagination-bullet {
 }
 .view-product {
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
   padding-bottom: 2.5em;
 }
@@ -4997,7 +5003,7 @@ button.swiper-pagination-bullet {
   gap: clamp(40px,7.812vw,150px);
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   padding-bottom: 2em;
   border-bottom: 1px solid #4D90CB66;
   padding-top: 4em;
@@ -5015,7 +5021,7 @@ button.swiper-pagination-bullet {
   grid-template-columns: 1fr;
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   gap: 0.7em;
 }
 .view-product__text p {
@@ -5035,10 +5041,23 @@ button.swiper-pagination-bullet {
   display: flex;
   font-size: clamp(24px,1.8228vw,35px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   gap: 4em;
   align-items: center;
   margin-bottom: 4em;
+}
+.img-text--smaller {
+  margin-bottom: 5em;
+}
+.img-text--smaller .img-text__img {
+  width: clamp(150px,28.27944vw,543px);
+  height: clamp(120px,23.48808vw,451px);
+}
+.img-text--smaller p {
+  font-size: clamp(14px,0.93744vw,18px);
+  line-height: 120%;
+  letter-spacing: -0em;
+  font-weight: 300;
 }
 .img-text__img {
   width: clamp(300px,36.9768vw,710px);
@@ -5109,6 +5128,19 @@ button.swiper-pagination-bullet {
 .box-swiper__buttons .swiper-button-prev::after {
   font-size: 12px;
 }
+.list ul li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  height: fit-content;
+  align-items: center;
+  gap: clamp(12px,2.70816vw,52px);
+}
+.list__big {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px,2.18736vw,42px);
+  width: clamp(200px,23.436vw,450px);
+}
 .home__video {
   overflow: hidden;
   height: 100vh;
@@ -5135,7 +5167,7 @@ button.swiper-pagination-bullet {
   padding-bottom: clamp(12px,1.66656vw,32px);
   border-bottom: 1px solid #ffffff66;
   font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 100%;
   margin-bottom: 0.5em;
 }
@@ -5154,7 +5186,7 @@ button.swiper-pagination-bullet {
 .home__settori {
   padding: 1.4em 0;
   font-size: clamp(40px,4.47888vw,86px);
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   line-height: 120%;
   border-bottom: 1px solid #4D90CB66;
 }
@@ -5242,7 +5274,7 @@ button.swiper-pagination-bullet {
 .home__filosofia__content {
   font-size: clamp(22px,1.66656vw,32px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   display: grid;
   grid-template-columns: 1fr;
   gap: 3em;
@@ -5253,7 +5285,7 @@ button.swiper-pagination-bullet {
   border-left: 1px solid #ffffff66;
   font-size: clamp(22px,1.66656vw,32px);
   line-height: 120%;
-  letter-spacing: -2%;
+  letter-spacing: -0em;
   padding: 0.2em 0.8em;
 }
 .home__filosofia__text p {
