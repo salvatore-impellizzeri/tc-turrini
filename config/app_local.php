@@ -4,7 +4,7 @@
  * Copy and save this file as app_local.php and make changes as required.
  * Note: It is not recommended to commit files with credentials such as app_local.php
  * into source code version control.
- */ 
+ */
 return [
 
     /*
@@ -16,7 +16,7 @@ return [
      */
     'Security' => [
         'salt' => env('SECURITY_SALT', 'f5ef08e718a6c8f34a408242b8906acc2bed11eed61491589f8b99217bde2954'),
-        'cookieKey' => env('SECURITY_COOKIE_KEY', 'kmn8b8906acc2bed11eed6149f5ef08e718a6c8f34a401589f8b99217bde9907')
+		'cookieKey' => env('SECURITY_COOKIE_KEY', 'kmn8b8906acc2bed11eed6149f5ef08e718a6c8f34a401589f8b99217bde9907')
     ],
 
     /*
@@ -27,13 +27,13 @@ return [
      */
     'Datasources' => [
         'default' => [
-            'host' => 'dev.webmotion.it',
-            'username' => 'tcturrini_wm',
-            'password' => '5v7w1Fu&26lpP0!l50',
-            'database' => 'tcturrini_wm',
+            'host' => 'localhost',
+            'username' => 'root',
+            'password' => '',
+            'database' => 'tcturrini',
             'url' => env('DATABASE_URL', null),
-            'log' => false, // da abilitare per loggare le query nel queriesLog
-            'quoteIdentifiers' => false, // serve a quotare parole riservate di mySQL usate come campi del database. Evitare di usarle e non attivarlo se possibile perché riduce performance
+			'log' => false, // da abilitare per loggare le query nel queriesLog
+			'quoteIdentifiers' => false, // serve a quotare parole riservate di mySQL usate come campi del database. Evitare di usarle e non attivarlo se possibile perché riduce performance
             //'cacheMetadata' => true,
         ],
     ],
@@ -54,8 +54,8 @@ return [
             'client' => null,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
         ],
-        'smtp' => [
-            'className' => 'Smtp',
+		'smtp' => [
+			'className' => 'Smtp',
             'host' => 'host',
             'port' => 465,
             'timeout' => 30,
@@ -64,6 +64,6 @@ return [
             'client' => null,
             'tls' => false,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
-        ],
+		],
     ],
 ];
