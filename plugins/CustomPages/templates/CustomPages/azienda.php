@@ -32,24 +32,22 @@
                     ],
                 ],
             ]); ?>
-            <div class="swiper swiper-azienda">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/img7.jpg" alt="Immagine Slider Azienda">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/img7.jpg" alt="Immagine Slider Azienda"> 
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/img7.jpg" alt="Immagine Slider Azienda">
+            <div class="swiper-container m-auto" data-swiper-button="single-slide">
+                <div class="swiper swiper-single-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/img7.jpg" alt="Immagine Slider Azienda">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/img7.jpg" alt="Immagine Slider Azienda"> 
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/img7.jpg" alt="Immagine Slider Azienda">
+                        </div>
                     </div>
                 </div>
-
-                <!-- If we need navigation buttons -->
-                <div class="buttons-swiper">
-                    <div class="swiper-button-prev button button--primary"></div>
-                    <div class="swiper-button-next button button--primary"></div>   
-                </div>
+                <div class="swiper-button-prev button button--primary on-edge-left"></div>
+                <div class="swiper-button-next button button--primary on-edge-right"></div>   
             </div>
         </div>
     </div>

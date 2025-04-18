@@ -310,14 +310,14 @@ const swiperText = new Swiper('.swiper-text', {
 
 //Swiper Azienda
 
-const swiperAzienda = new Swiper('.swiper-azienda', {
-    spaceBetween: 30,
-    slidesPerView: 1,
-	loop: true,
-
-    // Navigazione
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-});
+document.addEventListener('DOMContentLoaded', function() {
+	const swiperAzienda = new Swiper('.swiper-single-slide', {
+		slidesPerView: 1,
+		loop: true,
+		navigation: {
+		  nextEl: '.swiper-button-next',
+		  prevEl: '.swiper-button-prev',
+		},
+	});
+  });
+  
