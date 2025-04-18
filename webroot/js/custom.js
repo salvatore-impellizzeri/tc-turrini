@@ -321,3 +321,26 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
   });
   
+
+// Hover sul sul submenu 
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.menu__item').forEach(item => {
+        const link = item.querySelector('.menu__link');
+        const linkBefore = item.querySelector('.menu__link::before');
+        const submenu = item.querySelector('.menu__submenu');
+
+        if (link && submenu) {
+            submenu.addEventListener('mouseenter', () => {
+                link.style.paddingLeft = '10px';
+                link.classList.add('hover-from-submenu');
+            });
+
+            submenu.addEventListener('mouseleave', () => {
+                link.style.paddingLeft = '';
+                link.classList.remove('hover-from-submenu');
+            });
+        }
+    });
+});
+

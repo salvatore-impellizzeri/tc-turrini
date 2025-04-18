@@ -94,6 +94,10 @@
         align-items: center;
         gap: clamp(12px, 24vw * @px2vw, 24px);
         .font-18;
+
+        &:nth-child(2){
+            position: relative;
+        }
         
         &__item{
             position: relative;
@@ -152,6 +156,7 @@
                     width: 10px;
                     height: 6px;
                     background: url(../img/icons/dropdown.svg) no-repeat center;
+                    filter: brightness(0) invert(1);
                     transition: 300ms @easeOutQuad;
 
                     .body--light-header:not(.body--scroll) &{

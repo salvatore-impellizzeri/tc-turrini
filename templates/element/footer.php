@@ -48,7 +48,7 @@
                 <li><span id="cookie_reload"><?php echo __d('policies', 'manage cookies'); ?></span></li>
             </ul>
         </div>
-<!--     
+        <!--     
         <div class="footer__credits">
             <a href="https://www.webmotion.it" title="Web Agency Verona">Credits</a>
         </div> -->
