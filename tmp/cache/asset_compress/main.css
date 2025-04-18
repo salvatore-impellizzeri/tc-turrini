@@ -4981,6 +4981,9 @@ button.swiper-pagination-bullet {
   line-height: 120%;
   margin: 0.8em 0;
 }
+.prodotti__title {
+  margin-bottom: 1.9em;
+}
 .list-products__background {
   height: clamp(200px,37.4976vw,720px);
   position: relative;
@@ -5149,6 +5152,9 @@ button.swiper-pagination-bullet {
 .box-swiper .swiper-pagination {
   text-align: left;
   position: relative;
+}
+.list {
+  padding-bottom: clamp(60px,9.8952vw,190px);
 }
 .list ul li {
   display: grid;

@@ -7,7 +7,7 @@
         <?php endif; ?>
     </div>
     <div class="img-text__text">
-        <p class="<?= $textClass ?? 'font-23' ?>">
+        <p class="<?= $textClass ?? 'font-35' ?>">
             <?= $text ?>
         </p>
     </div>
