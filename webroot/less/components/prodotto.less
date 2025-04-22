@@ -1,6 +1,7 @@
 .prodotto{
     display: flex;
     align-items: center;
+    gap: clamp(12px, 46vw * @px2vw, 46px);
 
     &__img{
         width: clamp(90px, 238vw * @px2vw, 238px);
@@ -28,10 +29,18 @@
     &__text{
         h2{
             margin-bottom: 0.1em;
+            @media screen and (max-width: @tablet-s) {
+                .font-23;
+                margin-bottom: 1em;
+            }
         }
 
         p{
             margin-bottom: 1.4em;
+
+            @media screen and (max-width: @tablet-s) {
+                display: none;
+            }
         }
     }
 }

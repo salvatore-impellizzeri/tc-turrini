@@ -1,7 +1,6 @@
 .button{
     display: inline-block;
-    height: clamp(32px, 32vw * @px2vw, 32px);
-    width: clamp(32px, 32vw * @px2vw, 32px);
+    padding: clamp(2px, 6.60vw * @px2vw, 6.60px);
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -16,6 +15,10 @@
         background-color: @cta-bg-secondary;
 
         svg{
+            @media screen and(max-width: @tablet-l) {
+                height: 3px !important;
+            }
+
             path{
                 stroke: @cta-color-secondary;
             }
