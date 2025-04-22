@@ -22,7 +22,11 @@
         <?php echo $this->fetch('content') ?>
     </main>
 
-    <?php echo $this->element('footer') ?>
+    <?php
+    echo $this->element('footer', [
+        'extraClass' => $this->fetch('footerClass') ?? false,
+    ]);
+    ?>
 
 	<?php echo $this->element('cookie'); ?>
     <?php // echo $this->element('preload'); ?>

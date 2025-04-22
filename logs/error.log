@@ -18952,3 +18952,498 @@ Stack Trace:
 Request URL: /prodotti
 Referer URL: http://tcturrini.test/azienda
 Client IP: 127.0.0.1
+2025-04-22 10:51:43 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate1.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 10:51:44 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate2.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 11:22:26 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate2.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 11:22:27 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate1.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 11:22:41 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate1.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 11:22:41 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate2.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 11:22:48 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate2.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 11:22:49 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate1.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 11:23:44 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate1.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 11:23:45 error: [InvalidArgumentException] Cannot convert value `img` of type `string` to int in D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:61
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:128
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:106
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Driver.php:297
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query.php:222
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Database\Query\SelectQuery.php:113
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:1587
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:385
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\ORM\Query\SelectQuery.php:591
+- D:\laragon\www\tcturrini\src\Controller\AppController.php:194
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\BlockPagesController.php:19
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /block-pages/view/img/certificate2.png
+Referer URL: http://tcturrini.test/block-pages/view/7
+Client IP: 127.0.0.1
+2025-04-22 12:21:52 error: [Cake\Http\Exception\NotFoundException] parse error: failed at `height: 100%` D:\laragon\www\tcturrini\webroot\less/components/header.less on line 214 in D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php on line 82
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /cache_assets/main.css
+Referer URL: http://tcturrini.test/
+Client IP: 127.0.0.1

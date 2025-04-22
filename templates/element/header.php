@@ -11,6 +11,10 @@ $languages = Configure::read('Setup.languages');
         <?= $this->Frontend->svg('logo.svg') ?>
     </a>
     
+    <!-- DA AGGIUNGERE IMMAGINE E BOTTONE PER OGNI ITEM, 
+    IL BOTTONE E' UN ELEMENT (CTA) E LO STILE DELLE IMMAGINI 
+    E DEL CONTAINER LO TROVI NEL FILE submenu-progetti.less -->
+
     <nav class="header__menu">
         <?= $this->cell('Menu.Menu', [1]) ?>
     </nav>

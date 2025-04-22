@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer <?= $extraClass ?>">
     <div class="container-l m-auto">
         <div class="font-23 footer__more-info">
             Vuoi avere maggiori informazioni?

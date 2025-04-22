@@ -171,15 +171,14 @@
                 }
             }
         }
+
+        // DA AGGIUNGERE IMMAGINE E BOTTONE PER OGNI ITEM, 
+        // IL BOTTONE E' UN ELEMENT (CTA) E LO STILE DELLE IMMAGINI 
+        // E DEL CONTAINER LO TROVI NEL FILE submenu-progetti.less
+
         &__submenu{
             list-style-type: none;
             margin: 0;
-            padding: 0;
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            padding: 10px 30px;
-            border: 1px solid @text-color;
             background: @header-bg-color;
             visibility: hidden;
             pointer-events: none;
@@ -190,10 +189,42 @@
             transition: 300ms @easeOutQuad;
             opacity: 0;
             will-change: transform, opacity;
+            height: clamp(100px, 260vw * @px2vw, 260px);
+            display: flex;
+            position: absolute;
+            top: 200%;
+            left: 100%;
+            color: @text-color-secondary;
+            .font-23;
+            .fw-medium;
+
+            .menu__item{
+                width: fit-content;
+                border-right: 1px solid @border-color;
+                cursor: pointer;
+                height: 100%;
+                .font-23;
+                padding: 1.1em 0.9em;
+            }
+
+            &:last-child{
+                border-right: 0px;
+            }
+
+            &::before{
+                content: '';
+                .bg-light;
+                width: clamp(10px, 21vw * @px2vw, 21px);
+                height: clamp(8px, 19vw * @px2vw, 19px);
+                position: absolute;
+                top: 0;
+                transform: translateY(-100%);
+                left: 0;
+                clip-path: polygon(0 100%, 0 0, 100% 100%);
+            }
+
             .menu__link{
-                height: 40px;
-                line-height: 40px;
-                color: @text-color;
+               
             }
         }
     }

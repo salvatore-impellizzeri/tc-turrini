@@ -2,7 +2,7 @@
 	return [
 		'Setup' => [
 			'domain' => 'http://crispy.webmotion.it',
-			'sitename' => 'Crispy',
+			'sitename' => 'TC Turrini',
 			'mailto' => 'webmaster@webmotion.it', //si gestisce da pannello, da usare solo con la vecchia form.
 			'mailfrom' => 'sitoweb@webmotion.it',
 			'locale' => [
@@ -24,7 +24,7 @@
 			'maxFileSize' => 10, // in MB
 			'admin_language' => 'it',
 			'default_language' => 'it',
-			'languages' => array(),
+			'languages' => array('en'),
 			'menu_depth' => 2,
 			'font' => ''
 		],
