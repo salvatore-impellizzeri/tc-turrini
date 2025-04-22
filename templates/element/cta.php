@@ -1,4 +1,4 @@
-<?php if ($form) : ?>
+<?php if (!empty($form)) : ?>
     <button class="cta" type="submit">
         <?php if (!empty($icon)) : ?>
             <span class="button <?= $extraClass ?? '' ?>">
