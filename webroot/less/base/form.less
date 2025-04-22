@@ -45,15 +45,13 @@ textarea,
 select {
     height: 55px;
     line-height: 55px;
-    border: 1px solid @input-border-color;
-    padding: 0 15px;
-    font-size: 16px;
+    border-bottom: 1px solid @border-color-light;
+    .font-18;
     transition: 300ms;
-    background: @input-bg-color;
     color: @text-color;
-    &:focus {
-        border-color: lighten(@input-border-color, 30%);
-    }
+    // &:focus {
+    //     border-color: lighten(@input-border-color, 30%);
+    // }
 }
 
 select {
@@ -64,14 +62,14 @@ select {
 
 textarea {
     line-height: 1.2em;
-    padding: 25px 15px;
+    padding-bottom: 25px;
+    margin-top: 25px;
     height: auto;
 }
 
 label {
     display: block;
     margin-bottom: 3px;
-    font-size: 14px;
 }
 
 // Normalizing number input
@@ -91,31 +89,39 @@ label {
         }
         
         label {
+            .font-18;
+            .fw-light;
             margin: 0;
-            padding: 0 15px;
             position: absolute;
             top: 50%;
             left: 0;
             right: 0;
             transition: 300ms @easeOutQuad;
-            transform: translate3d(0, -50%, 0) translate3d(0, -18px, 0);
-            -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -18px, 0);
+            transform: translate3d(0, -40%, 0) translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, -40%, 0) translate3d(0, 0, 0);
             font-size: 12px;
             opacity: 0.5;
         }
         
         input:placeholder-shown + label,
         textarea:placeholder-shown + label {
-            transform: translate3d(0, -50%, 0);
-            -webkit-transform: translate3d(0, -50%, 0);
-            font-size: 14px;
+            transform: translate3d(0, 100%, 0);
+            -webkit-transform: translate3d(0, 100%, 0);
+            .font-18;
+            .fw-light;
             opacity: 1;
         }
         
-        input:focus + label,
+        input:focus + label {
+            transform: translate3d(0, -40%, 0) translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, -40%, 0) translate3d(0, 0, 0);
+            font-size: 12px;
+            opacity: 0.5;
+        }
+
         textarea:focus + label {
-            transform: translate3d(0, -50%, 0) translate3d(0, -18px, 0);
-            -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -18px, 0);
+            transform: translate3d(0, -100%, 0) translate3d(0, -40px, 0);
+            -webkit-transform: translate3d(0, -100%, 0) translate3d(0, -40px, 0);
             font-size: 12px;
             opacity: 0.5;
         }
@@ -130,7 +136,10 @@ label {
     
     &.textarea {
         label {
-            top: 30px;
+            bottom: 40px;
+            left: 0;
+            transform: translate3d(0, -100%, 0) translate3d(0, -40px, 0);
+            -webkit-transform: translate3d(0, -100%, 0) translate3d(0, -40px, 0);
         }
     }
 }

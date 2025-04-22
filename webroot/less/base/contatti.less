@@ -1,0 +1,27 @@
+.contacts{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &__info{
+        padding-right: clamp(50px, 284vw * @px2vw, 284px);
+        border-right: 1px solid @border-color-light;
+    }
+
+    &__upper{
+        display: flex;
+    }
+
+    &__form{
+        width: 43%;
+    }
+
+    .footer{
+
+        &__info{
+            grid-template-columns: 1fr;
+            .font-23;
+            gap: 1.85em;
+        }
+    }
+
+}

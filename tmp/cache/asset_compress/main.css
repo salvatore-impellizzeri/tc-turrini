@@ -121,7 +121,7 @@ body {
   font-size: 1rem;
 }
 a {
-  color: deeppink;
+  color: #FFF;
 }
 p {
   line-height: 1.4em;
@@ -412,22 +412,12 @@ textarea,
 select {
   height: 55px;
   line-height: 55px;
-  border: 1px solid #000;
-  padding: 0 15px;
-  font-size: 16px;
+  border-bottom: 1px solid #ffffff66;
+  font-size: clamp(14px,0.93744vw,18px);
+  line-height: 120%;
+  letter-spacing: -2%;
   transition: 300ms;
-  background: #fff;
   color: #ffffff;
-}
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="date"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-input[type="number"]:focus,
-textarea:focus,
-select:focus {
-  border-color: #4d4d4d;
 }
 select {
   background-image: url(../img/icons/select-dropdown.svg);
@@ -436,13 +426,13 @@ select {
 }
 textarea {
   line-height: 1.2em;
-  padding: 25px 15px;
+  padding-bottom: 25px;
+  margin-top: 25px;
   height: auto;
 }
 label {
   display: block;
   margin-bottom: 3px;
-  font-size: 14px;
 }
 .input {
   margin-bottom: 25px;
@@ -466,15 +456,18 @@ label {
 .input.tel label,
 .input.number label,
 .input.email label {
+  font-size: clamp(14px,0.93744vw,18px);
+  line-height: 120%;
+  letter-spacing: -2%;
+  font-weight: 300;
   margin: 0;
-  padding: 0 15px;
   position: absolute;
   top: 50%;
   left: 0;
   right: 0;
   transition: 300ms cubic-bezier(0.250,0.460,0.450,0.940);
-  transform: translate3d(0,-50%,0) translate3d(0,-18px,0);
-  -webkit-transform: translate3d(0,-50%,0) translate3d(0,-18px,0);
+  transform: translate3d(0,-40%,0) translate3d(0,0,0);
+  -webkit-transform: translate3d(0,-40%,0) translate3d(0,0,0);
   font-size: 12px;
   opacity: 0.5;
 }
@@ -488,23 +481,31 @@ label {
 .input.number textarea:placeholder-shown + label,
 .input.email input:placeholder-shown + label,
 .input.email textarea:placeholder-shown + label {
-  transform: translate3d(0,-50%,0);
-  -webkit-transform: translate3d(0,-50%,0);
-  font-size: 14px;
+  transform: translate3d(0,100%,0);
+  -webkit-transform: translate3d(0,100%,0);
+  font-size: clamp(14px,0.93744vw,18px);
+  line-height: 120%;
+  letter-spacing: -2%;
+  font-weight: 300;
   opacity: 1;
 }
 .input.text:not(.text-date) input:focus + label,
-.input.text:not(.text-date) textarea:focus + label,
 .input.textarea input:focus + label,
-.input.textarea textarea:focus + label,
 .input.tel input:focus + label,
-.input.tel textarea:focus + label,
 .input.number input:focus + label,
+.input.email input:focus + label {
+  transform: translate3d(0,-40%,0) translate3d(0,0,0);
+  -webkit-transform: translate3d(0,-40%,0) translate3d(0,0,0);
+  font-size: 12px;
+  opacity: 0.5;
+}
+.input.text:not(.text-date) textarea:focus + label,
+.input.textarea textarea:focus + label,
+.input.tel textarea:focus + label,
 .input.number textarea:focus + label,
-.input.email input:focus + label,
 .input.email textarea:focus + label {
-  transform: translate3d(0,-50%,0) translate3d(0,-18px,0);
-  -webkit-transform: translate3d(0,-50%,0) translate3d(0,-18px,0);
+  transform: translate3d(0,-100%,0) translate3d(0,-40px,0);
+  -webkit-transform: translate3d(0,-100%,0) translate3d(0,-40px,0);
   font-size: 12px;
   opacity: 0.5;
 }
@@ -519,7 +520,10 @@ label {
   right: 0;
 }
 .input.textarea label {
-  top: 30px;
+  bottom: 40px;
+  left: 0;
+  transform: translate3d(0,-100%,0) translate3d(0,-40px,0);
+  -webkit-transform: translate3d(0,-100%,0) translate3d(0,-40px,0);
 }
 .radio label,
 .checkbox label {
@@ -3197,16 +3201,6 @@ button.swiper-pagination-bullet {
   left: 0;
   top: auto;
 }
-.contact-form--1 .contact-form__inputs {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  column-gap: clamp(10px,2.0832vw,40px);
-}
-@media screen and (max-width: 700px) {
-  .contact-form--1 .contact-form__inputs {
-    grid-template-columns: 1fr;
-  }
-}
 @media screen and (min-width: 701px) {
   .contact-form--1 .input--1,
   .contact-form--1 .input--2,
@@ -4879,7 +4873,7 @@ button.swiper-pagination-bullet {
   align-items: center;
 }
 .shop-product-preview__price strong {
-  color: deeppink;
+  color: #FFF;
 }
 .shop-pagination {
   margin-top: 20px;
@@ -4901,7 +4895,7 @@ button.swiper-pagination-bullet {
   cursor: pointer;
 }
 .shop-pagination__page[data-current] {
-  background: deeppink;
+  background: #FFF;
 }
 .bg-light {
   background-color: #fff;
@@ -5409,4 +5403,24 @@ button.swiper-pagination-bullet {
 }
 .home__filosofia__text p {
   width: clamp(150px,35.72688vw,686px);
+}
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.contacts__info {
+  padding-right: clamp(50px,14.79072vw,284px);
+  border-right: 1px solid #ffffff66;
+}
+.contacts__upper {
+  display: flex;
+}
+.contacts__form {
+  width: 43%;
+}
+.contacts .footer__info {
+  grid-template-columns: 1fr;
+  font-size: clamp(18px,1.19784vw,23px);
+  line-height: 120%;
+  gap: 1.85em;
 }

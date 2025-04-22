@@ -93,7 +93,7 @@ if (empty($fields->count())) return;
     </div>
     <div class="contact-form__footer">
         <button class="button <?= $buttonExtraClass ?? '' ?>">
-            <span><?= __d('contacts', 'send'); ?></span>
+            <!-- <span><?= __d('contacts', 'send'); ?></span> -->
             
         </button>
     </div>
