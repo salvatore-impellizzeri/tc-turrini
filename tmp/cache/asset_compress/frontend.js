@@ -9982,6 +9982,64 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+//Swiper text
+
+const swiperText = new Swiper('.swiper-text', {
+    // Opzioni base
+    spaceBetween: 30,
+    slidesPerView: 1,
+
+    // Paginazione
+    pagination: {
+      el: '.swiper-pagination',
+	  type: 'fraction',
+    },
+
+    // Navigazione
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+});
+
+//Swiper Azienda
+
+document.addEventListener('DOMContentLoaded', function() {
+	const swiperAzienda = new Swiper('.swiper-single-slide', {
+		slidesPerView: 1,
+		loop: true,
+		navigation: {
+		  nextEl: '.swiper-button-next',
+		  prevEl: '.swiper-button-prev',
+		},
+	});
+  });
+  
+
+// Hover sul sul submenu 
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.menu__item').forEach(item => {
+        const link = item.querySelector('.menu__link');
+        const linkBefore = item.querySelector('.menu__link::before');
+        const submenu = item.querySelector('.menu__submenu');
+
+        if (link && submenu) {
+            submenu.addEventListener('mouseenter', () => {
+                link.style.paddingLeft = '10px';
+                link.classList.add('hover-from-submenu');
+            });
+
+            submenu.addEventListener('mouseleave', () => {
+                link.style.paddingLeft = '';
+                link.classList.remove('hover-from-submenu');
+            });
+        }
+    });
+});
+
+
 // submit form plugin
 ;(function( $, window, undefined ) {
 
