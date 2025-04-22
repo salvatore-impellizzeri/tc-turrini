@@ -24,7 +24,7 @@
 			'maxFileSize' => 10, // in MB
 			'admin_language' => 'it',
 			'default_language' => 'it',
-			'languages' => array('en'),
+			'languages' => array(),
 			'menu_depth' => 2,
 			'font' => ''
 		],
