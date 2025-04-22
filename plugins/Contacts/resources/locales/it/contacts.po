@@ -79,7 +79,7 @@ msgid "privacy disclaimer {0}"
 msgstr "Dichiaro di aver letto e di accettare il {0}"
 
 msgid "send"
-msgstr "Invia messaggio"
+msgstr "Invia"
 
 msgid "message not sent error"
 msgstr "Verifica di aver compilato tutti i campi obbligatori"

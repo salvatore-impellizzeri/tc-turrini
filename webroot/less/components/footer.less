@@ -47,23 +47,9 @@
         padding: 2em 0;
         border-top: 1px solid @border-color-light;
         .font-14;
-        .fw-medium;
 
         span{
             text-decoration: underline;
-        }
-    }
-
-    .menu{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 4px;
-
-        @media screen and (max-width: @tablet-l) {
-            flex-wrap: wrap;
-            gap: 1em;
-            justify-content: center;
         }
     }
 
@@ -89,4 +75,17 @@
 
 .footer--contacts{
     display: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+
+    @media screen and (max-width: @tablet-l) {
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
 }

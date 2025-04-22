@@ -46,15 +46,23 @@ if (empty($fields->count())) return;
                         'escape' => false
                     ]);
                     break;
-                case 'checkbox':         
-                    echo $this->Form->control($field->field, [
-                        'label' => $this->Html->tag('span', $field->label),
-                        'type' => $field->type,
-                        'required' => $field->required,
-                        'extraClass' => 'input--'.$field->id,
-                        'escape' => false
-                    ]);
-                    break;
+                    case 'checkbox':
+                        echo $this->Html->tag('div',
+                            $this->Form->control($field->field, [
+                                'label' => $this->Html->tag('span', $field->label),
+                                'type' => 'checkbox',
+                                'required' => $field->required,
+                                'escape' => false,
+                                'extraClass' => 'input--'.$field->id,
+                            ]) .
+                            $this->element('cta', [
+                                'form' => true,
+                                'extraClass' => "button--secondary",
+                                'icon' => 'icons/button.svg'
+                            ]),
+                            ['class' => 'form-footer']
+                        );
+                        break;                  
                 case 'select':    
                     $options = explode("\n", $field->multiple_values);     
                     echo $this->Form->control($field->field, [
@@ -91,11 +99,4 @@ if (empty($fields->count())) return;
         ?>
             
     </div>
-    <div class="contact-form__footer">
-        <button class="button <?= $buttonExtraClass ?? '' ?>">
-            <!-- <span><?= __d('contacts', 'send'); ?></span> -->
-            
-        </button>
-    </div>
-
 <?= $this->Form->end() ?>
