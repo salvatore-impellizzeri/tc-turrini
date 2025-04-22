@@ -21393,3 +21393,18 @@ Cake\Http\Runner->run() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http
 Cake\Http\Server->run() D:\laragon\www\tcturrini\webroot\index.php, line 44
 [main]
 
+2025-04-22 16:51:58 error: [Cake\Http\Exception\NotFoundException] parse error: failed at `@media screen (max-width: @tablet-m) {` D:\laragon\www\tcturrini\webroot\less/base/home.less on line 211 in D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php on line 82
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /cache_assets/main.css
+Referer URL: http://tcturrini.test/
+Client IP: 127.0.0.1

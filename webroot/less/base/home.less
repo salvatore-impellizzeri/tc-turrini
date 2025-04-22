@@ -207,6 +207,10 @@
             grid-template-columns: 1fr;
             gap: 3em;
             justify-items: start;
+
+            @media screen and (max-width: @tablet-m) {
+                gap: 2em;
+            }
         }
 
         &__text{
@@ -216,7 +220,12 @@
             padding: 0.2em 0.8em;
 
             p{
-                width: clamp(150px, 686vw * @px2vw, 686px);
+                width: clamp(400px, 686vw * @px2vw, 686px);
+
+                @media screen and (max-width: @mobile-l) {
+                    width: 100%;
+                }
+        
             }
         }
 

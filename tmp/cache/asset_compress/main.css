@@ -628,11 +628,6 @@ label {
 .button--secondary {
   background-color: #FFFFFF;
 }
-@media screen and (max-width: 1200px) {
-  .button--secondary svg {
-    height: 3px !important;
-  }
-}
 .button--secondary svg path {
   stroke: #0060B4;
 }
@@ -5456,6 +5451,11 @@ button.swiper-pagination-bullet {
   gap: 3em;
   justify-items: start;
 }
+@media screen and (max-width: 1000px) {
+  .home__filosofia__content {
+    gap: 2em;
+  }
+}
 .home__filosofia__text {
   padding-left: clamp(10px,1.24992vw,24px);
   border-left: 1px solid #ffffff66;
@@ -5465,7 +5465,12 @@ button.swiper-pagination-bullet {
   padding: 0.2em 0.8em;
 }
 .home__filosofia__text p {
-  width: clamp(150px,35.72688vw,686px);
+  width: clamp(400px,35.72688vw,686px);
+}
+@media screen and (max-width: 550px) {
+  .home__filosofia__text p {
+    width: 100%;
+  }
 }
 .contacts {
   display: grid;
