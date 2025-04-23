@@ -24,12 +24,8 @@ $languages = Configure::read('Setup.languages');
             <?= $this->element('languages'); ?>
         </div>
     <?php endif; ?>
-    
-    <?php if (empty($hamburgerMenu)): ?>
-        <div class="header__hamburger-mobile">
-            <?php echo $this->element('hamburger'); ?>
-        </div>
-    <?php endif; ?>
 
-    
+    <div class="header__hamburger-mobile">
+        <?php echo $this->element('hamburger'); ?>
+    </div>
 </header>

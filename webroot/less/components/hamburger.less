@@ -4,11 +4,11 @@
     height: 20px;
     position: relative;
     cursor: pointer;
+    margin-left: clamp(17px, 30vw * @px2vw, 30px);
     span{
         position: absolute;
         height: 1px;
         background: @text-color;
-        position: absolute;
         left: 0;
         right: 0;
         top: 50%;
@@ -31,10 +31,10 @@
         }
 
         @media screen and(max-width: @tablet-m){
-            width: 45px;
+            width: 36px;
         }
         @media screen and(max-width: @mobile-l){
-            width: 40px;
+            width: 34px;
         }
     }
 

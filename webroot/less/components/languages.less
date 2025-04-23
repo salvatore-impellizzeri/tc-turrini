@@ -10,7 +10,7 @@
     
     &__toggler{
         .fw-medium;
-        width: clamp(20px, 60vw * @px2vw, 60px);
+        width: clamp(32px, 60vw * @px2vw, 60px);
         height: 46px;
         display: flex;
         align-items: center;
@@ -20,6 +20,10 @@
 
         .body--light-header:not(.body--scroll) &{
             border-color: @light-text-color;
+        }
+
+        @media screen and (max-width: @tablet-m) {
+            justify-content: center;
         }
 
         @media screen and (max-width: @mobile-l) {
@@ -36,6 +40,10 @@
             path{
                 stroke: @text-color;
             }
+        }
+
+        @media screen and (max-width: @tablet-m) {
+            display: none;
         }
     }
     &__dropdown{

@@ -41,17 +41,8 @@
 
 
     &__logo{
-        flex: 0 0 220px;
-        height: clamp(20px, 119vw * @px2vw, 119px);
+        height: clamp(80px, 119vw * @px2vw, 119px);
         margin-right: auto;
-
-        @media screen and (max-width: @l) {
-            flex: 0 0 180px;
-        }
-
-        @media screen and (max-width: @tablet-s) {
-            flex: 0 1 160px;
-        }
 
         svg{
             object-fit: contain;

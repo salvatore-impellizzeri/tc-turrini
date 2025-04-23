@@ -2500,19 +2500,8 @@ button.swiper-pagination-bullet {
   background: #0060B4;
 }
 .header__logo {
-  flex: 0 0 220px;
-  height: clamp(20px,6.19752vw,119px);
+  height: clamp(80px,6.19752vw,119px);
   margin-right: auto;
-}
-@media screen and (max-width: 1400px) {
-  .header__logo {
-    flex: 0 0 180px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .header__logo {
-    flex: 0 1 160px;
-  }
 }
 .header__logo svg {
   object-fit: contain;
@@ -2679,6 +2668,7 @@ button.swiper-pagination-bullet {
   height: 20px;
   position: relative;
   cursor: pointer;
+  margin-left: clamp(17px,1.5624vw,30px);
 }
 .hamburger span {
   position: absolute;
@@ -2704,12 +2694,12 @@ button.swiper-pagination-bullet {
 }
 @media screen and (max-width: 1000px) {
   .hamburger span {
-    width: 45px;
+    width: 36px;
   }
 }
 @media screen and (max-width: 550px) {
   .hamburger span {
-    width: 40px;
+    width: 34px;
   }
 }
 .mobile-menu {
@@ -2985,7 +2975,7 @@ button.swiper-pagination-bullet {
 }
 .languages__toggler {
   font-weight: 500;
-  width: clamp(20px,3.1248vw,60px);
+  width: clamp(32px,3.1248vw,60px);
   height: 46px;
   display: flex;
   align-items: center;
@@ -2995,6 +2985,11 @@ button.swiper-pagination-bullet {
 }
 .body--light-header:not(.body--scroll) .languages__toggler {
   border-color: #FFF;
+}
+@media screen and (max-width: 1000px) {
+  .languages__toggler {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 550px) {
   .languages__toggler {
@@ -3008,6 +3003,11 @@ button.swiper-pagination-bullet {
 }
 .languages__icon svg path {
   stroke: #ffffff;
+}
+@media screen and (max-width: 1000px) {
+  .languages__icon {
+    display: none;
+  }
 }
 .languages__dropdown {
   position: absolute;
