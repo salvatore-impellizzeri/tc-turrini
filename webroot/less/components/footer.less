@@ -7,15 +7,6 @@
     gap: clamp(10px, 90vw * @px2vw, 90px);
     border-top: 1px solid @border-color;
 
-
-    @media screen and (max-width: @tablet-l) {
-        flex-direction: column;
-        gap: 15px;
-        height: auto;
-        padding: 40px 0;
-        text-align: center;
-    }
-
     a{
         color: inherit;
     }
@@ -51,6 +42,12 @@
         span{
             text-decoration: underline;
         }
+
+        @media screen and (max-width: @tablet-l) {
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 1em;
+        }
     }
 
     &__info{
@@ -58,15 +55,24 @@
         grid-template-columns: repeat(3, 1fr);
         gap: clamp(15px, 80vw * @px2vw, 80px);
         align-items: flex-end;
+
+        @media screen and (max-width: @tablet-m) {
+            grid-template-columns: 1fr;
+        }
     }
 
     &__cols{
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: @tablet-l) {
+            align-items: flex-end;
+        }
     }
 
     &__logos{
         display: flex;
+        flex-shrink: 0;
         gap: clamp(10px, 24vw * @px2vw, 24px);
         height: clamp(50px, 112vw * @px2vw, 112px);
         justify-content: flex-end;
@@ -82,10 +88,4 @@
     align-items: center;
     justify-content: flex-end;
     gap: 4px;
-
-    @media screen and (max-width: @tablet-l) {
-        flex-wrap: wrap;
-        gap: 1em;
-        justify-content: center;
-    }
 }

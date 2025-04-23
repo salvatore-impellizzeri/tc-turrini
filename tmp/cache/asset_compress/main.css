@@ -2841,15 +2841,6 @@ button.swiper-pagination-bullet {
   gap: clamp(10px,4.6872vw,90px);
   border-top: 1px solid #4D90CB66;
 }
-@media screen and (max-width: 1200px) {
-  .footer {
-    flex-direction: column;
-    gap: 15px;
-    height: auto;
-    padding: 40px 0;
-    text-align: center;
-  }
-}
 .footer a {
   color: inherit;
 }
@@ -2885,18 +2876,36 @@ button.swiper-pagination-bullet {
 .footer__legal span {
   text-decoration: underline;
 }
+@media screen and (max-width: 1200px) {
+  .footer__legal {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1em;
+  }
+}
 .footer__info {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: clamp(15px,4.1664vw,80px);
   align-items: flex-end;
 }
+@media screen and (max-width: 1000px) {
+  .footer__info {
+    grid-template-columns: 1fr;
+  }
+}
 .footer__cols {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 1200px) {
+  .footer__cols {
+    align-items: flex-end;
+  }
+}
 .footer__logos {
   display: flex;
+  flex-shrink: 0;
   gap: clamp(10px,1.24992vw,24px);
   height: clamp(50px,5.83296vw,112px);
   justify-content: flex-end;
@@ -2909,13 +2918,6 @@ button.swiper-pagination-bullet {
   align-items: center;
   justify-content: flex-end;
   gap: 4px;
-}
-@media screen and (max-width: 1200px) {
-  .menu {
-    flex-wrap: wrap;
-    gap: 1em;
-    justify-content: center;
-  }
 }
 .gallery {
   display: grid;
