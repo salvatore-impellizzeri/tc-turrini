@@ -1,6 +1,10 @@
 .box-swiper{
     padding: 1.7em 1.8em 1.2em;
 
+    @media screen and (max-width: @mobile-l) {
+        padding: 30px;
+    }
+
     h2{
         width: clamp(140px, 670vw * @px2vw, 670px);
         margin-bottom: 1.2em;
@@ -10,11 +14,14 @@
         padding-top: 0.2em;
         width: clamp(200px, 544vw * @px2vw, 544px);
 
+        @media screen and (max-width: @mobile-l) {
+            width: 100%;
+        }
+
         &-slide{
-            margin-bottom: 2em;
+            margin-bottom: 3em;
         }
     }
-
 
     .hr{
         margin-top: 0.1em;

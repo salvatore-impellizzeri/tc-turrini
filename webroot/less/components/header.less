@@ -41,7 +41,7 @@
 
 
     &__logo{
-        height: clamp(80px, 119vw * @px2vw, 119px);
+        height: clamp(75px, 119vw * @px2vw, 119px);
         margin-right: auto;
 
         svg{
@@ -223,6 +223,31 @@
 
 .header--invert {
     color: @text-color-secondary;
+
+    .languages{
+
+        &__dropdown{
+            border: 1px solid @border-color;
+            border-bottom: 0;
+            background-color: @bg-color-secondary;
+        }
+
+        &__link{
+            color: @text-color-secondary;
+            border-bottom: 1px solid @border-color;
+        }
+
+        &__toggler{
+            border-top: 1px solid @border-color;
+        }
+    }
+
+
+    .hamburger{
+        span{
+            background-color: @text-color-secondary;
+        }
+    }
     
     .menu__item {
         border-top: 1px solid @border-color;
