@@ -52,6 +52,11 @@ select {
     // &:focus {
     //     border-color: lighten(@input-border-color, 30%);
     // }
+
+    @media screen and (max-width: @tablet-m) {
+        height: 35px;
+        line-height: 35px;
+    }
 }
 
 select {
@@ -76,6 +81,10 @@ label {
 
 .input {
     margin-bottom: 25px;
+
+    @media screen and (max-width: @tablet-m) {
+        margin-bottom: 40px;
+    }
     
     &.text:not(.text-date),
     &.textarea,
@@ -83,6 +92,7 @@ label {
     &.number,
     &.email {
         height: 0.9em;
+
         position: relative;
         
         ::placeholder {
@@ -102,6 +112,11 @@ label {
             -webkit-transform: translate3d(0, -40%, 0) translate3d(0, 0, 0);
             font-size: 12px;
             opacity: 0.5;
+
+            @media screen and (max-width: @tablet-m) {
+                transform: translate3d(0, -140%, 0) translate3d(0, 0, 0);
+                -webkit-transform: translate3d(0, -140%, 0) translate3d(0, 0, 0);
+            }
         }
         
         input:placeholder-shown + label,
@@ -112,12 +127,31 @@ label {
             .fw-light;
             opacity: 1;
         }
+
+        input:placeholder-shown + label{
+            @media screen and (max-width: @tablet-m) {
+                transform: translate3d(0, 0%, 0);
+                -webkit-transform: translate3d(0, 0%, 0);
+            }
+        }
+
+        textarea:placeholder-shown + label{
+            @media screen and (max-width: @tablet-m) {
+                transform: translate3d(0, 140%, 0);
+                -webkit-transform: translate3d(0, 140%, 0);
+            }
+        }
         
         input:focus + label {
             transform: translate3d(0, -40%, 0) translate3d(0, 0, 0);
             -webkit-transform: translate3d(0, -40%, 0) translate3d(0, 0, 0);
             font-size: 12px;
             opacity: 0.5;
+
+            @media screen and (max-width: @tablet-m) {
+                transform: translate3d(0, -140%, 0) translate3d(0, 0, 0);
+                -webkit-transform: translate3d(0, -140%, 0) translate3d(0, 0, 0);
+            }
         }
 
         textarea:focus + label {

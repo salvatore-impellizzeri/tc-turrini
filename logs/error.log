@@ -21727,3 +21727,33 @@ Stack Trace:
 Request URL: /cache_assets/main.css
 Referer URL: http://tcturrini.test/sostenibilita
 Client IP: 127.0.0.1
+2025-04-23 15:46:31 error: [Error] Attempt to modify property "props" on null in D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php on line 3717
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:2661
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:2488
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:126
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:791
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:289
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:283
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:198
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:2015
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:2038
+- D:\laragon\www\tcturrini\vendor\leafo\lessc\lessc.php:2140
+- D:\laragon\www\tcturrini\vendor\markstory\mini-asset\src\Filter\LessPHP.php:55
+- D:\laragon\www\tcturrini\vendor\markstory\mini-asset\src\Filter\FilterCollection.php:54
+- D:\laragon\www\tcturrini\vendor\markstory\mini-asset\src\Output\Compiler.php:65
+- D:\laragon\www\tcturrini\vendor\markstory\mini-asset\src\Output\CachedCompiler.php:46
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:80
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /cache_assets/main.css
+Referer URL: http://tcturrini.test/contatti
+Client IP: 127.0.0.1

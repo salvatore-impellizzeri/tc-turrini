@@ -419,6 +419,19 @@ select {
   transition: 300ms;
   color: #ffffff;
 }
+@media screen and (max-width: 1000px) {
+  input[type="text"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  select {
+    height: 35px;
+    line-height: 35px;
+  }
+}
 select {
   background-image: url(../img/icons/select-dropdown.svg);
   background-repeat: no-repeat;
@@ -436,6 +449,11 @@ label {
 }
 .input {
   margin-bottom: 25px;
+}
+@media screen and (max-width: 1000px) {
+  .input {
+    margin-bottom: 40px;
+  }
 }
 .input.text:not(.text-date),
 .input.textarea,
@@ -472,6 +490,16 @@ label {
   font-size: 12px;
   opacity: 0.5;
 }
+@media screen and (max-width: 1000px) {
+  .input.text:not(.text-date) label,
+  .input.textarea label,
+  .input.tel label,
+  .input.number label,
+  .input.email label {
+    transform: translate3d(0,-140%,0) translate3d(0,0,0);
+    -webkit-transform: translate3d(0,-140%,0) translate3d(0,0,0);
+  }
+}
 .input.text:not(.text-date) input:placeholder-shown + label,
 .input.text:not(.text-date) textarea:placeholder-shown + label,
 .input.textarea input:placeholder-shown + label,
@@ -490,6 +518,26 @@ label {
   font-weight: 300;
   opacity: 1;
 }
+@media screen and (max-width: 1000px) {
+  .input.text:not(.text-date) input:placeholder-shown + label,
+  .input.textarea input:placeholder-shown + label,
+  .input.tel input:placeholder-shown + label,
+  .input.number input:placeholder-shown + label,
+  .input.email input:placeholder-shown + label {
+    transform: translate3d(0,0%,0);
+    -webkit-transform: translate3d(0,0%,0);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .input.text:not(.text-date) textarea:placeholder-shown + label,
+  .input.textarea textarea:placeholder-shown + label,
+  .input.tel textarea:placeholder-shown + label,
+  .input.number textarea:placeholder-shown + label,
+  .input.email textarea:placeholder-shown + label {
+    transform: translate3d(0,140%,0);
+    -webkit-transform: translate3d(0,140%,0);
+  }
+}
 .input.text:not(.text-date) input:focus + label,
 .input.textarea input:focus + label,
 .input.tel input:focus + label,
@@ -499,6 +547,16 @@ label {
   -webkit-transform: translate3d(0,-40%,0) translate3d(0,0,0);
   font-size: 12px;
   opacity: 0.5;
+}
+@media screen and (max-width: 1000px) {
+  .input.text:not(.text-date) input:focus + label,
+  .input.textarea input:focus + label,
+  .input.tel input:focus + label,
+  .input.number input:focus + label,
+  .input.email input:focus + label {
+    transform: translate3d(0,-140%,0) translate3d(0,0,0);
+    -webkit-transform: translate3d(0,-140%,0) translate3d(0,0,0);
+  }
 }
 .input.text:not(.text-date) textarea:focus + label,
 .input.textarea textarea:focus + label,
@@ -5627,17 +5685,53 @@ button.swiper-pagination-bullet {
   padding-right: clamp(50px,14.79072vw,284px);
   border-right: 1px solid #ffffff66;
 }
+@media screen and (max-width: 1000px) {
+  .contacts__info {
+    border-bottom: 1px solid #ffffff66;
+    border-right: 0;
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 1em;
+  }
+  .contacts__info .footer__contact {
+    justify-content: center;
+  }
+}
 .contacts__upper {
   display: flex;
   padding-bottom: 0.8em;
 }
+@media screen and (max-width: 1000px) {
+  .contacts__upper {
+    flex-direction: column;
+  }
+}
 .contacts__form {
   width: 43%;
   padding: 0.7em 0;
+}
+@media screen and (max-width: 1000px) {
+  .contacts__form {
+    width: 60%;
+    padding: 1em 0;
+  }
+  .contacts__form h2 {
+    margin-bottom: 1.5em;
+  }
+}
+@media screen and (max-width: 550px) {
+  .contacts__form {
+    width: 90%;
+  }
 }
 .contacts .footer__info {
   grid-template-columns: 1fr;
   font-size: clamp(15px,1.19784vw,23px);
   line-height: 120%;
   gap: 1.85em;
+}
+@media screen and (max-width: 1000px) {
+  .contacts.pt-h {
+    padding-top: 3em;
+  }
 }

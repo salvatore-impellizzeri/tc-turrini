@@ -6,16 +6,46 @@
         padding: 0.3em 0;
         padding-right: clamp(50px, 284vw * @px2vw, 284px);
         border-right: 1px solid @border-color-light;
+
+        @media screen and (max-width: @tablet-m) {
+            border-bottom: 1px solid @border-color-light;
+            border-right: 0;
+            text-align: center;
+            padding-right: 0;
+            padding-bottom: 1em;
+
+            .footer__contact{
+                justify-content: center;
+            }
+        }
     }
+    
 
     &__upper{
         display: flex;
         padding-bottom: 0.8em;
+
+        @media screen and (max-width: @tablet-m) {
+            flex-direction: column;
+        }
     }
 
     &__form{
         width: 43%;
         padding: 0.7em 0;
+
+        @media screen and (max-width: @tablet-m) {
+            width: 60%;
+            padding: 1em 0;
+
+            h2{
+                margin-bottom: 1.5em;
+            }
+        }
+
+        @media screen and (max-width: @mobile-l) {
+            width: 90%;
+        }
     }
 
     .footer{
@@ -27,4 +57,10 @@
         }
     }
 
+}
+
+.contacts.pt-h{
+    @media screen and (max-width: @tablet-m) {
+        padding-top: 3em;
+    }
 }
