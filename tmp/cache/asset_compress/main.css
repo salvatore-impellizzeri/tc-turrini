@@ -2835,7 +2835,7 @@ button.swiper-pagination-bullet {
 .footer {
   display: flex;
   align-items: center;
-  padding-top: clamp(20px,4.37472vw,84px);
+  padding-top: clamp(30px,4.37472vw,84px);
   font-size: 12px;
   color: #ffffff;
   gap: clamp(10px,4.6872vw,90px);
@@ -4970,8 +4970,8 @@ button.swiper-pagination-bullet {
   gap: clamp(12px,2.39568vw,46px);
 }
 .prodotto__img {
-  width: clamp(90px,12.39504vw,238px);
-  height: clamp(80px,10.62432vw,204px);
+  width: 238px;
+  height: 204px;
   position: relative;
 }
 .prodotto__img::after {
@@ -5016,8 +5016,13 @@ button.swiper-pagination-bullet {
 .prodotti__title {
   margin-bottom: 1.9em;
 }
+.list-products {
+  padding-bottom: 4.1em;
+  font-size: clamp(22px,1.45824vw,28px);
+  line-height: 120%;
+}
 .list-products__background {
-  height: clamp(200px,37.4976vw,720px);
+  height: clamp(350px,37.4976vw,720px);
   position: relative;
   padding-bottom: 1.8em;
   padding-left: 1.1em;
@@ -5026,6 +5031,17 @@ button.swiper-pagination-bullet {
   line-height: 100%;
   display: flex;
   align-items: flex-end;
+}
+@media screen and (max-width: 1000px) {
+  .list-products__background {
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+  }
+}
+@media screen and (max-width: 550px) {
+  .list-products__background {
+    height: 430px;
+  }
 }
 .list-products__background::after {
   content: '';
@@ -5040,6 +5056,11 @@ button.swiper-pagination-bullet {
   z-index: 1;
   position: relative;
   width: clamp(200px,63.17304vw,1213px);
+}
+@media screen and (max-width: 1000px) {
+  .list-products__background h1 {
+    width: 100%;
+  }
 }
 .list-products__background img {
   position: absolute;
@@ -5056,6 +5077,16 @@ button.swiper-pagination-bullet {
   row-gap: 3.5em;
   font-size: clamp(22px,1.45824vw,28px);
   line-height: 120%;
+}
+@media screen and (max-width: 1000px) {
+  .list-products__items {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width: 550px) {
+  .list-products__items {
+    grid-template-columns: 1fr;
+  }
 }
 .view-product {
   font-size: clamp(40px,5.57256vw,107px);

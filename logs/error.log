@@ -21667,3 +21667,18 @@ Stack Trace:
 Request URL: /en/img/video/video1.mp4
 Referer URL: http://tcturrini.test/en/
 Client IP: 127.0.0.1
+2025-04-23 10:47:28 error: [Cake\Http\Exception\NotFoundException] variable @talbet-m is undefined: failed at `nts/search-result";` D:\laragon\www\tcturrini\webroot\less\main.less on line 34 in D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php on line 82
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /cache_assets/main.css
+Referer URL: http://tcturrini.test/aspirazione
+Client IP: 127.0.0.1
