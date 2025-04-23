@@ -23,11 +23,15 @@
         padding-bottom: 2em;
         border-bottom: 1px solid @border-color;
         padding-top: 4em;
+
+        @media screen and (max-width: @tablet-s) {
+            flex-direction: column;
+        }
     }
 
     &__img{
-        width: clamp(200px, 527vw * @px2vw, 527px);
-        height: clamp(150px, 474vw * @px2vw, 474px);
+        width: clamp(220px, 527vw * @px2vw, 527px);
+        height: clamp(170px, 474vw * @px2vw, 474px);
 
         img{
             object-fit: contain;
@@ -40,6 +44,14 @@
         grid-template-columns: 1fr;
         .font-35;
         gap: 0.7em;
+
+        @media screen and (max-width: @tablet-m) {
+            width: 60%;
+        }
+
+        @media screen and (max-width: @tablet-s) {
+            width: 100%;
+        }
 
         p{
             font-weight: 300;

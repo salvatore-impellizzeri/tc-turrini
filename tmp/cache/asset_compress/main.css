@@ -5115,9 +5115,14 @@ button.swiper-pagination-bullet {
   border-bottom: 1px solid #4D90CB66;
   padding-top: 4em;
 }
+@media screen and (max-width: 700px) {
+  .view-product__item {
+    flex-direction: column;
+  }
+}
 .view-product__img {
-  width: clamp(200px,27.44616vw,527px);
-  height: clamp(150px,24.68592vw,474px);
+  width: clamp(220px,27.44616vw,527px);
+  height: clamp(170px,24.68592vw,474px);
 }
 .view-product__img img {
   object-fit: contain;
@@ -5130,6 +5135,16 @@ button.swiper-pagination-bullet {
   line-height: 120%;
   letter-spacing: -2%;
   gap: 0.7em;
+}
+@media screen and (max-width: 1000px) {
+  .view-product__text {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .view-product__text {
+    width: 100%;
+  }
 }
 .view-product__text p {
   font-weight: 300;
