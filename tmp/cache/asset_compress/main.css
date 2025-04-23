@@ -2644,8 +2644,8 @@ button.swiper-pagination-bullet {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom,rgba(255,255,255,0.104) 15%,transparent 85%);
   opacity: 0;
+  border-top: 1px solid white;
   transition: 0.3s ease-in-out;
 }
 .header .menu__link--parent {
@@ -2734,6 +2734,9 @@ button.swiper-pagination-bullet {
 }
 .body--scroll .header--invert {
   background: #fff;
+}
+.current-page .menu__link {
+  border-top: 1px solid white;
 }
 .hamburger {
   display: block;
@@ -3043,6 +3046,21 @@ button.swiper-pagination-bullet {
   justify-content: space-between;
   border-top: 1px solid #ffffff66;
   cursor: pointer;
+  position: relative;
+}
+.languages__toggler:hover::before {
+  opacity: 1;
+}
+.languages__toggler::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  border-top: 1px solid white;
+  transition: 0.3s cubic-bezier(0.250,0.460,0.450,0.940);
 }
 .body--light-header:not(.body--scroll) .languages__toggler {
   border-color: #FFF;

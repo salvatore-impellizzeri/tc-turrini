@@ -1,4 +1,4 @@
-<div class="prodotto">
+<a href="<?= $this->Frontend->url($url); ?>" class="prodotto">
     <div class="prodotto__img">
         <img src="img/prodotto.png" alt="prodotto">
     </div>
@@ -12,8 +12,7 @@
         <?= $this->element('cta', [
             'extraClass' => 'button--primary',
             'label' => '',
-            'url' => '#',
             'icon' => 'icons/button.svg'
         ]); ?>
     </div>
-</div>
+</a>

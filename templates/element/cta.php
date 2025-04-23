@@ -23,7 +23,7 @@
         <?php endif; ?>
     </button>
 <?php else : ?>
-    <a class="cta" href="<?= $url ?>">
+    <a class="cta" href="<?= $this->Frontend->url($url); ?>">
         <?php if (!empty($icon)) : ?>
             <span class="button <?= $extraClass ?? '' ?>">
                 <?= $this->Frontend->svg($icon) ?>

@@ -20,13 +20,13 @@
                 <div class="home__video__buttons">
                     <?= $this->element('cta', [
                         'extraClass' => 'button--primary',
-                        'url' => '#',
+                        'url' => '/custom-pages/view/7',
                         'label' => 'Aspirazione polveri',
                         'icon' => 'icons/button.svg'
                     ]); ?>
                     <?= $this->element('cta', [
                         'extraClass' => 'button--primary',
-                        'url' => '#',
+                        'url' => '/custom-pages/view/8',
                         'label' => 'Depurazione acque',
                         'icon' => 'icons/button.svg'
                     ]); ?>
@@ -77,7 +77,7 @@
                     'label' => "Scopri l'azienda",
                     'extraClass' => 'button--primary',
                     'icon' => 'icons/button.svg',
-                    'url' => '#',
+                    'url' => '/custom-pages/view/5',
                     'labelClass' => 'blue'
                 ]); ?>
             </div>
@@ -101,7 +101,7 @@
                 'label' => "La nostra filosofia aziendale",
                 'extraClass' => 'button--secondary',
                 'icon' => 'icons/button.svg',
-                'url' => '#'
+                'url' => '/custom-pages/view/4'
             ]); ?>
         </div>
     </div>

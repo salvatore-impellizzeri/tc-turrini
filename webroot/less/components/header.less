@@ -139,8 +139,8 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: linear-gradient(to bottom, rgba(255, 255, 255, 0.104) 15%, transparent 85%);
                 opacity: 0;
+                border-top: 1px solid white;
                 transition: 0.3s ease-in-out;
             }
 
@@ -214,9 +214,6 @@
                 clip-path: polygon(0 100%, 0 0, 100% 100%);
             }
 
-            .menu__link{
-               
-            }
         }
     }
 }
@@ -255,5 +252,12 @@
 
     .body--scroll &{
         background: @bg-color-secondary;
+    }
+
+}
+
+.current-page{
+    .menu__link{
+        border-top: 1px solid white;
     }
 }
