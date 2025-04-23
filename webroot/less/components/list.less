@@ -7,7 +7,15 @@
             grid-template-columns: auto 1fr;
             height: fit-content;
             align-items: center;
-            gap: clamp(12px, 52vw * @px2vw, 52px);
+            gap: clamp(20px, 52vw * @px2vw, 52px);
+
+            @media screen and (max-width: @tablet-m) {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+        }
+        @media screen and (max-width: @tablet-m) {
+            margin-left: 0;
         }
     }
 
@@ -15,6 +23,15 @@
         display: flex;
         align-items: center;
         gap: clamp(10px, 42vw * @px2vw, 42px);
-        width: clamp(200px, 450vw * @px2vw, 450px);
+        width: clamp(220px, 450vw * @px2vw, 450px);
+
+        @media screen and (max-width: @tablet-m) {
+            justify-content: center;
+            width: 100%;
+
+            svg{
+                display: none;
+            }
+        }
     }
 }

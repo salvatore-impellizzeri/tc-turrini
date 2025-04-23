@@ -40,8 +40,25 @@
     transform: translateY(-3.7em);
     .font-55;
     padding: 3em 0 2.1em;
+
+    @media screen and (max-width: @mobile-l) {
+        width: 95%;
+    }
 }
 
 .container-text{
     width: clamp(150px, 544vw * @px2vw, 544px);
+
+    @media screen and (max-width:@tablet-m) {
+        display: flex;
+        justify-self: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    
+    @media screen and (max-width:@mobile-m) {
+        width: 100%;
+
+    }
 }

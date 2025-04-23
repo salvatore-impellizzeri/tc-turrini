@@ -5,12 +5,22 @@
     align-items: center;
     margin-bottom: 4em;
 
+    @media screen and (max-width:@tablet-m) {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
     &--smaller{
         margin-bottom: 5em;
 
         .img-text__img{
             width: clamp(150px, 543vw * @px2vw, 543px);
             height: clamp(120px, 451vw * @px2vw, 451px);
+
+            @media screen and (max-width:@tablet-m) {
+                width: 100%;
+                height: clamp(250px, 400vw * @px2vw, 400px);
+            }
         }
 
         p{
@@ -37,6 +47,10 @@
 
     p{
         width: clamp(120px, 544vw * @px2vw, 544px);
+
+        @media screen and (max-width:@tablet-m) {
+            width: 100%;
+        }
     }
 }
 
