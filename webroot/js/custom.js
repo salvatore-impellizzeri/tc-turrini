@@ -370,3 +370,20 @@ document.addEventListener('click', function (e) {
         });
     }
 });
+
+// Espande nella view per maggiori informazioni
+
+document.querySelectorAll('[data-expand-text]').forEach(button => {
+	button.addEventListener('click', () => {
+	  const textContainer = button.closest('.view-product__text');
+	  textContainer.classList.toggle('view-product__text--expanded');
+  
+	  const span = button.querySelector('span');
+	  if (textContainer.classList.contains('view-product__text--expanded')) {
+		span.textContent = 'Nascondi dettagli';
+	  } else {
+		span.textContent = 'Maggiori dettagli';
+	  }
+	});
+  });
+  

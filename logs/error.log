@@ -23145,3 +23145,39 @@ Cake\Http\Runner->run() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http
 Cake\Http\Server->run() D:\laragon\www\tcturrini\webroot\index.php, line 44
 [main]
 
+2025-04-24 15:32:43 error: [ParseError] syntax error, unexpected single-quoted string "hiddenText", expecting "]" in D:\laragon\www\tcturrini\plugins\CustomPages\templates\CustomPages\view_aspirazione.php on line 9
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php:1145
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php:785
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:705
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:509
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:69
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /view-aspirazione
+Referer URL: http://tcturrini.test/aspirazione
+Client IP: 127.0.0.1

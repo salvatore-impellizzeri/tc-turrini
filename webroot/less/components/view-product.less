@@ -55,11 +55,28 @@
 
         p{
             font-weight: 300;
+            margin: 0;
         }
 
+        &--expanded {
+            .view-product__hiddenText {
+                grid-template-rows: 1fr;
+            }
+        }        
+    }
+
+    &__hiddenText{
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: 0.3s ease-in-out;
+
+        p{
+            overflow: hidden;
+        }
     }
     
     &__buttons{
+        margin-top: 2em;
         display: flex;
         gap: 3em;
 

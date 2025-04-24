@@ -14,13 +14,18 @@
                     </div>
                     <div class="view-product__text">
                         <h3 class="font-35"><?= $item['label'] ?></h3>
-                        <p class="font-18"><?= $item['text'] ?></p>
+                        <p class="font-18"><?= $item['visibleText'] ?></p>
+                        <div class="view-product__hiddenText">
+                            <p class="font-18">
+                                <?= $item['hiddenText'] ?>
+                            </p>
+                        </div>
                         <div class="font-14 view-product__buttons">
                             <button>
                                 <?= $this->Frontend->svg('icons/download.svg'); ?>
                                 <span>Scarica la scheda tecnica</span>
                             </button>
-                            <button>
+                            <button data-expand-text>
                                 <?= $this->Frontend->svg('icons/more.svg') ?>
                                 <span>Maggiori dettagli</span>
                             </button>
