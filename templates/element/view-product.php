@@ -26,8 +26,8 @@
                                 <span>Scarica la scheda tecnica</span>
                             </button>
                             <button data-expand-text>
-                                <?= $this->Frontend->svg('icons/more.svg') ?>
-                                <span>Maggiori dettagli</span>
+                                <span class="more-icon"></span>
+                                <span class="expand-text">Maggiori dettagli</span>
                             </button>
                         </div>
                     </div>

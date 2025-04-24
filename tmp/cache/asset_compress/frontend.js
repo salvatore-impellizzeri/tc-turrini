@@ -10073,11 +10073,11 @@ document.querySelectorAll('[data-expand-text]').forEach(button => {
 	  const textContainer = button.closest('.view-product__text');
 	  textContainer.classList.toggle('view-product__text--expanded');
   
-	  const span = button.querySelector('span');
+	  const expandText = button.querySelector('.expand-text');
 	  if (textContainer.classList.contains('view-product__text--expanded')) {
-		span.textContent = 'Nascondi dettagli';
+		expandText.textContent = 'Nascondi dettagli';
 	  } else {
-		span.textContent = 'Maggiori dettagli';
+		expandText.textContent = 'Maggiori dettagli';
 	  }
 	});
   });
