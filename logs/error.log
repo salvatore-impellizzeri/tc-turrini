@@ -22573,3 +22573,71 @@ Stack Trace:
 Request URL: /admin/custom-pages/add
 Referer URL: http://tcturrini.test/admin/custom-pages/add
 Client IP: 127.0.0.1
+2025-04-24 10:07:10 error: [Cake\Http\Exception\NotFoundException] Not found in D:\laragon\www\tcturrini\src\Controller\AppController.php on line 196
+Stack Trace:
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\CustomPagesController.php:18
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:69
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /custom-pages/view/5
+Referer URL: http://tcturrini.test/
+Client IP: 127.0.0.1
+2025-04-24 10:07:26 error: [Cake\Http\Exception\NotFoundException] Not found in D:\laragon\www\tcturrini\src\Controller\AppController.php on line 196
+Stack Trace:
+- D:\laragon\www\tcturrini\plugins\CustomPages\src\Controller\CustomPagesController.php:18
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:69
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php:50
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php:64
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /custom-pages/view/5
+Referer URL: http://tcturrini.test/
+Client IP: 127.0.0.1

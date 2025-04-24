@@ -19,12 +19,14 @@
                 </p>
                 <div class="home__video__buttons">
                     <?= $this->element('cta', [
+                        'ctaClass' => 'cta--primary',
                         'extraClass' => 'button--primary',
                         'url' => '/custom-pages/view/7',
                         'label' => 'Aspirazione polveri',
                         'icon' => 'icons/button.svg'
                     ]); ?>
                     <?= $this->element('cta', [
+                        'ctaClass' => 'cta--primary',
                         'extraClass' => 'button--primary',
                         'url' => '/custom-pages/view/8',
                         'label' => 'Depurazione acque',
@@ -74,10 +76,11 @@
                     La T.C. Turrini Claudio eccelle per la qualità dei materiali, la cura nella progettazione e la produzione interna completa, diventando un punto di riferimento con standard ineguagliati nel mercato italiano e internazionale.
                 </p>
                 <?= $this->element('cta', [
+                    'ctaClass' => 'cta--primary',
                     'label' => "Scopri l'azienda",
                     'extraClass' => 'button--primary',
                     'icon' => 'icons/button.svg',
-                    'url' => '/custom-pages/view/5',
+                    'url' => '/custom-pages/view/3',
                     'labelClass' => 'blue'
                 ]); ?>
             </div>
@@ -98,6 +101,7 @@
                 </p>
             </div>
             <?= $this->element('cta', [
+                'ctaClass' => 'cta--secondary',
                 'label' => "La nostra filosofia aziendale",
                 'extraClass' => 'button--secondary',
                 'icon' => 'icons/button.svg',

@@ -1,5 +1,5 @@
 <?php if (!empty($form)) : ?>
-    <button class="cta" type="submit">
+    <button class="cta <?= $ctaClass ?? '' ?>" type="submit">
         <?php if (!empty($icon)) : ?>
             <span class="button <?= $extraClass ?? '' ?>">
                 <?= $this->Frontend->svg($icon) ?>
@@ -10,7 +10,7 @@
         </span>
     </button>
 <?php elseif (empty($url)) : ?>
-    <button class="cta" type="submit">
+    <button class="cta <?= $ctaClass ?? '' ?>" type="submit">
         <?php if (!empty($icon)) : ?>
             <span class="button <?= $extraClass ?? '' ?>">
                 <?= $this->Frontend->svg($icon) ?>
@@ -23,7 +23,7 @@
         <?php endif; ?>
     </button>
 <?php else : ?>
-    <a class="cta" href="<?= $this->Frontend->url($url); ?>">
+    <a class="cta <?= $ctaClass ?? '' ?>" href="<?= $this->Frontend->url($url); ?>">
         <?php if (!empty($icon)) : ?>
             <span class="button <?= $extraClass ?? '' ?>">
                 <?= $this->Frontend->svg($icon) ?>
