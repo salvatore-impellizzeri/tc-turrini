@@ -9784,24 +9784,27 @@ $(function () {
 		$(body).toggleClass('scroll-locked');
 	})
 
-	$('[data-languages]').each(function(i,el){
+	$('[data-languages]').each(function(i, el) {
 		let $languages = $(el),
 			$toggler = $('[data-languages-toggler]', el),
-						isOpen = false;
-
-				$toggler.on('click', function(){
-						$languages.toggleClass('open');
-						isOpen = !isOpen;
-				});
-
-				$(document).on('click', function(event) { 
-						var $target = $(event.target);
-						if(!$target.closest('[data-languages]').length && isOpen) {
-								$languages.removeClass('open');
-								isOpen = false;
-						}        
-				});
+			isOpen = false;
+	
+		$toggler.on('click', function() {
+			$languages.toggleClass('open');
+			$toggler.toggleClass('is-open');
+			isOpen = !isOpen;
+		});
+	
+		$(document).on('click', function(event) { 
+			var $target = $(event.target);
+			if (!$target.closest('[data-languages]').length && isOpen) {
+				$languages.removeClass('open');
+				$toggler.removeClass('is-open');
+				isOpen = false;
+			}        
+		});
 	});
+	
 
 	// Incrementa e decrementa custom
 	$('body').on('click', '.number .number__plus,.number .number__minus', function (ev) {
@@ -10027,6 +10030,40 @@ document.addEventListener('DOMContentLoaded', function () {
 			menuItem.appendChild(submenuProdotti);
 		}
 	});
+});
+
+// Apertura submenu prodotti
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuItems = document.querySelectorAll('.menu__item');
+
+    menuItems.forEach(item => {
+        const link = item.querySelector('.menu__link--parent');
+
+        if (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault(); 
+
+                menuItems.forEach(i => {
+                    if (i !== item) {
+                        i.classList.remove('is-open');
+                    }
+                });
+
+                item.classList.toggle('is-open');
+            });
+        }
+    });
+});
+
+document.addEventListener('click', function (e) {
+    const isClickInsideMenu = e.target.closest('.menu__item');
+
+    if (!isClickInsideMenu) {
+        document.querySelectorAll('.menu__item.is-open').forEach(item => {
+            item.classList.remove('is-open');
+        });
+    }
 });
 
 // submit form plugin

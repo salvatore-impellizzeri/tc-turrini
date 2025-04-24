@@ -3,16 +3,18 @@
         <div class="font-23 footer__more-info">
             Vuoi avere maggiori informazioni?
         </div>
-        <div class="footer__contact">
-            <h1 class="title-primary">
-                Contattaci
-            </h1>
-            <?= $this->element('cta', [
-                'extraClass' => 'button--secondary',
-                'url' => '#',
-                'icon' => 'icons/button.svg'
-            ]); ?>
-        </div>
+        <a href="<?= $this->Frontend->url('/custom-pages/view/11'); ?>">
+            <div class="footer__contact">
+                <h1 class="title-primary">
+                    Contattaci
+                </h1>
+                <?= $this->element('cta', [
+                    'extraClass' => 'button--secondary',
+                    'url' => '#',
+                    'icon' => 'icons/button.svg'
+                ]); ?>
+            </div>
+        </a>
         <div class="footer__cols">
             <div class="footer__info">
                 <div class="footer__info__item font-23">
