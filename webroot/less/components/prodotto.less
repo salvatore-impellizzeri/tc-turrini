@@ -4,6 +4,10 @@
     gap: clamp(12px, 46vw * @px2vw, 46px);
     transition: 0.2s ease-in-out;
 
+    &:hover &__text{
+        opacity: 0.6;
+    }
+
     @media screen and (max-width: @tablet-s) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -38,6 +42,8 @@
     }
 
     &__text{
+        transition: 0.2s ease-in-out;
+
         h2{
             margin-bottom: 0.1em;
             @media screen and (max-width: @tablet-s) {
