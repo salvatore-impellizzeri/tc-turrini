@@ -56,6 +56,7 @@ if (empty($fields->count())) return;
                                 'extraClass' => 'input--'.$field->id,
                             ]) .
                             $this->element('cta', [
+                                'ctaClass' => 'cta--secondary',
                                 'form' => true,
                                 'extraClass' => "button--secondary",
                                 'icon' => 'icons/button.svg'

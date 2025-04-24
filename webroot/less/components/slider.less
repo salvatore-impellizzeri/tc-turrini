@@ -96,6 +96,11 @@
         color: @text-color;
         width: clamp(30px, 32vw * @px2vw, 32px);
         height: clamp(30px, 32vw * @px2vw, 32px);
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            opacity: 0.7;
+        }
     }
 
     .swiper-button-next::after,

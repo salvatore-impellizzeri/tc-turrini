@@ -1,4 +1,4 @@
-<div class="bg-light">
+  <div class="bg-light">
     <div class="container-fluid container-video">
         <video autoplay loop muted playsinline>
             <source src="img/video/video1.mp4" type="video/mp4">

@@ -9,6 +9,24 @@
             align-items: center;
             gap: clamp(20px, 52vw * @px2vw, 52px);
 
+            p{
+                margin-bottom: 2em;
+                display: flex;
+                align-self: flex-end;
+
+                @media screen and (max-width: @tablet-l) {
+                    width: 100%;
+                }
+
+                @media screen and (max-width: @tablet-l) {
+                    width: 70%;
+                }
+
+                @media screen and (max-width: @mobile-l) {
+                    width: 100%;
+                }
+            }
+
             @media screen and (max-width: @tablet-m) {
                 grid-template-columns: 1fr;
                 gap: 10px;

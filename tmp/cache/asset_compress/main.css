@@ -3333,6 +3333,11 @@ button.swiper-pagination-bullet {
   color: #ffffff;
   width: clamp(30px,1.66656vw,32px);
   height: clamp(30px,1.66656vw,32px);
+  transition: 0.3s ease-in-out;
+}
+[data-swiper-button] .swiper-button-next:hover,
+[data-swiper-button] .swiper-button-prev:hover {
+  opacity: 0.7;
 }
 [data-swiper-button] .swiper-button-next::after,
 [data-swiper-button] .swiper-button-prev::after {
@@ -5558,6 +5563,26 @@ button.swiper-pagination-bullet {
   height: fit-content;
   align-items: center;
   gap: clamp(20px,2.70816vw,52px);
+}
+.list ul li p {
+  margin-bottom: 2em;
+  display: flex;
+  align-self: flex-end;
+}
+@media screen and (max-width: 1200px) {
+  .list ul li p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .list ul li p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .list ul li p {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1000px) {
   .list ul li {
