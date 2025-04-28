@@ -1,5 +1,5 @@
 <footer class="footer <?= $extraClass ?>">
-    <div class="container-l m-auto">
+    <div class="container-l m-auto fadeFromBottom" data-animated>
         <div class="font-23 footer__more-info">
             Vuoi avere maggiori informazioni?
         </div>

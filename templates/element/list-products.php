@@ -1,7 +1,7 @@
 <div class="list-products">
     <div class="list-products__background">
         <img src="<?= $background ?>" alt="background">
-        <h1 class="title-primary">
+        <h1 class="title-primary fadeFromLeft" data-animated>
             <?= $title ?>
         </h1>     
     </div>  
@@ -21,12 +21,14 @@
 
                 $extraClass = $isLastInRow ? 'last-in-row' : '';
             ?>
+            <div>
                 <?= $this->element('product-preview', [
                     'label' => $item['label'],
                     'img' => $item['img'],
                     'url' => $item['url'],
                     'extraClass' => $extraClass,
                 ]); ?>
+            </div>
         <?php } ?>
         </div>
     </div>

@@ -4800,18 +4800,25 @@ button.swiper-pagination-bullet {
   height: 100%;
   transition: 0.2s cubic-bezier(0.455,0.030,0.515,0.955);
 }
-.product-preview__label {
+.product-preview__wrapper {
   margin-top: 1.8em;
   width: 100%;
   border-top: 1px solid #4D90CB66;
+}
+.product-preview__label {
+  overflow: hidden;
+  width: 100%;
   padding-top: 1em;
+  transition: 0.2s cubic-bezier(0.455,0.030,0.515,0.955);
+}
+.product-preview__label__elements {
   display: flex;
   gap: 0.7em;
   align-items: center;
-  transition: 0.2s cubic-bezier(0.455,0.030,0.515,0.955);
 }
-.product-preview__label label {
+.product-preview__label__elements label {
   cursor: pointer;
+  margin: 0;
 }
 .last-in-row {
   border-right: 1px solid #4D90CB66;
@@ -5240,6 +5247,51 @@ button.swiper-pagination-bullet {
 }
 .fadeFromTopButton.is-in {
   animation: fadeFromTopButton 0.7s ease-in-out forwards;
+}
+@keyframes borderWidth {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.borderWidth.is-in {
+  animation: borderWidth 1s ease-in-out forwards;
+}
+@keyframes productPreviewCta {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.productPreviewCta {
+  opacity: 0;
+}
+.productPreviewCta.is-in {
+  animation: productPreviewCta 0.8s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+@keyframes fadeFromBottomImg {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeFromBottomImg {
+  opacity: 0;
+}
+.fadeFromBottomImg.is-in {
+  animation: fadeFromBottomImg 0.8s ease-in-out forwards;
+  animation-delay: 1.2s;
 }
 .shop {
   display: grid;
