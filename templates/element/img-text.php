@@ -1,4 +1,4 @@
-<div class="img-text <?= $extraClass ?? '' ?>">
+<div class="img-text fadeFromLeft <?= $extraClass ?? '' ?>" data-animated>
     <div class="img-text__img <?= $imgClass ?? '' ?>">
         <?php if (!empty($img)): ?>
             <img src="<?= $img ?>" alt="Immagine">

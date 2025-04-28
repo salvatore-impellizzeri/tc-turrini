@@ -1,14 +1,14 @@
-<div class="container-l m-auto box-swiper bg-box font-69">
-    <h2 class="font-69">
+<div class="container-l m-auto box-swiper bg-box font-69 fadeFromBottom" data-animated>
+    <h2 class="font-69 fadeFromLeft" data-animated>
         <?= $title ?>
     </h2>
 
     <!-- Paginazione -->
-    <div class="swiper-pagination font-14"></div>
-    <hr class="hr hr--blue">
+    <div class="swiper-pagination font-14 fadeFromTopButton" data-animated></div>
+    <hr class="hr hr--blue borderWidth" data-animated>
 
     <!-- Swiper -->
-    <div class="swiper swiper-text">
+    <div class="swiper swiper-text fadeFromRight" data-animated>
         
         <div class="swiper-wrapper fw-light font-18">
             <?php foreach ($texts as $text): ?>

@@ -5132,8 +5132,11 @@ button.swiper-pagination-bullet {
     transform: translateY(0px);
   }
 }
+.fadeFromLeft {
+  opacity: 0;
+}
 .fadeFromLeft.is-in {
-  animation: fadeFromLeft 1s ease-in-out;
+  animation: fadeFromLeft 1s ease-in-out forwards;
 }
 @keyframes fadeFromLeft-d {
   0% {
@@ -5293,6 +5296,35 @@ button.swiper-pagination-bullet {
   animation: fadeFromBottomImg 0.8s ease-in-out forwards;
   animation-delay: 1.2s;
 }
+@keyframes fadeFromBottomS {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeFromBottomS {
+  opacity: 0;
+}
+.fadeFromBottomS.is-in {
+  animation: fadeFromBottomS 0.8s ease-in-out forwards;
+}
+@keyframes fadeFromRight {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeFromRight.is-in {
+  animation: fadeFromRight 0.8s ease-in-out forwards;
+}
 .shop {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -5434,16 +5466,16 @@ button.swiper-pagination-bullet {
   font-size: clamp(40px,5.57256vw,107px);
   letter-spacing: -2%;
   line-height: 100%;
-  padding-top: 4.6em;
+  padding-top: 2.95em;
 }
 .mb-title {
   margin-bottom: 1.3em;
 }
 .pb-f {
-  padding-bottom: 1.8em;
-  font-size: clamp(27px,3.59352vw,69px);
+  font-size: clamp(40px,5.57256vw,107px);
   letter-spacing: -2%;
-  line-height: 120%;
+  line-height: 100%;
+  padding-bottom: 1.14em;
 }
 .pt-video {
   padding-top: clamp(200px,36.29976vw,697px);
@@ -5594,10 +5626,7 @@ button.swiper-pagination-bullet {
   }
 }
 .view-product {
-  font-size: clamp(40px,5.57256vw,107px);
-  letter-spacing: -2%;
-  line-height: 100%;
-  padding-bottom: 2.5em;
+  padding-bottom: 2.4em;
 }
 .view-product .font-14 {
   margin-bottom: 1.5em;
@@ -5825,6 +5854,8 @@ button.swiper-pagination-bullet {
 }
 .box-swiper .hr {
   margin-top: 0.1em;
+  margin-right: 0;
+  margin-left: 0;
 }
 .box-swiper .swiper-wrapper {
   width: clamp(200px,28.33152vw,544px);
@@ -5873,6 +5904,10 @@ button.swiper-pagination-bullet {
   .list ul {
     margin-left: 0;
   }
+}
+.list hr {
+  margin-left: 0;
+  margin-right: 0;
 }
 .list__big {
   display: flex;

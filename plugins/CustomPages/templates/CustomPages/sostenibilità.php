@@ -4,7 +4,7 @@
 
 <div class="bg-light pt-h blue sostenibilità pb-f">
     <div class="container-l m-auto">
-        <h1 class="title-primary mb-title">
+        <h1 class="title-primary mb-title fadeFromLeft" data-animated>
             Cos'è la sostenibilità?
         </h1>
         <div>

@@ -1,11 +1,11 @@
 <div class="list">
-    <div class="font-23">
+    <div class="font-23 fadeFromTop" data-animated>
         <?= $title ?>
     </div>
-    <hr class="hr hr--blue">
+    <hr class="hr hr--blue borderWidth" data-animated>
     <ul>
         <?php foreach ($items as $item): ?>
-            <li>
+            <li class="fadeFromLeft" data-animated>
                 <div class="list__big">
                     <?= $this->Frontend->svg('icons/list.svg'); ?>
                     <span class="font-168">

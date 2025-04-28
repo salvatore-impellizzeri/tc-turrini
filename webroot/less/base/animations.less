@@ -119,8 +119,12 @@
   }
 }
 
+.fadeFromLeft{
+  opacity: 0;
+}
+
 .fadeFromLeft.is-in{
-  animation: fadeFromLeft 1s ease-in-out;
+  animation: fadeFromLeft 1s ease-in-out forwards;
 }
 
 
@@ -331,4 +335,41 @@
 .fadeFromBottomImg.is-in {
   animation: fadeFromBottomImg 0.8s ease-in-out forwards;
   animation-delay: 1.2s;
+}
+
+
+@keyframes fadeFromBottomS {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fadeFromBottomS{
+  opacity: 0;
+}
+
+.fadeFromBottomS.is-in {
+  animation: fadeFromBottomS 0.8s ease-in-out forwards;
+}
+
+
+
+@keyframes fadeFromRight {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fadeFromRight.is-in {
+  animation: fadeFromRight 0.8s ease-in-out forwards;
 }

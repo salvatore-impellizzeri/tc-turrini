@@ -1,7 +1,7 @@
 <div class="prodotti p-prodotti">
     <div class="container-m m-auto">
         <?php if (isset($title)): ?>
-            <h2 class="font-44 prodotti__title">
+            <h2 class="font-44 prodotti__title fadeFromTop" data-animated>
                 <?= $title ?>
             </h2>
         <?php endif ?>

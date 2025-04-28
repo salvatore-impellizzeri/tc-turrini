@@ -1,14 +1,14 @@
 <div class="view-product pt-h">
     <div class="container-l m-auto">
-        <div class="font-14">
+        <div class="font-14 fadeFromTop" data-animated>
             Prodotti > <?= $section ?>
         </div>
-        <h1 class="title-primary">
+        <h1 class="title-primary fadeFromTop" data-animated>
             <?= $product ?>
         </h1>
         <div class="view-product__items">
             <?php foreach ($items as $item) { ?>
-                <div class="view-product__item">
+                <div class="view-product__item fadeFromLeft" data-animated>
                     <div class="view-product__img">
                         <img src="<?= $item['img'] ?>" alt="<?= $item['label'] ?>">
                     </div>

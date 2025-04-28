@@ -7,7 +7,7 @@
     </div>
     <div class="container-l bg-box m-auto container-on-video">
         <div class="container-m m-auto">
-            <h1 class="font-55 mb-2em">
+            <h1 class="font-55 mb-2em fadeFromBottomS" data-animated>
                 La T.C. Turrini Claudio dal 1994 produce sistemi per l'aspirazione delle polveri e impianti di depurazione delle acque reflue provenienti dalle lavorazioni di marmo, granito, vetro, cemento e ceramica. 
             </h1>
             <?= $this->element('img-text', [
@@ -32,7 +32,7 @@
                     ],
                 ],
             ]); ?>
-            <div class="swiper-container m-auto" data-swiper-button="single-slide">
+            <div class="swiper-container m-auto fadeFromTop" data-animated data-swiper-button="single-slide">
                 <div class="swiper swiper-single-slide">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -52,9 +52,6 @@
         </div>
     </div>
     <div class="container-l m-auto">
-        <h2 class="font-44">
-
-        </h2>
         <?= $this->element('prodotti', [
             'title' => "Soluzioni per la qualità dell'aria e dell'acqua"
         ]); ?>
