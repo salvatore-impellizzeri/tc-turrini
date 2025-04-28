@@ -4,28 +4,30 @@
 
 <div class="contacts pt-h">
     <div class="container-l m-auto contacts__upper">
-        <div class="contacts__info">
-            <div class="footer__contact">
-                <h1 class="title-primary">
-                    Contatti
-                </h1>
-            </div>
-            <div class="footer__info">
-                <div class="footer__info__item font-23">
-                    <label class="font-14">Indirizzo</label>
-                    <?= $this->element('snippet', ['id' => 1])?>
+        <div class="contacts__info borderHeight" data-animated>
+            <div class="fadeFromRightDelay contacts__info__wrapper" data-animated>
+                <div class="footer__contact">
+                    <h1 class="title-primary">
+                        Contatti
+                    </h1>
                 </div>
-                <div class="footer__info__item font-23">
-                    <label class="font-14">Telefono</label>
-                    <?= $this->element('snippet', ['id' => 15])?>
-                </div>
-                <div class="footer__info__item font-23">
-                    <label class="font-14">Mail</label>
-                    <?= $this->element('snippet', ['id' => 16])?>
+                <div class="footer__info">
+                    <div class="footer__info__item font-23">
+                        <label class="font-14">Indirizzo</label>
+                        <?= $this->element('snippet', ['id' => 1])?>
+                    </div>
+                    <div class="footer__info__item font-23">
+                        <label class="font-14">Telefono</label>
+                        <?= $this->element('snippet', ['id' => 15])?>
+                    </div>
+                    <div class="footer__info__item font-23">
+                        <label class="font-14">Mail</label>
+                        <?= $this->element('snippet', ['id' => 16])?>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="contacts__form m-auto">
+        <div class="contacts__form m-auto fadeFromLeftDelay" data-animated>
             <h2 class="font-44">
                 Scrivici per maggiori informazioni
             </h2>

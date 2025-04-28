@@ -13,9 +13,13 @@
             text-align: center;
             padding-right: 0;
             padding-bottom: 1em;
+        }
 
-            .footer__contact{
-                justify-content: center;
+        @media screen and (max-width: @mobile-l) {
+            &__wrapper{
+                text-align: left;
+                width: 90%;
+                margin: auto;
             }
         }
     }
@@ -55,8 +59,22 @@
             .font-23;
             gap: 1.85em;
         }
-    }
 
+        @media screen and (max-width: @tablet-m) {
+            &__contact{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        @media screen and (max-width: @mobile-l) {
+            &__contact{
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+
+    }
 }
 
 

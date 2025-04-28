@@ -10071,6 +10071,24 @@ document.querySelectorAll('[data-expand-text]').forEach(button => {
 	});
   });
   
+
+// Cambio animazione in contatti (responsive)
+
+function updateAnimationClass() {
+    const element = document.querySelector('.contacts__info');
+
+    if (!element) return;
+
+    if (window.innerWidth <= 1000) {
+        element.classList.remove('borderHeight');
+        element.classList.add('borderWidth');
+    } else {
+        element.classList.remove('borderWidth');
+        element.classList.add('borderHeight');
+    }
+}
+
+updateAnimationClass();
 // submit form plugin
 ;(function( $, window, undefined ) {
 

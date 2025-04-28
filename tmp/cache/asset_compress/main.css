@@ -5330,6 +5330,51 @@ button.swiper-pagination-bullet {
 .fadeFromRight.is-in {
   animation: fadeFromRight 0.8s ease-in-out forwards;
 }
+@keyframes borderHeight {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.borderHeight.is-in {
+  animation: borderHeight 1s ease-in-out forwards;
+}
+@keyframes fadeFromRightDelay {
+  0% {
+    transform: translateX(60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeFromRightDelay {
+  opacity: 0;
+}
+.fadeFromRightDelay.is-in {
+  animation: fadeFromRightDelay 0.8s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+@keyframes fadeFromLeftDelay {
+  0% {
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeFromLeftDelay {
+  opacity: 0;
+}
+.fadeFromLeftDelay.is-in {
+  animation: fadeFromLeftDelay 0.8s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
 .shop {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -6243,8 +6288,12 @@ button.swiper-pagination-bullet {
     padding-right: 0;
     padding-bottom: 1em;
   }
-  .contacts__info .footer__contact {
-    justify-content: center;
+}
+@media screen and (max-width: 550px) {
+  .contacts__info__wrapper {
+    text-align: left;
+    width: 90%;
+    margin: auto;
   }
 }
 .contacts__upper {
@@ -6279,6 +6328,18 @@ button.swiper-pagination-bullet {
   font-size: clamp(15px,1.19784vw,23px);
   line-height: 120%;
   gap: 1.85em;
+}
+@media screen and (max-width: 1000px) {
+  .contacts .footer__contact {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .contacts .footer__contact {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 1000px) {
   .contacts.pt-h {
