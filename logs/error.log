@@ -23331,3 +23331,255 @@ Stack Trace:
 Request URL: /contatti
 Referer URL: http://tcturrini.test/azienda
 Client IP: 127.0.0.1
+2025-04-28 16:53:29 warning: Undefined variable $extraClass
+Request URL: /aspirazione
+Referer URL: http://tcturrini.test/aspirazione
+Client IP: 127.0.0.1
+Trace:
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1689
+Cake\View\View->_renderElement() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 676
+Cake\View\View->element() D:\laragon\www\tcturrini\plugins\CustomPages\templates\CustomPages\aspirazione.php, line 5
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 705
+Cake\Controller\Controller->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 509
+Cake\Controller\Controller->invokeAction() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php, line 50
+App\Middleware\CachedAssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php, line 64
+AssetCompress\Middleware\AssetCompressMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php, line 105
+Cake\Http\Server->run() D:\laragon\www\tcturrini\webroot\index.php, line 44
+[main]
+
+2025-04-28 16:53:29 warning: Undefined variable $extraClass
+Request URL: /aspirazione
+Referer URL: http://tcturrini.test/aspirazione
+Client IP: 127.0.0.1
+Trace:
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1689
+Cake\View\View->_renderElement() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 676
+Cake\View\View->element() D:\laragon\www\tcturrini\plugins\CustomPages\templates\CustomPages\aspirazione.php, line 5
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 705
+Cake\Controller\Controller->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 509
+Cake\Controller\Controller->invokeAction() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php, line 50
+App\Middleware\CachedAssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php, line 64
+AssetCompress\Middleware\AssetCompressMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php, line 105
+Cake\Http\Server->run() D:\laragon\www\tcturrini\webroot\index.php, line 44
+[main]
+
+2025-04-28 16:53:29 warning: Undefined variable $extraClass
+Request URL: /aspirazione
+Referer URL: http://tcturrini.test/aspirazione
+Client IP: 127.0.0.1
+Trace:
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1689
+Cake\View\View->_renderElement() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 676
+Cake\View\View->element() D:\laragon\www\tcturrini\plugins\CustomPages\templates\CustomPages\aspirazione.php, line 5
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 705
+Cake\Controller\Controller->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 509
+Cake\Controller\Controller->invokeAction() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php, line 50
+App\Middleware\CachedAssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php, line 64
+AssetCompress\Middleware\AssetCompressMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php, line 105
+Cake\Http\Server->run() D:\laragon\www\tcturrini\webroot\index.php, line 44
+[main]
+
+2025-04-28 16:54:16 warning: Undefined variable $extraClass
+Request URL: /aspirazione
+Referer URL: http://tcturrini.test/aspirazione
+Client IP: 127.0.0.1
+Trace:
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1689
+Cake\View\View->_renderElement() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 676
+Cake\View\View->element() D:\laragon\www\tcturrini\plugins\CustomPages\templates\CustomPages\aspirazione.php, line 5
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 705
+Cake\Controller\Controller->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 509
+Cake\Controller\Controller->invokeAction() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php, line 50
+App\Middleware\CachedAssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php, line 64
+AssetCompress\Middleware\AssetCompressMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php, line 105
+Cake\Http\Server->run() D:\laragon\www\tcturrini\webroot\index.php, line 44
+[main]
+
+2025-04-28 16:54:16 warning: Undefined variable $extraClass
+Request URL: /aspirazione
+Referer URL: http://tcturrini.test/aspirazione
+Client IP: 127.0.0.1
+Trace:
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1689
+Cake\View\View->_renderElement() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 676
+Cake\View\View->element() D:\laragon\www\tcturrini\plugins\CustomPages\templates\CustomPages\aspirazione.php, line 5
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 705
+Cake\Controller\Controller->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 509
+Cake\Controller\Controller->invokeAction() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php, line 50
+App\Middleware\CachedAssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php, line 64
+AssetCompress\Middleware\AssetCompressMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php, line 105
+Cake\Http\Server->run() D:\laragon\www\tcturrini\webroot\index.php, line 44
+[main]
+
+2025-04-28 16:54:16 warning: Undefined variable $extraClass
+Request URL: /aspirazione
+Referer URL: http://tcturrini.test/aspirazione
+Client IP: 127.0.0.1
+Trace:
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1689
+Cake\View\View->_renderElement() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 676
+Cake\View\View->element() D:\laragon\www\tcturrini\plugins\CustomPages\templates\CustomPages\aspirazione.php, line 5
+D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1188
+Cake\View\View->_evaluate() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\View\View.php, line 785
+Cake\View\View->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 705
+Cake\Controller\Controller->render() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\Controller.php, line 509
+Cake\Controller\Controller->invokeAction() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\src\Middleware\CachedAssetMiddleware.php, line 50
+App\Middleware\CachedAssetMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php, line 64
+AssetCompress\Middleware\AssetCompressMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php, line 105
+Cake\Http\Server->run() D:\laragon\www\tcturrini\webroot\index.php, line 44
+[main]
+
