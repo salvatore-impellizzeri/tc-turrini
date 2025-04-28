@@ -163,9 +163,17 @@ label {
         
         .error-message {
             position: absolute;
-            top: 100%;
+            top: 85%;
             left: 0;
             right: 0;
+
+            @media screen and (max-width: @xl) {
+                top: 95%;
+            }
+
+            @media screen and (max-width: @l) {
+                top: 110%;
+            }
         }
     }
     
@@ -178,6 +186,33 @@ label {
             left: 0;
             transform: translate3d(0, -100%, 0) translate3d(0, -40px, 0);
             -webkit-transform: translate3d(0, -100%, 0) translate3d(0, -40px, 0);
+        }
+
+        .error-message {
+            position: absolute;
+            top: 73%;
+            left: 0;
+            right: 0;
+
+            @media screen and (max-width: @xl) {
+                top: 83%;
+            }
+
+            @media screen and (max-width: @l) {
+                top: 90%;
+            }
+
+            @media screen and (max-width: @tablet-m) {
+                top: 93%;
+            }
+        }
+    }
+
+    &.textarea.error{
+        margin-bottom: 1em;
+
+        @media screen and (max-width: @tablet-m) {
+            margin-bottom: 1.5em;
         }
     }
 }
@@ -279,5 +314,26 @@ label {
     a {
         color: inherit;
         text-decoration: underline;
+    }
+
+}
+
+.error{
+    margin-bottom: 0.6em;
+
+    @media screen and (max-width: @tablet-l) {
+        margin-bottom: 0.8em;
+    }
+
+    @media screen and (max-width: @tablet-m) {
+        margin-bottom: 1.3em;
+    }
+}
+
+.checkbox{
+
+    .error-message{
+        line-height: 12px;
+        margin-top: 2em;
     }
 }

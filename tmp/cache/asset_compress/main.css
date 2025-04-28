@@ -575,9 +575,27 @@ label {
 .input.number .error-message,
 .input.email .error-message {
   position: absolute;
-  top: 100%;
+  top: 85%;
   left: 0;
   right: 0;
+}
+@media screen and (max-width: 1550px) {
+  .input.text:not(.text-date) .error-message,
+  .input.textarea .error-message,
+  .input.tel .error-message,
+  .input.number .error-message,
+  .input.email .error-message {
+    top: 95%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .input.text:not(.text-date) .error-message,
+  .input.textarea .error-message,
+  .input.tel .error-message,
+  .input.number .error-message,
+  .input.email .error-message {
+    top: 110%;
+  }
 }
 .input.textarea {
   height: 120px;
@@ -588,6 +606,35 @@ label {
   left: 0;
   transform: translate3d(0,-100%,0) translate3d(0,-40px,0);
   -webkit-transform: translate3d(0,-100%,0) translate3d(0,-40px,0);
+}
+.input.textarea .error-message {
+  position: absolute;
+  top: 73%;
+  left: 0;
+  right: 0;
+}
+@media screen and (max-width: 1550px) {
+  .input.textarea .error-message {
+    top: 83%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .input.textarea .error-message {
+    top: 90%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .input.textarea .error-message {
+    top: 93%;
+  }
+}
+.input.textarea.error {
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 1000px) {
+  .input.textarea.error {
+    margin-bottom: 1.5em;
+  }
 }
 .radio label,
 .checkbox label {
@@ -671,6 +718,23 @@ label {
 .form-privacy a {
   color: inherit;
   text-decoration: underline;
+}
+.error {
+  margin-bottom: 0.6em;
+}
+@media screen and (max-width: 1200px) {
+  .error {
+    margin-bottom: 0.8em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .error {
+    margin-bottom: 1.3em;
+  }
+}
+.checkbox .error-message {
+  line-height: 12px;
+  margin-top: 2em;
 }
 .button {
   display: inline-block;
@@ -2962,6 +3026,7 @@ button.swiper-pagination-bullet {
   letter-spacing: -2%;
   line-height: 120%;
   margin-bottom: 1em;
+  width: fit-content;
 }
 .footer__contact .cta {
   transition: 0.3s ease-in-out;
@@ -3405,7 +3470,7 @@ button.swiper-pagination-bullet {
 }
 .contact-form .form-footer {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
 .contact-form .form-footer .checkbox {
