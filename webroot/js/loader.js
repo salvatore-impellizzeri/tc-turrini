@@ -16,12 +16,6 @@ class ObserverAnimation {
 
     if (this.isInView & (entry.intersectionRatio > 0)) {
       this.positionClass = "is-in";
-    } else {
-      if (entry.boundingClientRect.y < 0) {
-        this.positionClass = "is-out is-out--up";
-      } else {
-        this.positionClass = "is-out is-out--down";
-      }
     }
 
     return this.positionClass;
@@ -107,10 +101,5 @@ window.addEventListener("DOMContentLoaded", (event) => {
 });
 
 window.addEventListener("load", (event) => {
-
-  if (new Date().getTime() - start < 1000) {
-    window.setTimeout(loadSite, 1000 - (new Date().getTime() - start));
-  } else {
     loadSite();
-  }
 });

@@ -1,4 +1,4 @@
-<a href="<?= $this->Frontend->url($url); ?>" class="prodotto">
+<a href="<?= $this->Frontend->url($url); ?>" class="prodotto fadeFromLeft" data-animated>
     <div class="prodotto__img">
         <img src="img/prodotto.png" alt="prodotto">
     </div>
