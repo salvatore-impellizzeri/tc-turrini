@@ -23659,3 +23659,33 @@ Stack Trace:
 Request URL: /faviconw.png
 Referer URL: http://tcturrini.test/view-aspirazione
 Client IP: 127.0.0.1
+2025-04-29 13:00:38 error: [Cake\Http\Exception\NotFoundException] parse error: failed at `width: ;` D:\laragon\www\tcturrini\webroot\less/components/languages.less on line 100 in D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php on line 82
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /cache_assets/main.css
+Referer URL: http://tcturrini.test/
+Client IP: 127.0.0.1
+2025-04-29 13:00:51 error: [Cake\Http\Exception\NotFoundException] parse error: failed at `width: ;` D:\laragon\www\tcturrini\webroot\less/components/languages.less on line 100 in D:\laragon\www\tcturrini\vendor\markstory\asset_compress\src\Middleware\AssetCompressMiddleware.php on line 82
+Stack Trace:
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\laragon\www\tcturrini\vendor\cakephp\cakephp\src\Http\Server.php:105
+- D:\laragon\www\tcturrini\webroot\index.php:44
+- [main]:
+
+Request URL: /cache_assets/main.css
+Referer URL: http://tcturrini.test/
+Client IP: 127.0.0.1

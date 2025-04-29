@@ -73,11 +73,17 @@
             width: auto;
             padding: 0 15px;
             border: 1px solid @border-color-light;
-            gap: 15px
+            gap: 15px;
         }
 
-        @media screen and (max-width: @mobile-l) {
 
+        @media screen and (max-width: @mobile-l) {
+            justify-content: center;
+            height: 35px;
+            width: auto;
+            padding: 0 9.5px;
+            border: 1px solid @border-color-light;
+            gap: 7px;
         }
     }
 
@@ -87,8 +93,13 @@
 
         svg{
             path{
-                stroke: @text-color;
+                fill: @text-color;
             }
+        }
+
+        @media screen and (max-width: @mobile-l) {
+            width: 9px;
+            height: auto;
         }
     }
     &__dropdown{
@@ -108,8 +119,10 @@
         will-change: transform, opacity;
         border: 1px solid @border-color-light;
         border-bottom: 0;
+        border-top: 0;
         background-color: rgba(0, 0, 0, 0.301);
     }
+
     &__link{
         height: 35px;
         line-height: 35px;

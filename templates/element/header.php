@@ -18,14 +18,15 @@ $languages = Configure::read('Setup.languages');
     <nav class="header__menu">
         <?= $this->cell('Menu.Menu', [1]) ?>
     </nav>
-    
-    <div class="header__hamburger-mobile">
-        <?php echo $this->element('hamburger'); ?>
-    </div>
-    
-    <?php if (!empty($languages)): ?>
-        <div class="header__languages">
-            <?= $this->element('languages'); ?>
+    <div class="header__buttons">
+        <div class="header__hamburger-mobile">
+            <?php echo $this->element('hamburger'); ?>
         </div>
-    <?php endif; ?>
+    
+        <?php if (!empty($languages)): ?>
+            <div class="header__languages">
+                <?= $this->element('languages'); ?>
+            </div>
+        <?php endif; ?>
+    </div>
 </header>

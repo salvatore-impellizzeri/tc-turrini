@@ -753,7 +753,7 @@ label {
   background-color: #FFFFFF;
 }
 .button--secondary svg path {
-  stroke: #0060B4;
+  fill: #0060B4;
 }
 #article {
   padding: 150px 5vw;
@@ -2605,7 +2605,7 @@ button.swiper-pagination-bullet {
   top: 0;
   left: 0;
   right: 0;
-  padding: 0 clamp(20px,6.2496vw,120px);
+  padding: 0 clamp(15px,6.2496vw,120px);
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -2778,6 +2778,16 @@ button.swiper-pagination-bullet {
   left: 0;
   clip-path: polygon(0 100%,0 0,100% 100%);
 }
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px,1.5624vw,30px);
+}
+@media screen and (max-width: 550px) {
+  .header {
+    padding: 0 10px;
+  }
+}
 .header--invert {
   color: #0060B4;
 }
@@ -2792,6 +2802,7 @@ button.swiper-pagination-bullet {
 .header--invert .languages__dropdown {
   border: 1px solid #4D90CB66;
   border-bottom: 0;
+  border-top: 0;
   background-color: #fff;
 }
 .header--invert .languages__link {
@@ -2814,8 +2825,13 @@ button.swiper-pagination-bullet {
 .header--invert .languages__toggler::before {
   border-top: 1px solid #4D90CB66;
 }
+@media screen and (max-width: 1200px) {
+  .header--invert .languages__toggler {
+    border: 1px solid #4D90CB66;
+  }
+}
 .header--invert .languages__icon svg path {
-  stroke: #0060B4;
+  fill: #0060B4;
 }
 .header--invert .hamburger span {
   background-color: #0060B4;
@@ -2858,7 +2874,6 @@ button.swiper-pagination-bullet {
   height: 20px;
   position: relative;
   cursor: pointer;
-  margin-right: 10px;
 }
 .hamburger span {
   margin: auto;
@@ -2890,7 +2905,7 @@ button.swiper-pagination-bullet {
 }
 @media screen and (max-width: 550px) {
   .hamburger span {
-    width: 34px;
+    width: 30px;
   }
 }
 .mobile-menu {
@@ -3220,12 +3235,28 @@ button.swiper-pagination-bullet {
     gap: 15px;
   }
 }
+@media screen and (max-width: 550px) {
+  .languages__toggler {
+    justify-content: center;
+    height: 35px;
+    width: auto;
+    padding: 0 9.5px;
+    border: 1px solid #ffffff66;
+    gap: 7px;
+  }
+}
 .languages__icon {
   transition: 300ms cubic-bezier(0.250,0.460,0.450,0.940);
   will-change: transform;
 }
 .languages__icon svg path {
-  stroke: #ffffff;
+  fill: #ffffff;
+}
+@media screen and (max-width: 550px) {
+  .languages__icon {
+    width: 9px;
+    height: auto;
+  }
 }
 .languages__dropdown {
   position: absolute;
@@ -3244,6 +3275,7 @@ button.swiper-pagination-bullet {
   will-change: transform, opacity;
   border: 1px solid #ffffff66;
   border-bottom: 0;
+  border-top: 0;
   background-color: rgba(0,0,0,0.301);
 }
 .languages__link {

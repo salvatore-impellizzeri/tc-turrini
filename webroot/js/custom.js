@@ -323,19 +323,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		},
 	});
   });
-  
-
-// Hover progetti submenu
-
-document.addEventListener('DOMContentLoaded', function () {
-    const menuItems = document.querySelectorAll('.menu__item');
-    const submenuProdotti = document.querySelector('.submenu-prodotti');
-	menuItems.forEach((menuItem, index) => {
-		if(index === 1) {
-			menuItem.appendChild(submenuProdotti);
-		}
-	});
-});
 
 // Apertura submenu prodotti
 

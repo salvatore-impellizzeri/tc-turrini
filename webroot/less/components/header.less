@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: 0 clamp(20px, 120vw * @px2vw, 120px);
+    padding: 0 clamp(15px, 120vw * @px2vw, 120px);
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -226,6 +226,16 @@
 
         }
     }
+
+    &__buttons{
+        display: flex;
+        align-items: center;
+        gap: clamp(10px, 30vw * @px2vw, 30px);
+    }
+
+    @media screen and (max-width: @mobile-l) {
+        padding: 0 10px;
+    }
 }
 
 .header--invert {
@@ -250,6 +260,7 @@
         &__dropdown{
             border: 1px solid @border-color;
             border-bottom: 0;
+            border-top: 0;
             background-color: @bg-color-secondary;
         }
 
@@ -277,12 +288,16 @@
             &::before{
                 border-top: 1px solid @border-color;
             }
+
+            @media screen and (max-width: @tablet-l) {
+                border: 1px solid @border-color;
+            }
         }
 
         &__icon{
             svg{
                 path{
-                    stroke: @text-color-secondary;
+                    fill: @text-color-secondary;
                 }
             }
         }
