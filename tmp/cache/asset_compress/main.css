@@ -5712,6 +5712,7 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 550px) {
   .list-products__items {
     grid-template-columns: 1fr;
+    gap: 0;
   }
   .list-products__items > .list-products__item {
     border-right: 1px solid #4D90CB66;
