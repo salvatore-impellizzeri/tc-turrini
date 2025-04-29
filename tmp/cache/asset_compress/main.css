@@ -2783,6 +2783,11 @@ button.swiper-pagination-bullet {
   align-items: center;
   gap: clamp(10px,1.5624vw,30px);
 }
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 0 20px;
+  }
+}
 @media screen and (max-width: 550px) {
   .header {
     padding: 0 10px;
