@@ -5124,8 +5124,12 @@ button.swiper-pagination-bullet {
     transform: translateY(0px);
   }
 }
+.fadeFromTop {
+  opacity: 0;
+  transform: translateY(-40px);
+}
 .fadeFromTop.is-in {
-  animation: fadeFromTop 0.7s ease-in-out;
+  animation: fadeFromTop 0.7s ease-in-out forwards;
 }
 @keyframes fadeFromLeft {
   0% {
@@ -5139,6 +5143,7 @@ button.swiper-pagination-bullet {
 }
 .fadeFromLeft {
   opacity: 0;
+  transform: translateX(-80px);
 }
 .fadeFromLeft.is-in {
   animation: fadeFromLeft 1s ease-in-out forwards;
@@ -5155,6 +5160,7 @@ button.swiper-pagination-bullet {
 }
 .fadeFromLeft-d {
   opacity: 0;
+  transform: translateX(-80px);
 }
 .fadeFromLeft-d.is-in {
   animation: fadeFromLeft-d 1s ease-in-out forwards;
@@ -5169,6 +5175,10 @@ button.swiper-pagination-bullet {
     width: 100%;
     border-bottom: 1px solid #ffffff66;
   }
+}
+.borderAnimation {
+  width: 0;
+  border-bottom: 1px solid #ffffff66;
 }
 .borderAnimation.is-in {
   animation: borderAnimation 1s ease-in-out forwards;
@@ -5186,6 +5196,7 @@ button.swiper-pagination-bullet {
 }
 .videoTextHome {
   opacity: 0;
+  transform: translateY(-80px);
 }
 .videoTextHome.is-in {
   animation: videoTextHome 1s ease-in-out forwards;
@@ -5199,13 +5210,17 @@ button.swiper-pagination-bullet {
     height: 100%;
   }
 }
+.borderLeftAnimation,
+.borderLeftLightAnimation {
+  height: 0%;
+}
 .borderLeftAnimation.is-in {
   border-left: 1px solid #4D90CB66;
-  animation: borderLeftAnimation 0.7s ease-in-out forwards;
+  animation: borderLeftAnimation 0.5s ease-in-out forwards;
 }
 .borderLeftLightAnimation.is-in {
   border-left: 1px solid #ffffff66;
-  animation: borderLeftAnimation 0.7s ease-in-out forwards;
+  animation: borderLeftAnimation 0.5s ease-in-out forwards;
 }
 @keyframes fadeFromRight-d {
   0% {
@@ -5219,6 +5234,7 @@ button.swiper-pagination-bullet {
 }
 .fadeFromRight-d {
   opacity: 0;
+  transform: translateX(80px);
 }
 .fadeFromRight-d.is-in {
   animation: fadeFromRight-d 1s ease-in-out forwards;
@@ -5236,6 +5252,7 @@ button.swiper-pagination-bullet {
 }
 .fadeFromBottom {
   opacity: 0;
+  transform: translateY(80px);
 }
 .fadeFromBottom.is-in {
   animation: fadeFromBottom 1s ease-in-out forwards;
@@ -5252,6 +5269,7 @@ button.swiper-pagination-bullet {
 }
 .fadeFromTopButton {
   opacity: 0;
+  transform: translateY(-20px);
 }
 .fadeFromTopButton.is-in {
   animation: fadeFromTopButton 0.7s ease-in-out forwards;
@@ -5264,8 +5282,11 @@ button.swiper-pagination-bullet {
     width: 100%;
   }
 }
+.borderWidth {
+  width: 0;
+}
 .borderWidth.is-in {
-  animation: borderWidth 1s ease-in-out forwards;
+  animation: borderWidth 0.5s ease-in-out forwards;
 }
 @keyframes productPreviewCta {
   0% {
@@ -5279,10 +5300,11 @@ button.swiper-pagination-bullet {
 }
 .productPreviewCta {
   opacity: 0;
+  transform: translateY(-30px);
 }
 .productPreviewCta.is-in {
-  animation: productPreviewCta 0.8s ease-in-out forwards;
-  animation-delay: 1.2s;
+  animation: productPreviewCta 0.5s ease-in-out forwards;
+  animation-delay: 0.7s;
 }
 @keyframes fadeFromBottomImg {
   0% {
@@ -5296,10 +5318,11 @@ button.swiper-pagination-bullet {
 }
 .fadeFromBottomImg {
   opacity: 0;
+  transform: translateY(30px);
 }
 .fadeFromBottomImg.is-in {
-  animation: fadeFromBottomImg 0.8s ease-in-out forwards;
-  animation-delay: 1.2s;
+  animation: fadeFromBottomImg 0.5s ease-in-out forwards;
+  animation-delay: 0.7s;
 }
 @keyframes fadeFromBottomS {
   0% {
@@ -5313,6 +5336,7 @@ button.swiper-pagination-bullet {
 }
 .fadeFromBottomS {
   opacity: 0;
+  transform: translateY(30px);
 }
 .fadeFromBottomS.is-in {
   animation: fadeFromBottomS 0.8s ease-in-out forwards;
@@ -5327,6 +5351,10 @@ button.swiper-pagination-bullet {
     opacity: 1;
   }
 }
+.fadeFromRight {
+  transform: translateX(30px);
+  opacity: 0;
+}
 .fadeFromRight.is-in {
   animation: fadeFromRight 0.8s ease-in-out forwards;
 }
@@ -5337,6 +5365,9 @@ button.swiper-pagination-bullet {
   100% {
     height: 100%;
   }
+}
+.borderHeight {
+  height: 0%;
 }
 .borderHeight.is-in {
   animation: borderHeight 1s ease-in-out forwards;
@@ -5353,6 +5384,7 @@ button.swiper-pagination-bullet {
 }
 .fadeFromRightDelay {
   opacity: 0;
+  transform: translateX(60px);
 }
 .fadeFromRightDelay.is-in {
   animation: fadeFromRightDelay 0.8s ease-in-out forwards;
@@ -5370,6 +5402,7 @@ button.swiper-pagination-bullet {
 }
 .fadeFromLeftDelay {
   opacity: 0;
+  transform: translateX(-60px);
 }
 .fadeFromLeftDelay.is-in {
   animation: fadeFromLeftDelay 0.8s ease-in-out forwards;
